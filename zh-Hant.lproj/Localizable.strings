@@ -63,8 +63,8 @@
 
 "attachment_type_image" = "照片";
 "attachment_type_image_plural" = "照片";
-"attachment_type_document" = "文檔";
-"attachment_type_document_plural" = "文檔";
+"attachment_type_document" = "文件";
+"attachment_type_document_plural" = "文件";
 
 "period_type_month" = "月";
 "period_type_year" = "年";
@@ -92,7 +92,7 @@
 "date_repetition_frequency_weekly" = "每週";
 "date_repetition_frequency_everyTwoWeeks" = "每兩週";
 "date_repetition_frequency_everyThreeWeeks" = "每三週";
-"date_repetition_frequency_everyFourWeeks" = "每四周";
+"date_repetition_frequency_everyFourWeeks" = "每四週";
 "date_repetition_frequency_monthly" = "每月";
 "date_repetition_frequency_everyTwoMonths" = "每兩個月";
 "date_repetition_frequency_everyThreeMonths" = "每季";
@@ -242,14 +242,14 @@
 "back_button" = "返回";
 "done_button" = "完成";
 "save_button" = "儲存";
-"import_button" = "導入";
+"import_button" = "匯入";
 "unlock_button" = "解鎖";
 "cancel_button" = "取消";
 "close_button" = "關閉";
 "delete_button" = "刪除";
 "end_repetition_button" = "結束重複";
 "reset_button" = "重置";
-"apply_button" = "應用程式";
+"apply_button" = "套用";
 "yes_button" = "是";
 "no_button" = "否";
 "ok_button" = "確定";
@@ -342,8 +342,8 @@
 /* MARK: - Period Selection View */
 /* Titles */
 "period_selection_title" = "時間段";
-"period_selection_current_year_title" = "當前年";
-"period_selection_current_month_title" = "當前月";
+"period_selection_current_year_title" = "本年";
+"period_selection_current_month_title" = "本月";
 
 /* Items */
 "from_title" = "開始時間";
@@ -646,27 +646,27 @@
 "backup_setting_manage_backups_title" = "管理";
 "sync_and_data_csv_setting_section_title" = "CSV-資料";
 "sync_and_data_csv_setting_footer_title" = "使用 CSV 檔案匯入或匯出您的交易";
-"sync_and_data_setting_csv_import_title" = "導入";
-"sync_and_data_setting_csv_export_title" = "導出";
-"sync_and_data_setting_get_csv_template_title" = "下載模板";
+"sync_and_data_setting_csv_import_title" = "匯入";
+"sync_and_data_setting_csv_export_title" = "匯出";
+"sync_and_data_setting_get_csv_template_title" = "下載範本";
 
 "clear_cache_button" = "清除快取";
 "cache_setting_footer_title" = "訊息：清除快取會刪除應用程式文件目錄中的所有檔案（包括備份)";
 
-"alert_csv_import_successful_title" = "導入成功 🎉";
+"alert_csv_import_successful_title" = "匯入成功 🎉";
 "alert_csv_import_successful_message" = "總共匯入了 %d 筆交易中的 %d 筆。%@";
 "alert_csv_import_skipped_message" = " 其中 %d 筆交易被跳過。";
 "alert_csv_import_error_message" = "無法成功匯入 %d 筆交易中的 %d 資料。\n\n%@";
 "alert_csv_import_error_reason_field_message" = "請檢查您 CSV 檔案中的下列欄位：%@";
 
-"alert_csv_export_successful_title" = "導出成功 🎉";
+"alert_csv_export_successful_title" = "匯出成功 🎉";
 "alert_csv_export_successful_message" = "您的資料已成功匯出至 \"%@\"";
 
 /* Cloud Settings */
 "cloud_setting_info_title" = "描述";
-"cloud_setting_info_description" = "以下視圖提供了當前 iCloud 同步狀態的更詳細概述，並有助於排除故障。";
+"cloud_setting_info_description" = "以下視圖提供了當前 iCloud 同步狀態的更詳細概述，並有助於故障排除。";
 
-"cloud_setting_network_status_title" = "網絡";
+"cloud_setting_network_status_title" = "網路";
 "cloud_setting_network_status_success_value" = "可用的網際網路連線";
 "cloud_setting_network_status_error_value" = "沒有網際網路連線";
 "cloud_setting_account_status_title" = "iCloud 帳戶";
@@ -687,7 +687,7 @@
 
 /* Backup Settings */
 "backup_setting_info_title" = "描述";
-"backup_setting_info_description" = "啟用後，Budget Flow 將定期備份您的數據，以便您可以隨時將應用程式還原到先前的狀態。";
+"backup_setting_info_description" = "啟用後，Budget Flow 將定期備份您的資料，以便您可以隨時將應用程式還原到先前的狀態。";
 
 "backup_general_setting_section_title" = "通用";
 "backup_recent_backups_setting_section_title" = "最近備份";
@@ -814,7 +814,7 @@
 "privacy_overview_datastorage_description" = "您的財務是私密的—並且應該保持私密。這就是為什麼您的資料僅儲存在裝置上，或（可選）儲存在您的個人 iCloud 中。";
 
 "privacy_overview_privacy_control_title" = "你的財務由你做主";
-"privacy_overview_privacy_control_description" = "無論是您保存的數據、您的位置還是訪問您的相機- 您始終有著最高掌控權。例如，您可以通過重置應用輕鬆刪除您的數據，並且應用的訪問權限調整為任何 時候。";
+"privacy_overview_privacy_control_description" = "無論是您保存的資料、您的位置還是存取您的相機—您始終有著最高掌控權。例如，您可以透過重置應用輕鬆刪除您的資料，並且應用的存取權限可隨時調整。";
 
 /* Footer */
 "welcome_view_value_description" = "輕鬆控制您的所有財務狀況：輸入您的預算、獲取見解並追蹤您的所有收入和支出";
@@ -835,7 +835,7 @@
 "purchase_success_view_title" = "謝謝";
 
 /* Messages */
-"purchase_success_view_info_message" = "如果您喜歡這款應用，拜託在 App Store 中寫一篇積極的評論，這對我真的很重要！並且，這能夠激勵我們不斷改進該應用程序 😊";
+"purchase_success_view_info_message" = "如果您喜歡這款應用，拜託在 App Store 中寫一篇積極的評論，這對我真的很重要！並且，這能夠激勵我們不斷改進這款應用程式 😊";
 "purchase_success_view_info_message_info" = "\n\n資訊：當您從訂閱轉換為終身購買時，請記得在之後取消現有的訂閱。";
 
 /* Buttons */
@@ -892,11 +892,11 @@
 "upgrade_feature_sharedbudget_books_description" = "共享您的預算帳本，包括帳戶、分類、交易和預算，以便與一個或多個人協作";
 "upgrade_feature_receipt_scanner_title" = "掃描收據";
 "upgrade_feature_receipt_scanner_description" = "使用內建掃描器數位化收據，並自動識別金額和商家名稱";
-"upgrade_feature_widgets_title" = "主畫面與鎖定畫面小組件";
-"upgrade_feature_widgets_description" = "借助小組件，您可以一目了然地看到您當前的收入和支出、帳戶餘額等，無需打開應用。要預覽小組件，請編輯您的主屏幕或鎖屏，打開\"添加小組件\" 視圖，然後選擇此應用程式";
+"upgrade_feature_widgets_title" = "主畫面與鎖定畫面小工具";
+"upgrade_feature_widgets_description" = "借助小工具，您可以一目了然地看到您當前的收入和支出、帳戶餘額等，無需打開應用。要預覽小工具，請編輯您的主畫面或鎖定畫面，開啟\"新增小工具\" 視圖，然後選擇此應用程式";
 "upgrade_feature_reminders_title" = "建立提醒";
 "upgrade_feature_reminders_description" = "為您規劃的交易建立提醒，以便接收推播通知（也可離線使用）";
-"upgrade_feature_csv_title" = "CSV導入與匯出";
+"upgrade_feature_csv_title" = "CSV匯入與匯出";
 "upgrade_feature_csv_description" = "使用 CSV 檔案匯入和匯出交易，以便從您的銀行或其他應用程式傳輸資料";
 "upgrade_feature_remove_ads_title" = "無廣告";
 "upgrade_feature_remove_ads_description" = "您將不再在應用程式中看到廣告";
@@ -987,9 +987,9 @@
 "upgrade_faq_why_subscription_title" = "為什麼完整版以訂閱形式提供？";
 "upgrade_faq_why_subscription_value" = "我的目標是開發一款高品質的應用，為使用者定期提供新功能和改進。然而，為了實現這一目標，應用需要持續的收入以自我融資並保持經濟可持續性。\ n\n許多人不知道：開發和維護一個應用程式需要很多時間。例如，Budget Flow從構思到開發和測試到App Store發布第一個版本，幾乎花了兩年時間和數千小時的工作。\ n\n作為客戶，您特別受益於訂閱模式下的定期更新和改進，以及良好的支持，以確保您繼續滿意。您還可以提前免費試用該應用，以確保它符合您的需求，並且隨時可以 更改或取消訂閱。\n\n總的來說，訂閱模式為您作為客戶提供了許多好處，並透過持續更新和支援帶來了比一次性購買更好的用戶體驗。從長遠來看，一次 性購買不幸地是不可持續的，因為這種商業模式需要新用戶持續購買應用以確保開發的延續。\n\n所以如果您喜歡該應用，我將非常高興您支持我的工作，以便我將來 能夠為您提供更多出色的功能！❤️";
 "upgrade_faq_multiple_devices_title" = "我可以在多個裝置上使用完整版嗎？";
-"upgrade_faq_multiple_devices_value" = "是的，您可以在所有登入相同Apple ID 的Apple 裝置上使用Budget Flow 的完整版。因為該應用程式透過iCloud 同步，您可以在您的裝置之間無縫切換，並隨時存取您 的財務數據和設定。";
+"upgrade_faq_multiple_devices_value" = "是的，您可以在所有登入相同Apple ID 的Apple 裝置上使用Budget Flow 的完整版。因為該應用程式透過iCloud 同步，您可以在您的裝置之間無縫切換，並隨時存取您 的財務資料和設定。";
 "upgrade_faq_multiple_people_title" = "我可以與其他人一起使用完整版嗎？";
-"upgrade_faq_multiple_people_value" = "是的，您可以在\"家人共享\"中與最多五人共享一次性購買和完整版的訂閱。您所需要做的就是在系統設定中打開家庭共享，並將其他人 添加進其中";
+"upgrade_faq_multiple_people_value" = "是的，您可以在\"家人共享\"中與最多五人共享一次性購買和完整版的訂閱。您所需要做的就是在系統設定中開啟家庭共享，並將其他人 加入其中";
 "upgrade_faq_cancel_subscription_title" = "我如何取消我的訂閱？";
 "upgrade_faq_cancel_subscription_value" = "您可以隨時使用您的 Apple ID 在系統首選項中取消您的訂閱。";
 "upgrade_faq_subscription_data_loss_title" = "如果我取消我的訂閱，我的資料會遺失嗎？";
@@ -1010,7 +1010,7 @@
 "alert_user_feedback_title" = "您喜歡這款應用程式嗎？";
 
 "alert_user_feedback_like_title" = "謝謝！🎉";
-"alert_user_feedback_like_message" = "如果您喜歡這款應用，拜託在 App Store 中寫一篇積極的評論，這對我真的很重要！並且，這能夠激勵我們不斷改進該應用程序 😊";
+"alert_user_feedback_like_message" = "如果您喜歡這款應用，拜託在 App Store 中寫一篇積極的評論，這對我真的很重要！並且，這能夠激勵我們不斷改進這款應用程式 😊";
 "alert_user_feedback_rate_app_button" = "評價應用";
 "alert_user_feedback_maybe_later_button" = "稍後";
 
@@ -1036,33 +1036,33 @@
 
 /* MARK: - Widgets */
 "chart_widget_title" = "圖表";
-"chart_widget_description" = "此小組件顯示您的帳戶餘額圖表、當前餘額或所選時間內的收入和支出分佈";
+"chart_widget_description" = "此小工具顯示您的帳戶餘額圖表、當前餘額或所選時間內的收入和支出分佈";
 
 "account_widget_title" = "帳戶";
 "account_widget_description" = "此小工具會顯示特定帳戶在所選期間內的帳戶餘額圖表。";
 "account_widget_no_account_title" = "未選擇帳戶";
 
 "overview_widget_title" = "概覽";
-"overview_widget_description" = "此小組件顯示您的帳戶餘額概覽、當前餘額或所選期間的收入和支出總計";
+"overview_widget_description" = "此小工具顯示您的帳戶餘額概覽、當前餘額或所選期間的收入和支出總計";
 
 "upcoming_transactions_widget_title" = "計劃中";
-"upcoming_transactions_widget_description" = "此小元件顯示您的下一個計畫交易";
+"upcoming_transactions_widget_description" = "此小工具顯示您的下一個計畫交易";
 
 "budget_widget_title" = "預算";
-"budget_widget_description" = "此小元件顯示您所選期間的特定預算";
+"budget_widget_description" = "此小工具顯示您所選期間的特定預算";
 "budget_widget_no_budget_title" = "未選擇預算";
 
 "suggestion_widget_title" = "建議";
-"suggestion_widget_description" = "此小元件根據目前日期顯示建議的分類，您可以為其建立新交易";
+"suggestion_widget_description" = "此小工具根據目前日期顯示建議的分類，您可以為其建立新交易";
 
 "quick_actions_widget_title" = "快速輸入";
-"quick_actions_widget_description" = "此小元件可讓您快速新增交易";
+"quick_actions_widget_description" = "此小工具可讓您快速新增交易";
 "quick_actions_widget_new_title" = "新建";
 
 "widget_upgrade_locked_title" = "鎖定";
 "widget_upgrade_necessary_title" = "完整版";
 "widget_upgrade_necessary_title_long" = "需要完整版本";
-"widget_upgrade_necessary_description" = "使用此小元件需要升級到完整版";
+"widget_upgrade_necessary_description" = "使用此小工具需要升級到完整版";
 "widget_upgrade_necessary_highlighted_text" = "完整版";
 
 
@@ -1593,7 +1593,7 @@
 "default_category_group_name_groceries" = "食品雜貨";
 "default_category_name_supermarket" = "超市";
 "default_category_name_restaurant" = "餐廳";
-"default_category_name_fast_food" = "快餐";
+"default_category_name_fast_food" = "速食";
 
 "default_category_group_name_living" = "生活";
 "default_category_name_rent" = "租金";
@@ -1657,7 +1657,7 @@
 "icon_keyword_building" = "建築";
 "icon_keyword_house" = "房子";
 "icon_keyword_lightbulb" = "燈泡";
-"icon_keyword_fan" = "粉絲";
+"icon_keyword_fan" = "風扇";
 "icon_keyword_lamp" = "燈";
 "icon_keyword_alarm_system" = "警報系統";
 "icon_keyword_webcam" = "網路攝影機";
@@ -1679,11 +1679,11 @@
 "icon_keyword_shower" = "淋浴";
 "icon_keyword_bathtub" = "浴缸";
 "icon_keyword_pipe" = "水管";
-"icon_keyword_hifi_reveiver" = "高傳真係統";
+"icon_keyword_hifi_reveiver" = "高傳真系統";
 "icon_keyword_video_projector" = "視訊投影機";
 "icon_keyword_beamer" = "投影機";
 "icon_keyword_wifi_router" = "無線路由器";
-"icon_keyword_internet" = "互聯網";
+"icon_keyword_internet" = "網際網路";
 "icon_keyword_party" = "派對";
 "icon_keyword_balloon" = "氣球";
 "icon_keyword_pan" = "煎鍋";
@@ -1703,14 +1703,14 @@
 "icon_keyword_armchair" = "扶手椅";
 "icon_keyword_cabinet" = "壁櫥";
 "icon_keyword_fireplace" = "壁爐";
-"icon_keyword_washer" = "墊圈";
+"icon_keyword_washer" = "洗衣機";
 "icon_keyword_dryer" = "滾筒烘乾機";
 "icon_keyword_dishwasher" = "洗碗機";
 "icon_keyword_oven" = "烤箱";
 "icon_keyword_stove" = "爐子";
 "icon_keyword_microwave" = "微波爐";
 "icon_keyword_refrigerator" = "冰箱";
-"icon_keyword_sink" = "下沉";
+"icon_keyword_sink" = "水槽";
 "icon_keyword_toilet" = "廁所";
 "icon_keyword_bathroom" = "浴室";
 "icon_keyword_tv_remote" = "遙控器";
@@ -1724,9 +1724,9 @@
 "icon_keyword_charging_station" = "充電站";
 "icon_keyword_car_pool" = "共乘";
 "icon_keyword_bus" = "公車";
-"icon_keyword_tram" = "火車";
+"icon_keyword_tram" = "電車";
 "icon_keyword_railroad" = "鐵路";
-"icon_keyword_cablecar" = "電車";
+"icon_keyword_cablecar" = "纜車";
 "icon_keyword_ferry" = "渡輪";
 "icon_keyword_ship" = "船";
 "icon_keyword_truck" = "卡車";
@@ -1767,7 +1767,7 @@
 "icon_keyword_gaming" = "遊戲";
 "icon_keyword_playstation" = "PlayStation";
 "icon_keyword_xbox" = "Xbox";
-"icon_keyword_nintento_switch" = "任天堂開關";
+"icon_keyword_nintento_switch" = "任天堂Switch";
 "icon_keyword_book" = "書籍";
 "icon_keyword_books" = "書籍";
 "icon_keyword_magazine" = "雜誌";
@@ -1818,7 +1818,7 @@
 "icon_keyword_lizard" = "蜥蜴";
 "icon_keyword_bird" = "鳥";
 "icon_keyword_ant" = "螞蟻";
-"icon_keyword_ladybug" = "蟲子";
+"icon_keyword_ladybug" = "瓢蟲";
 "icon_keyword_fish" = "魚";
 "icon_keyword_pet" = "寵物";
 "icon_keyword_cat" = "貓";
@@ -1831,15 +1831,15 @@
 "icon_keyword_drinking" = "喝酒";
 "icon_keyword_cafe" = "咖啡館";
 "icon_keyword_coffee" = "咖啡";
-"icon_keyword_fastfood" = "快餐";
+"icon_keyword_fastfood" = "速食";
 "icon_keyword_picnic" = "野餐";
 "icon_keyword_wine" = "葡萄酒";
 "icon_keyword_birthday" = "生日";
 "icon_keyword_cake" = "蛋糕";
 "icon_keyword_carrot" = "胡蘿蔔";
 "icon_keyword_vegetables" = "蔬菜";
-"icon_keyword_bag" = "套件";
-"icon_keyword_cone" = "套件";
+"icon_keyword_bag" = "袋子";
+"icon_keyword_cone" = "圓錐";
 "icon_keyword_shopping" = "購物";
 "icon_keyword_supermarket" = "超級市場";
 "icon_keyword_groceries" = "雜貨";
@@ -1850,9 +1850,9 @@
 "icon_keyword_clothing" = "服裝";
 "icon_keyword_globe" = "地球";
 "icon_keyword_online" = "線上";
-"icon_keyword_internet" = "互聯網";
+"icon_keyword_internet" = "網際網路";
 "icon_keyword_amazon" = "亞馬遜";
-"icon_keyword_package" = "套件";
+"icon_keyword_package" = "包裹";
 "icon_keyword_apple" = "蘋果";
 "icon_keyword_banknote" = "鈔票";
 "icon_keyword_refund" = "退款";
@@ -1860,7 +1860,7 @@
 "icon_keyword_cents" = "美分";
 "icon_keyword_yen" = "日圓";
 "icon_keyword_pound" = "磅";
-"icon_keyword_franc" = "法蘭克尼亞";
+"icon_keyword_franc" = "法郎";
 "icon_keyword_lira" = "里拉";
 "icon_keyword_ruble" = "盧布";
 "icon_keyword_euro" = "歐元";
@@ -1878,7 +1878,7 @@
 "icon_keyword_drug" = "藥物";
 "icon_keyword_facemask" = "面罩";
 "icon_keyword_pills" = "藥丸";
-"icon_keyword_cross" = "交叉";
+"icon_keyword_cross" = "十字";
 "icon_keyword_hospital" = "醫院";
 "icon_keyword_ivfluid" = "輸液";
 "icon_keyword_eye" = "眼睛";
@@ -1962,14 +1962,14 @@
 "icon_keyword_flat" = "平面";
 "icon_keyword_work" = "工作";
 "icon_keyword_salary" = "薪水";
-"icon_keyword_corona" = "電暈";
+"icon_keyword_corona" = "新冠";
 "icon_keyword_rainbow" = "彩虹";
 "icon_keyword_glasses" = "眼鏡";
 "icon_keyword_sunglasses" = "太陽眼鏡";
 "icon_keyword_discount" = "折扣";
 "icon_keyword_percent" = "百分比";
 "icon_keyword_wallet" = "錢包";
-"icon_keyword_convertible" = "可轉換";
+"icon_keyword_convertible" = "敞篷車";
 "icon_keyword_drone" = "無人機";
 "icon_keyword_motorcycle" = "摩托車";
 "icon_keyword_tire" = "輪胎";
@@ -2066,4 +2066,4 @@
 "family_budget_book_name" = "家庭預算書";
 "shared_budget_book_name" = "共享預算書";
 "default_credit_card_name" = "信用卡";
-"default_location_address" = "北京";
+"default_location_address" = "台北";

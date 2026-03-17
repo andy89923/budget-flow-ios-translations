@@ -1,0 +1,2069 @@
+/*
+  Localizable.strings
+  BudgetFlow
+
+  Created by Fabian Hasse on 19.05.20.
+  Copyright © 2020 Fabian Hasse. All rights reserved.
+*/
+
+/* MARK: - General */
+"app_name" = "Budget Flow";
+
+"feedback_quick_action_title" = "Povratne informacije";
+"feedback_quick_action_subtitle" = "Kliknite tukaj, da podate povratne informacije o aplikaciji.";
+"income_quick_action_title" = "Nov dohodek";
+"expense_quick_action_title" = "Nov strošek";
+"transfer_quick_action_title" = "Nov prenos";
+"recurring_quick_action_title" = "Ponavljajoče";
+
+
+/* MARK: - Miscellaneous */
+"face_id" = "Face ID";
+"touch_id" = "Touch ID";
+"required" = "Zahtevano";
+"optional" = "Neobvezno";
+"uncategorized" = "Nekategorizirano";
+"before" = "pred";
+"account_reconcilation" = "Usklajevanje računa";
+"evaluated" = "Ocenjeno";
+"not_evaluated" = "Niso ocenjeni";
+"share_participant_owner" = "Lastnik";
+"share_participant_you" = "Vi";
+
+
+/* MARK: - Enums */
+"account_type_cash" = "Gotovina";
+"account_type_payment" = "Plačilni račun";
+"account_type_savings" = "Varčevalni račun";
+"account_type_credit_card" = "Kreditna kartica";
+"account_type_investment" = "Naložba";
+"account_type_precaution" = "Previdnost";
+"account_type_liability" = "Obveznost";
+"account_type_business" = "Poslovni račun";
+
+"account_type_payment_plural" = "Plačilni računi";
+"account_type_savings_plural" = "Varčevalni računi";
+"account_type_credit_card_plural" = "Kreditne kartice";
+"account_type_investment_plural" = "Naložbe";
+"account_type_precaution_plural" = "Previdnostni";
+"account_type_liability_plural" = "Obveznosti";
+"account_type_business_plural" = "Poslovni računi";
+
+"transaction_type_income" = "Dohodek";
+"transaction_type_expense" = "Strošek";
+"transaction_type_transfer" = "Prenos";
+
+"transaction_type_income_plural" = "Dohodki";
+"transaction_type_expense_plural" = "Stroški";
+"transaction_type_transfer_plural" = "Prenosi";
+
+"payment_status" = "Status";
+"payment_status_completed" = "Zaključeno";
+"payment_status_pending" = "Čakajoče";
+
+"attachment_type_image" = "Fotografija";
+"attachment_type_image_plural" = "Fotografije";
+"attachment_type_document" = "Dokument";
+"attachment_type_document_plural" = "Dokumenti";
+
+"period_type_month" = "Mesec";
+"period_type_year" = "Leto";
+"period_type_custom" = "Datum";
+
+"sort_type_alphabetically" = "Abecedno";
+"sort_type_date" = "Datum";
+"sort_type_amount" = "Znesek";
+"sort_type_type" = "Vrsta";
+
+"sort_option_ascending" = "Naraščajoče";
+"sort_option_descending" = "Padajoče";
+
+"group_option_day" = "Dan";
+"group_option_month" = "Mesec";
+"group_option_account" = "Račun";
+"group_option_category" = "Kategorija";
+"group_option_category_group" = "Mapa";
+"group_option_type" = "Vrsta";
+"group_option_payee" = "Plačnik";
+"group_option_repetition_frequency" = "Interval";
+
+"date_repetition_frequency_never" = "Nikoli";
+"date_repetition_frequency_daily" = "Dnevno";
+"date_repetition_frequency_weekly" = "Tedensko";
+"date_repetition_frequency_everyTwoWeeks" = "Vsaka 2 tedna";
+"date_repetition_frequency_everyThreeWeeks" = "Vsake 3 tedne";
+"date_repetition_frequency_everyFourWeeks" = "Vsake 4 tedne";
+"date_repetition_frequency_monthly" = "Mesečno";
+"date_repetition_frequency_everyTwoMonths" = "Vsaka 2 meseca";
+"date_repetition_frequency_everyThreeMonths" = "Četrtletno";
+"date_repetition_frequency_everySixMonths" = "Polletno";
+"date_repetition_frequency_yearly" = "Letno";
+"date_repetition_frequency_custom" = "Po meri";
+
+"csv_transaction_type_automatic" = "Samodejno";
+"csv_transaction_type_income" = "Dohodek";
+"csv_transaction_type_expenses" = "Stroški";
+
+"passcode_type_four_digits" = "Štirimestna številčna koda";
+"passcode_type_six_digits" = "Šestmestna številčna koda";
+"passcode_type_custom_numeric" = "Po meri številčna koda";
+"passcode_type_custom_alphanumeric" = "Po meri alfanumerična koda";
+
+"auto_lock_time_type_immediately" = "Takoj";
+"auto_lock_time_type_after_one_minute" = "Po 1 minuti";
+"auto_lock_time_type_after_five_minutes" = "Po 5 minutah";
+"auto_lock_time_type_after_fifteen_minutes" = "Po 15 minutah";
+"auto_lock_time_type_after_one_hour" = "Po 1 uri";
+"auto_lock_time_type_after_four_hours" = "Po 4 urah";
+
+"widget_type_chart_stack" = "Grafi";
+"widget_type_suggestions" = "Predlogi";
+"widget_type_distribution" = "Porazdelitev";
+"widget_type_balance" = "Stanje";
+"widget_type_savings_rate" = "Prihranjeno";
+"widget_type_upcoming_transactions" = "Načrtovano";
+"widget_type_participants" = "Ljudje";
+"widget_type_budget" = "Načrt porabe ";
+"widget_type_pending_transactions" = "Čakajoče";
+"widget_type_total_assets" = "Sredstva";
+"widget_type_forecast" = "Napoved";
+
+"chart_type_bar" = "Stolpični graf";
+"chart_type_pie" = "Krožni graf";
+
+"category_chart_data_type_category" = "Kategorija";
+"category_chart_data_type_category_group" = "Mapa";
+
+"product_type_individual" = "Posameznik";
+"product_type_family" = "Družina";
+
+"subscription_period_day" = "Dan";
+"subscription_period_days" = "dni";
+"subscription_period_month" = "Mesec";
+"subscription_period_months" = "Mesecev";
+"subscription_period_year" = "leto";
+"subscription_period_years" = "Let";
+
+"overview_period_type_current_week" = "Teden";
+
+"quick_action_type_new_income" = "Nov dohodek";
+"quick_action_type_new_expense" = "Nov strošek";
+"quick_action_type_new_transfer" = "Nov prenos";
+"quick_action_type_new_recurring" = "Ponavljajoče";
+
+"suggestion_type_add_income_transaction" = "Nov dohodek";
+"suggestion_type_add_expense_transaction" = "Nov strošek";
+
+"user_interface_style_system" = "Sistem";
+"user_interface_style_light" = "Svetlo";
+"user_interface_style_dark" = "Temno";
+
+"transaction_title_type_category" = "Kategorija";
+"transaction_title_type_payee" = "Plačnik";
+"transaction_title_type_notes" = "Opombe";
+
+"transaction_subtitle_type_none" = "Brez";
+"transaction_subtitle_type_category" = "Kategorija";
+"transaction_subtitle_type_payee" = "Prejemnik";
+"transaction_subtitle_type_notes" = "Opombe";
+
+"time_zone_type_floating" = "Lebdeči";
+"time_zone_type_floating_title" = "Lebdeča časovna cona";
+"time_zone_type_floating_subtitle" = "Prilagaja se vaši lokalni časovni coni";
+
+
+/* MARK: - Custom Date Repetition */
+"frequency" = "Pogostost";
+
+"every" = "Vsak";
+"every_day" = "Vsak";
+"every_week" = "Vsak";
+"every_month" = "Vsak";
+"every_year" = "Vsak";
+"every_day_plural" = "Vsak";
+"every_week_plural" = "Vsak";
+"every_month_plural" = "Vsak";
+"every_year_plural" = "Vsak";
+
+"each" = "Vsak";
+"on_the" = "Na ...";
+"days_of_week" = "Dnevi v tednu";
+"last_day" = "Zadnji dan";
+
+"daily" = "Dnevno";
+"weekly" = "Tedensko";
+"monthly" = "Mesečno";
+"yearly" = "Letno";
+
+"first" = "1.";
+"second" = "2.";
+"third" = "3.";
+"fourth" = "4.";
+"fifth" = "5.";
+"last" = "zadnji";
+
+
+/* MARK: - Menu Bar */
+"accounts_menu_title" = "Računi";
+"show_accounts_menu_title" = "Prikaži vse račune";
+"budgets_menu_title" = "Načrt porabe";
+"show_budgets_menu_title" = "Prikaži vse načrte porabe";
+"transactions_menu_title" = "Transakcije";
+"show_all_transactions_menu_title" = "Prikaži vse transakcije";
+"show_recurring_transactions_menu_title" = "Prikaži ponavljajoče transakcije";
+"show_upcoming_transactions_menu_title" = "Prikaži načrtovane transakcije";
+
+
+/* MARK: - Sidebar Menu */
+"menu" = "Meni";
+"menu_accounts_section" = "Računi";
+"menu_categories_section" = "Kategorije";
+"menu_selected_budget_book_title" = "Izbrano";
+
+
+/* MARK: - Tabs */
+"dashboard_tab" = "Pregled";
+"transactions_tab" = "Transakcije";
+"budgets_tab" = "Načrt porabe";
+"settings_tab" = "Nastavitve";
+
+
+/* MARK: - Buttons */
+"add_button" = "Dodaj";
+"edit_button" = "Uredi";
+"copy_button" = "Kopiraj";
+"edit_account_button" = "Uredi račun";
+"edit_category_button" = "Uredi kategorijo";
+"edit_category_group_button" = "Uredi mapo";
+"edit_payee_button" = "Uredi plačnika";
+"edit_tag_button" = "Uredi oznako";
+"edit_budget_button" = "Uredi načrt porabe";
+"multi_selection_button" = "Večkratna izbira";
+"back_button" = "Nazaj";
+"done_button" = "Končano";
+"save_button" = "Shrani";
+"import_button" = "Uvozi";
+"unlock_button" = "Odkleni";
+"cancel_button" = "Prekliči";
+"close_button" = "Zapri";
+"delete_button" = "Izbriši";
+"end_repetition_button" = "Končaj ponavljanje";
+"reset_button" = "Ponastavi";
+"apply_button" = "Uporabi";
+"yes_button" = "Da";
+"no_button" = "Ne";
+"ok_button" = "V redu";
+"faq_button" = "FAQ";
+"create_reminder_button" = "Ustvari opomnik";
+"remove_reminder_button" = "Odstrani opomnik";
+"do_not_show_again_button" = "Ne prikazuj več";
+"mark_as_paid_button" = "Plačilo zaključeno";
+"mark_as_pending_button" = "Plačilo v čakanju";
+"show_contra_entry_button" = "Prikaži nasprotni vnos";
+
+"save_changes_button" = "Shrani spremembe";
+"discard_changes_button" = "Zavrži spremembe";
+
+"show_help_center_button" = "Pomoč";
+"contact_developer_button" = "Kontaktiraj razvijalca";
+
+"filter_button" = "Filter";
+"sort_button" = "Razvrsti";
+"sort_categories_button" = "Razvrsti kategorije";
+"sort_category_groups_button" = "Razvrsti mape";
+"group_button" = "Združi po";
+"configure_button" = "Konfiguriraj";
+
+"show_filter_button" = "Prikaži filter";
+
+"show_amount_values_button" = "Prikaži zneske";
+"hide_amount_values_button" = "Skrij zneske";
+
+"take_photo_button" = "Posneti fotografijo";
+"select_photos_button" = "Izberi fotografije";
+"select_documents_button" = "Izberi dokumente";
+"scan_receipt_button" = "Skeniraj račun";
+"select_receipt_button" = "Izberi račun";
+"select_from_files_button" = "Datoteke";
+"select_from_library_button" = "Fototeka";
+
+"open_button" = "Odpri";
+"open_folder_button" = "Odpri mapo";
+"open_in_browser_button" = "Odpri v brskalniku";
+
+"show_more_button" = "Pokaži več";
+"show_less_button" = "Pokaži manj";
+
+"add_category_button" = "Nova kategorija";
+"add_category_group_button" = "Nova mapa";
+
+"add_income_transaction_button" = "Nov dohodek";
+"add_expense_transaction_button" = "Nov strošek";
+"add_transfer_transaction_button" = "Nov prenos";
+
+"manage_budget_books_button" = "Upravljaj denarnice";
+"select_budget_book_button" = "Izberi denarnico";
+"edit_budget_book_button" = "Uredi denarnico";
+
+"continue_button" = "Nadaljuj";
+"skip_button" = "Preskoči";
+"accept_button" = "Sprejmi";
+"get_started_button" = "Začni";
+
+"show_transactions_button" = "Prikaži transakcije";
+"show_in_app_store_button" = "Prikaži v App Store";
+
+"flip_values_button" = "Obrni ⇅";
+
+"learn_more" = "Več o tem";
+
+
+/* MARK: - Share View */
+/* Titles */
+"share_title" = "Deli";
+
+/* Alert Views */
+"alert_sync_shares_in_progress_title" = "Sinhronizacija...";
+"alert_sync_shares_in_progress_message" = "Vaše proračunske knjige se sinhronizirajo z iCloud, da lahko dostopate do skupne vsebine. Prosimo, počakajte...";
+"alert_cloud_share_quota_exceeded_error_message" = "Dela ni bilo mogoče dokončati, ker v vašem iCloud ni dovolj prostora. Prosim, sprostite nekaj prostora in poskusite znova.";
+"alert_cloud_share_unknown_error_message" = "Dela ni bilo mogoče dokončati, ker je prišlo do napake. Verjetno v vašem iCloud ni dovolj prostora. Prosim, sprostite nekaj prostora in poskusite znova.";
+
+
+/* MARK: - Search View */
+/* Titles */
+"search_title" = "Iskanje";
+"filter_title" = "Filter";
+
+/* Sections */
+"search_text_section_title" = "Iskalno besedilo";
+"search_suggestions_section_title" = "Predlogi";
+
+
+/* MARK: - Period Selection View */
+/* Titles */
+"period_selection_title" = "Obdobje";
+"period_selection_current_year_title" = "Tekoče leto";
+"period_selection_current_month_title" = "Tekoči mesec";
+
+/* Items */
+"from_title" = "Od";
+"to_title" = "Do";
+
+
+/* MARK: - Dashboard View */
+/* Titles */
+"configure_title" = "Konfiguriraj";
+"balance_widget_income_title" = "Dohodki";
+"balance_widget_expenses_title" = "Stroški";
+"savings_rate_widget_absolute_title" = "Absolutno";
+"savings_rate_widget_percentual_title" = "Odstotek";
+"budget_widget_planned_title" = "Načrtovano";
+"budget_widget_remaining_title" = "Razpoložljivo";
+"total_assets_widget_absolute_title" = "Absolutno";
+"total_assets_widget_trend_title" = "Trend";
+"forecast_widget_upcoming_title" = "Načrtovano";
+"forecast_widget_pending_title" = "Čakajoče";
+"forecast_widget_final_balance_title" = "Končno stanje";
+"pie_chart_widget_transactions_title" = "Transakcije";
+"pie_chart_widget_categories_title" = "Kategorije";
+
+/* Sections */
+"inactive_widgets_section_title" = "Več pripomočkov";
+
+/* Footer */
+"participants_widget_footer_title" = "Info: Pripomoček \"Ljudje\" se prikaže samo za skupne proračunske knjige.";
+
+/* Messages */
+"no_widgets_title" = "Ni pripomočkov";
+"no_widgets_message" = "Kliknite gumb \"Svinčnik\", da konfigurirate pogled.";
+"no_suggestions_title" = "Ni predlogov";
+"not_shared_title" = "Proračunska knjiga ni v skupni rabi";
+
+/* Widgets */
+"net_worth_widget_title" = "Čista vrednost";
+"account_balances_widget_title" = "Skupno stanje računov";
+"balance_widget_title" = "Stanje";
+"total_income_widget_title" = "Skupni dohodki";
+"total_expenses_widget_title" = "Skupni stroški";
+"fixed_expenses_widget_title" = "Fiksni stroški";
+"variable_expenses_widget_title" = "Spremenljivi stroški";
+
+"net_worth_distribution_widget_title" = "Distribucija";
+"account_balances_distribution_widget_title" = "Skupno stanje računov";
+"balance_distribution_widget_title" = "Stanje";
+"total_income_distribution_widget_title" = "Skupni dohodki";
+"total_expenses_distribution_widget_title" = "Skupni stroški";
+"fixed_expenses_distribution_widget_title" = "Fiksni stroški";
+"variable_expenses_distribution_widget_title" = "Spremenljivi stroški";
+
+
+/* MARK: - Transaction List View */
+/* Titles */
+"sum_title" = "Vsota";
+"total_sum_title" = "Skupna vsota";
+"recurring_transactions_title" = "Ponavljajoče";
+"upcoming_transactions_title" = "Načrtovane";
+"reminded_transactions_title" = "Z opomnikom";
+
+/* Info */
+"recurring_transactions_info_title" = "Opis";
+"recurring_transactions_info_description" = "Ustvarite ponavljajoče transakcije, da se samodejno dodajo v aplikacijo, ko pridejo na vrsto.";
+
+/* Sections */
+"account_filter_section_title" = "Račun";
+"category_filter_section_title" = "Kategorija";
+"payee_filter_section_title" = "Plačnik";
+"tag_filter_section_title" = "Oznaka";
+"user_filter_section_title" = "Oseba";
+"payment_status_filter_section_title" = "Plačilo";
+"transaction_type_filter_section_title" = "Vrsta";
+"date_range_filter_section_title" = "Datum";
+"amount_range_filter_section_title" = "Znesek";
+
+/* Messages */
+"no_transactions_title" = "Ni transakcij";
+"no_transactions_title_short" = "Ni";
+"no_transactions_found_title" = "Ni najdenih transakcij";
+"no_transactions_found_message" = "Kliknite gumb \"+\", da dodate novo transakcijo.";
+"no_transactions_found_button_title" = "Nova transakcija";
+"no_recurring_transactions_found_message" = "Kliknite gumb \"+\", da dodate novo ponavljajočo transakcijo.";
+"no_upcoming_transactions_found_message" = "Kliknite gumb \"+\", da dodate novo načrtovano transakcijo.";
+"no_reminded_transactions_found_message" = "Kliknite gumb \"+\", da dodate novo transakcijo z opomnikom.";
+"transactions_search_placeholder_message" = "Iščite po imenu kategorije, prejemnika, oznake ali opomb";
+
+/* Buttons */
+"show_analysis_button" = "Prikaži analizo";
+"show_analysis_button_short" = "Analiza";
+"show_forecast_button" = "Prikaži napoved";
+"show_forecast_button_short" = "Napoved";
+"show_upcoming_transactions_button" = "Načrtovano";
+
+/* Alert Views */
+"alert_confirm_add_next_upcoming_transaction_title" = "Dodaj transakcijo";
+"alert_confirm_add_next_upcoming_transaction_message" = "Ali ste prepričani, da želite zdaj dodati to načrtovano transakcijo?";
+
+/* Miscellaneous */
+"payed_by_and_modified_at" = "Plačal %@\nZadnja sprememba %@";
+"modified_at" = "Zadnja sprememba %@";
+"average_per_transaction" = "Ø na transakcijo";
+"average_per_day" = "Ø na dan";
+"average_last_twelve_months" = "Ø zadnjih 12 mesecev";
+
+
+/* MARK: - Budget List View */
+/* Titles */
+"remaining_title" = "Razpoložljivo";
+"balanced_title" = "Uravnoteženo";
+"exceeded_title" = "Preseženo";
+"user_has_no_budgets_title" = "Nimate načrtov porabe.";
+"user_is_within_budget_title" = "Čestitamo, ste v okviru načrta porabe! 🎉";
+"user_was_within_budget_title" = "Bili ste v okviru načrta porabe! 🎉";
+"user_is_not_within_budget_title" = "Presegli ste %d načrt(e) porabe 😢";
+"user_is_not_within_budgets_title" = "Presegli ste %d načrt(e) porabe 😢";
+
+/* Messages */
+"no_budgets_title" = "Ni načrtov porabe";
+"no_budgets_found_title" = "Ni najdenih načrtov porabe";
+"no_budgets_found_message" = "Kliknite gumb \"+\", da dodate nov načrtov porabe.";
+"budgets_search_placeholder_message" = "Iščite po imenu načrta porabe";
+"no_budgets_found_button_title" = "Nov načrt porabe";
+
+
+/* MARK: - Analysis View */
+/* Titles */
+"analysis_title" = "Analiza";
+"trend_widget_average_title" = "Povprečje";
+"trend_widget_current_year_title" = "Leto";
+"trend_widget_current_month_title" = "Mesec";
+
+/* Messages */
+"trend_widget_received_more_message" = "Zaslužite več kot običajno.";
+"trend_widget_received_less_message" = "Zaslužite manj kot običajno.";
+"trend_widget_received_same_message" = "Zaslužite enako kot običajno.";
+"trend_widget_has_received_more_message" = "Ste zaslužili več kot običajno.";
+"trend_widget_has_received_less_message" = "Ste zaslužili manj kot običajno.";
+"trend_widget_has_received_same_message" = "Ste zaslužili enako kot običajno.";
+
+"trend_widget_spent_more_message" = "Porabite več kot običajno.";
+"trend_widget_spent_less_message" = "Porabite manj kot običajno.";
+"trend_widget_spent_same_message" = "Porabite enako kot običajno.";
+"trend_widget_has_spent_more_message" = "Ste porabili več kot običajno.";
+"trend_widget_has_spent_less_message" = "Ste porabili manj kot običajno.";
+"trend_widget_has_spent_same_message" = "Ste porabili enako kot običajno.";
+
+"total_balance_widget_current_balance_message" = "Vaše stanje je %@.";
+"total_balance_widget_previous_balance_message" = "Vaše stanje je bilo %@.";
+
+"savings_rate_widget_current_savings_rate_message" = "Vaša stopnja prihrankov je %@.";
+"savings_rate_widget_previous_savings_rate_message" = "Vaša stopnja prihrankov je bila %@.";
+
+/* Widgets */
+"trend_widget_title" = "Trend";
+"total_balance_widget_title" = "Stanje";
+"savings_rate_widget_title" = "Stopnja prihrankov";
+
+
+/* MARK: - Account Forecast View */
+/* Titles */
+"account_forecast_title" = "Napoved";
+"account_balance_title" = "Stanje";
+"not_enough_data_title" = "Ni dovolj podatkov";
+
+
+/* MARK: - Settings View */
+/* Titles */
+"no_budget_book_title" = "Ni proračunske knjige";
+
+/* Messages */
+"share_app_message" = "\"%@ - Sledenje stroškom\"\n\nPrenesite zdaj brezplačno:";
+
+/* Sections */
+"general_setting_section_title" = "Splošno";
+"upgrade_setting_section_title" = "Polna različica";
+"support_setting_section_title" = "Podpora";
+"legal_setting_section_title" = "Pravno";
+"data_setting_section_title" = "Podatki";
+"miscellaneous_setting_section_title" = "Razno";
+
+/* Footer */
+"upgrade_setting_footer_title" = "Hvala, ker uporabljate polno različico!";
+"support_setting_footer_title" = "Imate vprašanja ali ideje? Napišite sporočilo ali pozitivno oceno v App Store! Vaše povratne informacije so zelo motivirajoče in pomagajo izboljšati aplikacijo.";
+
+/* Buttons */
+"share_budgetbook_button" = "Deli denarnico";
+"show_participants_button" = "Prikaži udeležence";
+"cloud_not_available_button" = "iCloud ni na voljo";
+"upgrade_show_all_features_button" = "Prikaži vse funkcije";
+"reset_app_button" = "Ponastavi aplikacijo";
+
+/* General Settings */
+"accounts_setting_title" = "Upravljaj račune";
+"categories_setting_title" = "Upravljaj kategorije";
+"payees_setting_title" = "Upravljaj plačnike";
+"tags_setting_title" = "Upravljaj oznake";
+"reminders_setting_title" = "Opomniki";
+
+/* Upgrade Settings */
+"upgrade_setting_title" = "Odkleni polno različico 🚀";
+"upgrade_setting_description" = "Odklenite polno različico zdaj in uživajte v več dodatnih funkcijah!";
+
+/* Support Settings */
+"share_app_setting_title" = "Obvestite prijatelje";
+"translate_app_setting_title" = "Pomagaj pri prevajanju";
+"help_center_setting_title" = "Pomoč";
+"feature_roadmap_setting_title" = "Predlagaj funkcijo";
+"rate_app_setting_title" = "Oceni aplikacijo";
+
+/* Legal Settings */
+"imprint_setting" = "O aplikaciji";
+"privacy_setting" = "Politika zasebnosti";
+"terms_of_use_setting" = "Pogoji uporabe";
+"acknowledgements_setting" = "Zahvale";
+"licenses_setting" = "Licence";
+
+"acknowledgements_setting_info_title" = "Opis";
+"acknowledgements_setting_info_description" = "Spodaj je seznam ljudi, ki so na nek način pomagali pri aplikaciji.";
+"translation_acknowledgement" = "Prevod (%@)";
+"licenses_setting_info_title" = "Opis";
+"licenses_setting_info_description" = "Spodaj je seznam vseh tretje osebnih licenc, ki jih uporablja aplikacija.";
+
+/* Data Settings */
+"sync_and_data_setting" = "Sinhronizacija & podatki";
+"sync_and_data_setting_short" = "Sinh. & podatki";
+"recurring_transactions_setting" = "Ponavljajoče transakcije";
+
+/* Miscellaneous Settings */
+"new_features_setting" = "Nove funkcije";
+"testflight_beta_setting" = "Beta različica (TestFlight)";
+"apple_pay_setting" = "Integracija  Pay";
+"appearance_setting" = "Personalizacija";
+"advanced_setting" = "Napredne nastavitve";
+
+/* Contact Developer */
+"mail_subject_type_contact" = "Kontakt";
+"mail_subject_type_support" = "Podpora";
+"mail_subject_type_feedback" = "Povratne informacije";
+"mail_subject_type_translate" = "Prevedi";
+"mail_subject_type_discount" = "Popust";
+
+"alert_translate_app_title" = "Kako želiš pomagati pri prevodu?";
+"alert_translate_app_github" = "👨🏻‍💻 Preko GitHub";
+"alert_translate_app_email" = "📬 Preko E-Mail";
+
+"alert_contact_developer_title" = "Kaj je predmet vaše zahteve?";
+"alert_contact_developer_feature_request" = "💡 Zahteva za funkcijo";
+"alert_contact_developer_bug_report" = "🐞 Poročilo o napaki";
+"alert_contact_developer_other" = "📬 Drugo (e-pošta)";
+
+"contact_developer_mail_subject" = "%@: %@%@";
+"contact_developer_mail_subject_full_version" = " (full version)";
+"contact_developer_mail_message" = "
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+<b>Support Information:</b>
+</br>
+<u>General:</u></br>
+- Device: %@</br>
+- iOS version: %@</br>
+- Language: %@</br>
+- Currency: %@</br>
+- Time zone: %@</br>
+</br>
+<u>App Specific:</u></br>
+- App version: %@</br>
+- Build: %@</br>
+</br>
+<u>In-App Purchases:</u></br>
+- User ID: %@</br>
+- Active: %@</br>
+- Purchases: %@";
+"contact_developer_mail_no_purchases" = "None";
+
+/* Appearance Settings */
+"appearance_setting_info_title" = "Opis";
+"appearance_setting_info_description" = "Prilagodite aplikacijo svojim željam s spreminjanjem videza aplikacije ali poudarne barve.";
+"appearance_ui_style_setting_section_title" = "Tema";
+"appearance_ui_style_apply_to_icons_title" = "Uporabi za ikone";
+"appearance_ui_style_apply_to_icons_description" = "Uporabi izbran videz tudi za vse ikone v aplikaciji.";
+"appearance_accent_color_setting_section_title" = "Poudarna barva";
+"appearance_accent_color_setting_footer_title" = "Spremeni barvo gumbov in drugih kontrolnikov v aplikaciji.";
+"appearance_app_icon_setting_section_title" = "Ikona aplikacije";
+
+/* Sync & Data Settings */
+"sync_and_data_setting_info_title" = "Opis";
+"sync_and_data_setting_info_description" = "Pridobite pregled trenutnega stanja sinhronizacije in uvozite ali izvozite podatke z uporabo CSV datoteke.";
+
+"sync_and_data_cloud_setting_section_title" = "iCloud";
+"sync_and_data_cloud_setting_footer_title" = "Označuje, ali je bila sinhronizacija z iCloud uspešna oziroma je prišlo do napake.";
+"sync_and_data_setting_cloud_sync_status_title" = "Status sinhronizacije";
+"backup_setting_section_title" = "Varnostne kopije";
+"backup_setting_footer_title" = "Upravljajte svoje varnostne kopije in nastavitve varnostnih kopij.";
+"backup_setting_manage_backups_title" = "Upravljaj";
+"sync_and_data_csv_setting_section_title" = "CSV-Podatki";
+"sync_and_data_csv_setting_footer_title" = "Uvozite ali izvozite svoje transakcije z uporabo CSV datoteke.";
+"sync_and_data_setting_csv_import_title" = "Uvozi";
+"sync_and_data_setting_csv_export_title" = "Izvozi";
+"sync_and_data_setting_get_csv_template_title" = "Prenesi predlogo";
+
+"clear_cache_button" = "Počisti predpomnilnik";
+"cache_setting_footer_title" = "Info: Počistitev predpomnilnika izbriše vse datoteke v imeniku dokumentov aplikacije (vključno z varnostnimi kopijami).";
+
+"alert_csv_import_successful_title" = "Uvoz uspešen 🎉";
+"alert_csv_import_successful_message" = "Skupaj je bilo uvoženih %d od %d transakcij.%@";
+"alert_csv_import_skipped_message" = " Pri tem je bilo %d transakcij preskočenih.";
+"alert_csv_import_error_message" = "Uvoz %d od %d transakcij ni bil uspešno dokončan.\n\n%@";
+"alert_csv_import_error_reason_field_message" = "Prosimo, preverite naslednja polja v vaši CSV datoteki: %@.";
+
+"alert_csv_export_successful_title" = "Izvoz uspešen 🎉";
+"alert_csv_export_successful_message" = "Vaši podatki so bili uspešno izvoženi v \"%@\".";
+
+/* Cloud Settings */
+"cloud_setting_info_title" = "Opis";
+"cloud_setting_info_description" = "Naslednji pogled ponuja podrobnejši pregled trenutnega stanja sinhronizacije iCloud in pomaga pri odpravljanju težav.";
+
+"cloud_setting_network_status_title" = "Omrežje";
+"cloud_setting_network_status_success_value" = "Internetna povezava je na voljo";
+"cloud_setting_network_status_error_value" = "Ni internetne povezave";
+"cloud_setting_account_status_title" = "iCloud Račun";
+"cloud_setting_account_status_success_value" = "Prijavljen v iCloud";
+"cloud_setting_account_status_error_value" = "Ni prijavljen v iCloud";
+"cloud_setting_low_power_mode_status_title" = "Način varčevanja z energijo";
+"cloud_setting_low_power_mode_status_enabled_value" = "Omogočeno (sinhronizacija je morda začasno ustavljena)";
+"cloud_setting_low_power_mode_status_disabled_value" = "Onemogočeno";
+"cloud_setting_upload_status_title" = "Zadnjič naloženo";
+"cloud_setting_download_status_title" = "Zadnjič preneseno";
+"cloud_setting_number_of_transactions_title" = "Transakcije";
+"cloud_setting_number_of_transactions_value" = "Na napravi: %d\nV iCloud: %d";
+"cloud_setting_number_of_transactions_in_progress_title" = "Prosimo, počakajte...";
+"cloud_setting_number_of_transactions_error_title" = "Napaka";
+
+"import_from_cloud_button" = "Prenesi iz iClouda";
+"manual_sync_cloud_setting_footer_title" = "Če vaši podatki niso bili ali niso popolnoma sinhronizirani z iCloudom, lahko tukaj ročno sprožite sinhronizacijo.";
+
+/* Backup Settings */
+"backup_setting_info_title" = "Opis";
+"backup_setting_info_description" = "Ko je omogočeno, Budget Flow redno ustvarja varnostne kopije vaših podatkov, tako da lahko kadarkoli obnovite aplikacijo na prejšnje stanje.";
+
+"backup_general_setting_section_title" = "Splošno";
+"backup_recent_backups_setting_section_title" = "Nedavne varnostne kopije";
+"backup_setting_use_automatic_backups_title" = "Samodejna varnostna kopija";
+"backup_setting_create_backup_title" = "Ustvari varnostno kopijo";
+
+"alert_restore_backup_title" = "Obnoviti to varnostno kopijo?";
+"alert_restore_backup_message" = "Obnavljanje varnostnih kopij je trenutno eksperimentalna funkcija. Izbrisala bo vaše trenutne podatke in jih prepisala z izbrano varnostno kopijo.\n\nPo tem se bo aplikacija samodejno zaprla.\n\nOpozorilo: Tega postopka ni mogoče razveljaviti!";
+"alert_restore_backup_button" = "Obnovi varnostno kopijo";
+
+/* Advanced Settings */
+"advanced_setting_info_title" = "Opis";
+"advanced_setting_info_description" = "Naredite dodatne nastavitve za konfiguracijo aplikacije.";
+
+"advanced_security_setting_section_title" = "Varnost";
+"advanced_view_setting_section_title" = "Pogled";
+"advanced_sidebar_setting_section_title" = "Stranska vrstica";
+"advanced_transaction_setting_section_title" = "Transakcije";
+"advanced_input_setting_section_title" = "Vnos";
+"advanced_other_setting_section_title" = "Drugo";
+
+"advanced_setting_use_passcode_title" = "Uporabi kodo";
+"advanced_setting_use_title" = "Uporabi %@";
+"advanced_setting_auto_lock_title" = "Zahtevaj kodo";
+
+"advanced_setting_chart_type_title" = "Vrsta grafa";
+"advanced_setting_show_frequently_used_items_title" = "Prikaži pogoste kategorije & oznake";
+"advanced_setting_show_frequently_used_items_description" = "Prikaži pogosto uporabljene kategorije in oznake na seznamu izbir pri ustvarjanju in urejanju transakcij.";
+"advanced_setting_show_notes_in_title_title" = "Prikaži opombe namesto kategorije";
+"advanced_setting_show_notes_in_title_description" = "Prikaži vsebino opomb namesto imena kategorije za transakcije.";
+"advanced_setting_start_day_of_month_title" = "Začetni dan meseca";
+"advanced_setting_start_day_of_month_description" = "Določite začetni dan vsakega meseca, da bodo poročila, transakcije in načrti porabe ustrezno izračunani.";
+"advanced_setting_configure_transaction_title_title" = "Naslov transakcije";
+"advanced_setting_configure_transaction_subtitle_title" = "Podnaslov transakcije";
+
+"advanced_setting_configure_transaction_title_info_title" = "Opis";
+"advanced_setting_configure_transaction_title_info_description" = "Nastavite vrstni red elementov, ki naj bodo prikazani v naslovu transakcije. Če element manjka, se samodejno uporabi naslednji v vrstnem redu.";
+
+"advanced_setting_show_accounts_in_sidebar_title" = "Prikaži račune v stranski vrstici";
+"advanced_setting_show_accounts_in_sidebar_description" = "Prikaži seznam vaših računov v stranski vrstici.";
+"advanced_setting_group_accounts_in_sidebar_title" = "Združi račune v stranski vrstici";
+"advanced_setting_group_accounts_in_sidebar_description" = "Združi vaše račune v stranski vrstici po vrsti.";
+"advanced_setting_show_categories_in_sidebar_title" = "Prikaži kategorije v stranski vrstici";
+"advanced_setting_show_categories_in_sidebar_description" = "Prikaži seznam vaših kategorij v stranski vrstici.";
+"advanced_setting_group_categories_in_sidebar_title" = "Združi kategorije v stranski vrstici";
+"advanced_setting_group_categories_in_sidebar_description" = "Združi vaše kategorije v stranski vrstici po mapah.";
+
+"advanced_setting_select_time_automatically_title" = "Samodejna izbira časa";
+"advanced_setting_select_time_automatically_description" = "Samodejno izberite trenutni čas za nove transakcije.";
+"advanced_setting_select_location_automatically_title" = "Samodejna izbira lokacije";
+"advanced_setting_select_location_automatically_description" = "Samodejno izberite trenutno lokacijo za nove transakcije.";
+"advanced_setting_save_photos_in_library_title" = "Shrani fotografije v knjižnico";
+"advanced_setting_save_photos_description" = "Samodejno shrani posnete fotografije v knjižnico fotografij.";
+"advanced_setting_consider_pending_items_title" = "Knjiži vse transakcije";
+"advanced_setting_consider_pending_items_description" = "Vključi transakcije v čakanju pri izračunu stanj računov, stanj, skupnih zneskov itd.";
+
+"advanced_setting_enable_exact_times_title" = "Vnesi natančne čase";
+"advanced_setting_enable_exact_times_description" = "Izberite natančne čase z uporabo minutnega kazalca za transakcije (npr. 9:41).";
+"advanced_setting_reverse_keyboard_title" = "Obrnjen tipkovnica";
+"advanced_setting_reverse_keyboard_description" = "Zasuka postavitev numerične tipkovnice navpično, da se ujema s tradicionalnim slogom kalkulatorja.";
+"advanced_setting_enable_haptic_keyboard_title" = "Povratna informacija tipkovnice";
+"advanced_setting_enable_haptic_keyboard_description" = "Prejmite taktilno povratno informacijo pri vnosu denarnih zneskov s tipkovnico.";
+
+"advanced_setting_language_title" = "Jezik";
+"advanced_setting_time_zone_title" = "Časovni pas";
+"advanced_setting_enable_live_activities_title" = "Aktivnosti v živo";
+"advanced_setting_enable_live_activities_description" = "Oglejte si svoje trenutno stanje in več na dinamičnem otoku in zaklepnem zaslonu.";
+"advanced_setting_ask_for_feedback_title" = "Obvestilo za povratne informacije";
+"advanced_setting_ask_for_feedback_description" = "Dovolite aplikaciji, da vas občasno prosi za povratne informacije.";
+
+/* Cloud Sync Status */
+"cloud_sync_status_not_logged_in" = "Ni prijavljen v iCloud";
+"cloud_sync_status_not_started" = "Ni sinhronizirano";
+"cloud_sync_status_no_network" = "Ni internetne povezave";
+"cloud_sync_status_in_progress" = "Sinhronizacija...";
+"cloud_sync_status_succeeded" = "Popolnoma sinhronizirano";
+"cloud_sync_status_quota_exceeded" = "Vaš iCloud prostor je poln. Prosimo, sprostite nekaj prostora in poskusite znova.";
+"cloud_sync_status_limit_exceeded" = "Dosegli ste omejitev nalaganja/prenosa iCloud. Prosimo, počakajte trenutek in poskusite znova pozneje.";
+"cloud_sync_status_network_failure" = "Prišlo je do omrežne napake. Prosimo, poskusite znova pozneje.";
+"cloud_sync_status_service_unavailable" = "iCloud je začasno nedosegljiv. Prosimo, poskusite znova pozneje.";
+"cloud_sync_status_request_rate_limited" = "V kratkem času ste poslali preveč zahtevkov iCloud. Prosimo, počakajte trenutek in poskusite znova pozneje.";
+"cloud_sync_status_request_unknown_error" = "Prišlo je do neznane napake. Prosimo, poskusite znova pozneje.";
+
+/* Alert Views */
+"alert_share_app_type_selection_title" = "Kako želite deliti?";
+"alert_share_app_type_selection_link_button" = "Povezava";
+"alert_share_app_type_selection_qrcode_button" = "QR koda";
+
+"alert_reset_app_title" = "Ponastavi aplikacijo";
+"alert_reset_app_message" = "Ali ste prepričani, da želite ponastaviti aplikacijo na privzete nastavitve? To bo trajno izbrisalo vse vaše podatke, shranjene na tej napravi in iCloud.";
+
+"alert_error_title" = "Prišlo je do napake 😢";
+
+/* Social Media */
+"follow_on_social_media" = "Sledite \"%@\" na družbenih omrežjih";
+
+/* Copyright */
+"version" = "Različica";
+"developed_by" = "Razvil %@ 👨🏻‍💻";
+
+
+/* MARK: - Passcode View */
+/* Titles */
+"passcode_view_enter_passcode_title" = "Vnesite kodo";
+"passcode_view_create_passcode_title" = "Ustvari kodo";
+"passcode_view_confirm_passcode_title" = "Potrdi kodo";
+"passcode_view_authenticate_reason" = "Avtentikacija uporabnika";
+
+/* Alert Views */
+"alert_set_passcode_type_title" = "Izberite možnost kode";
+
+
+/* MARK: - Welcome View */
+/* Titles */
+"welcome_view_title" = "Dobrodošli v";
+"privacy_policy_title" = "Politika zasebnosti";
+
+/* Sections */
+"welcome_view_overview_section_title" = "Povzetek";
+"welcome_view_legal_documents_section_title" = "Več informacij";
+
+/* Overview */
+"privacy_overview_datastorage_title" = "Varno shranjevanje podatkov";
+"privacy_overview_datastorage_description" = "Vaše finance so zasebne – in naj tako ostanejo. Zato so vaši podatki shranjeni izključno na vaši napravi ali (po želji) v vašem osebnem iCloudu.";
+
+"privacy_overview_privacy_control_title" = "Nadzor nad zasebnostjo";
+"privacy_overview_privacy_control_description" = "Ne glede na to, ali gre za shranjene podatke, uporabo vaše lokacije ali dostop do vašega fotoaparata – vedno imate nadzor. Na primer, lahko preprosto izbrišete svoje podatke s ponastavitvijo aplikacije in dovoljenja dostopa aplikacije lahko kadarkoli prilagodite.";
+
+/* Footer */
+"welcome_view_value_description" = "Enostavno upravljajte vse svoje finance: Vnesite svoj načrt porabe, pridobite vpoglede in spremljajte vse svoje prihodke in stroške.";
+"welcome_view_agreement_description" = "S klikom na \"Sprejmi\" se strinjate z %@.";
+
+
+/* MARK: - New Features View */
+/* Titles */
+"new_features_view_title" = "Nove funkcije";
+
+/* Buttons */
+"new_features_view_rate_app_button" = "Ocenite aplikacijo";
+"new_features_view_close_button" = "Morda pozneje";
+
+
+/* MARK: - Purchase Success View */
+/* Titles */
+"purchase_success_view_title" = "Hvala!";
+
+/* Messages */
+"purchase_success_view_info_message" = "Če vam je aplikacija všeč, prosimo, napišite pozitivno oceno v App Store. Res veliko pomaga in motivira za nenehno izboljševanje aplikacije. 😊";
+"purchase_success_view_info_message_info" = "\n\nInfo: Ko preklopite z naročnine na enkratni nakup, ne pozabite preklicati obstoječe naročnine.";
+
+/* Buttons */
+"purchase_success_view_rate_app_button" = "Oceni aplikacijo";
+"purchase_success_view_close_button" = "Morda pozneje";
+
+
+/* MARK: - Upgrade View */
+/* Titles */
+"upgrade_view_title" = "Polna različica";
+
+/* Info */
+"upgrade_info_description" = "Ta funkcija je na voljo samo v polni različici:";
+"upgrade_sharing_info_text" = "Podpira Apple Družinsko skupno rabo";
+"upgrade_sharing_info_highlighted_text" = "Apple Družinska skupna raba";
+
+/* Discount */
+"upgrade_discount_title" = "Posebna ponudba 🌟";
+"upgrade_discount_multiple_title" = "Prihranite do %@!";
+"upgrade_discount_montly_subscription_title" = "Prihranite %@ na mesečni naročnini!";
+"upgrade_discount_yearly_subscription_title" = "Prihranite %@ na letni naročnini!";
+"upgrade_discount_lifetime_purchase_title" = "Prihranite %@ na enkratnem nakupu!";
+"upgrade_discount_ends_in" = "Konča se čez";
+
+/* Sections */
+"upgrade_info_section_title" = "Info";
+"upgrade_reviews_section_title" = "Ocene";
+
+/* Messages */
+"apply_for_discount_text" = "Ste študent ali v finančnih težavah?\nKliknite tukaj, da zaprosite za popust.";
+"apply_for_discount_highlighted_text" = "Kliknite tukaj, da zaprosite za popust.";
+
+/* Features */
+"upgrade_features" = "Funkcije";
+"upgrade_more_features" = "Več funkcij";
+"upgrade_features_description" = "Spodaj so vse funkcije, ki bodo odklenjene z nakupom polne različice:";
+"upgrade_feature_unlimited_accounts_title" = "Dodatni računi";
+"upgrade_feature_unlimited_accounts_description" = "Ustvarite dodatne račune in dodelite transakcije nanje za še boljši pregled nad vašimi prihodki in stroški.";
+"upgrade_feature_unlimited_categories_and_tags_title" = "Neomejene kategorije & oznake";
+"upgrade_feature_unlimited_categories_and_tags_description" = "Ustvarite neomejeno število kategorij in oznak, ki jih lahko dodate transakcijam za boljšo organizacijo.";
+"upgrade_feature_extended_analyses_title" = "Razširjene analize";
+"upgrade_feature_extended_analyses_description" = "Izkoristite dodatne analize in razširjeno napoved vaših prihodnjih stanj računov in transakcij.";
+"upgrade_feature_unlimited_budgetbooks_title" = "Več denarnic";
+"upgrade_feature_unlimited_budgetbooks_description" = "Ustvarite več denarnic, tako da lahko na primer več ljudi uporablja svojo na eni napravi ali če želite deliti ločeno denarnico (npr. za počitnice).";
+"upgrade_feature_security_title" = "Varni podatki";
+"upgrade_feature_security_description" = "Zaščitite svoje podatke z %@.";
+"upgrade_feature_security_description_passcode" = "Zaščitite svoje podatke z ustvarjanjem kode";
+"upgrade_feature_security_description_biometric" = " ali uporabite %@";
+"upgrade_feature_currency_converter_title" = "Pretvornik valut";
+"upgrade_feature_currency_converter_description" = "Uporabite vgrajeni pretvornik valut za samodejno pretvorbo zneskov v eno od več kot 150 tujih valut.";
+"upgrade_feature_customization" = "Personalizacija";
+"upgrade_feature_customization_description" = "Izberite med več poudarnimi barvami in ikonami, da prilagodite aplikacijo svojim željam.";
+"upgrade_feature_sharedbudget_books_title" = "Deli denarnice";
+"upgrade_feature_sharedbudget_books_description" = "Delite svoje denarnice, vključno z računi, kategorijami, transakcijami in načrti porabe, za sodelovanje z eno ali več osebami.";
+"upgrade_feature_receipt_scanner_title" = "Skeniranje računov";
+"upgrade_feature_receipt_scanner_description" = "Uporabite vgrajeni skener za digitalizacijo računov in samodejno prepoznavanje zneska in imena trgovca.";
+"upgrade_feature_widgets_title" = "Domovni & zaklepni pripomočki";
+"upgrade_feature_widgets_description" = "S pomočjo pripomočkov lahko na prvi pogled vidite svoje trenutne prihodke in stroške, stanja računov in še veliko več, ne da bi morali odpreti aplikacijo. Za predogled pripomočkov uredite svoj domači ali zaklepni zaslon, odprite pogled \"Dodaj pripomoček\" in nato izberite to aplikacijo.";
+"upgrade_feature_reminders_title" = "Ustvari opomnike";
+"upgrade_feature_reminders_description" = "Ustvarite opomnike za vaše načrtovane transakcije, da prejmete potisna obvestila (tudi brez povezave).";
+"upgrade_feature_csv_title" = "CSV uvoz in izvoz";
+"upgrade_feature_csv_description" = "Uvozite in izvozite svoje transakcije z uporabo CSV datoteke za prenos podatkov iz vaše banke ali drugih aplikacij.";
+"upgrade_feature_remove_ads_title" = "Brez oglasov";
+"upgrade_feature_remove_ads_description" = "V aplikaciji ne boste več videli oglasov za nadgradnjo na polno različico.";
+"upgrade_feature_support_title" = "Podprite razvoj ❤️";
+"upgrade_feature_support_description" = "Podpirate mladega razvijalca in s tem nenehni razvoj aplikacije! 😊";
+
+/* Reviews */
+"user_review_title_de" = "Odlična aplikacija";
+"user_review_description_de" = "Aplikacija je zelo dobro oblikovana in funkcionalna. Zadovoljuje vse moje potrebe in podpora je zelo hitra in koristna. Toplo priporočam.";
+"user_review_title_hr" = "Lepa aplikacija";
+"user_review_description_hr" = "Aplikacija z bogatimi funkcijami in enostavnim uporabniškim vmesnikom. Preizkusil sem veliko alternativ na iOS, nobena ni zadovoljila mojih potreb tako kot ta aplikacija. Vredno denarja.";
+"user_review_title_bg" = "Izjemna podpora";
+"user_review_description_bg" = "Odlična aplikacija z izjemno podporo strankam. In zelo razumna cena za kakovostno programsko opremo.";
+"user_review_title_us" = "Odlična aplikacija doslej";
+"user_review_description_us" = "Velik oboževalec tega, da je aplikacija na voljo na iOS, iPad in macOS, tako da jo lahko posodabljam kjerkoli. Prav tako je zelo lepo videti, da ni potreben račun ali zbiranje podatkov, kar se zdaj zdi redko, a je za finančne aplikacije pomembno.";
+"user_review_title_uk" = "To je tisto!";
+"user_review_description_uk" = "Iskal sem to aplikacijo več kot dve leti. Želel sem si upravitelja financ na telefonu, ki je zasnovan okoli dobro izgledajočega preglednega zaslona, omogoča enostaven vnos novih podatkov in možnost podrobnejšega pregleda, ko je potrebno! Poskusite.";
+"user_review_title_es" = "Najboljša aplikacija za načrte porabe";
+"user_review_description_es" = "Preprosto najboljša, kar sem poskusil. Mislim, da je še vedno nova aplikacija, vendar zagotovo vidite potencial, ki ga ima.";
+"user_review_title_fr" = "Odlična aplikacija z bogatimi funkcijami";
+"user_review_description_fr" = "Uporabljam aplikacijo že nekaj mesecev in mi je zelo všeč. Čestitke za vaše delo in komaj čakam, da vidim, kako bo aplikacija izgledala čez nekaj mesecev :)";
+"user_review_title_it" = "Preprosto odlično";
+"user_review_description_it" = "Končno. Leta sem iskal takšno rešitev. Uporabljam jo z iOS bližnjico za sprožanje transakcij, ljubim dizajn. In všeč mi je funkcija enkratnega plačila za življenjsko dobo. Nadaljujte z odličnim delom!";
+"user_review_title_ch" = "Odlična podpora";
+"user_review_description_ch" = "Odlična podpora - hitro in nekomplicirano reševanje težav. Kot uporabnik se počutim resno vzetega.";
+"user_review_title_pl" = "Zelo prijetno za uporabo";
+"user_review_description_pl" = "Aplikacija je odličen sledilec in načrtovalec proračuna, ki ga uporabljam vsak dan. Poleg tega je razvijalec zelo pozoren do svoje skupnosti, kljub njeni majhnosti.";
+
+/* Products */
+"monthly_subscription_title" = "1";
+"yearly_subscription_title" = "12";
+"lifetime_purchase_title" = "∞";
+
+"monthly_subscription_subtitle" = "Mesečna naročnina";
+"yearly_subscription_subtitle" = "Letna naročnina";
+"lifetime_purchase_subtitle" = "Doživljenska naročnina";
+
+"product_discount_header_title" = "- %@";
+
+/* Buttons */
+"upgrade_is_active_button" = "Aktivno";
+"upgrade_purchase_button" = "Nakup";
+"upgrade_subscribe_button" = "Naročite se";
+"upgrade_free_trial_button" = "Brezplačni preizkus";
+"upgrade_restore_button" = "Obnovi nakup";
+"upgrade_restore_in_progress_button" = "Prosimo, počakajte...";
+
+"subscription_button_info_text" = "Prekličete jo lahko kadarkoli – brez skrbi.";
+"subscription_trial_button_info_text" = "%d %@ brezplačnega preizkusa. Nato %@ na %@.";
+"lifetime_purchase_button_info_text" = "Z enkratnim nakupom odklenete vse funkcije za vedno – brez naročnine.";
+
+/* Alert Views */
+"alert_upgrade_view_purchase_success_title" = "Nakup uspešen 🎉";
+"alert_upgrade_view_purchase_success_message" = "Hvala za vašo podporo! 😊";
+"alert_upgrade_view_purchase_success_message_info" = "\n\nInfo: Če preklopite z naročnine na enkratni nakup, ne pozabite preklicati prejšnje naročnine.";
+"alert_upgrade_view_purchase_error_message" = "Vašega nakupa ni bilo mogoče uspešno dokončati.";
+"alert_upgrade_view_purchase_error_store_problem_message" = "Prišlo je do težave z App Store.\n\nInfo: Včasih lahko nakup deluje samo, če potrdite s svojim geslom namesto Touch ID / Face ID.\n\nNa primer, če uporabljate Face ID, preprosto pokrijte sprednjo kamero in poskusite znova, da vidite pogovorno okno z geslom.";
+"alert_upgrade_view_purchase_error_not_allowed_message" = "Nakupi na tej napravi niso dovoljeni.";
+"alert_upgrade_view_purchase_error_invalid_message" = "Preverite svoj način plačila in poskusite znova pozneje. Če napaka ostaja, prosimo, kontaktirajte podporo.";
+"alert_upgrade_view_purchase_error_network_message" = "Preverite svojo internetno povezavo in poskusite znova pozneje. Če napaka ostaja, prosimo, kontaktirajte podporo.";
+
+"alert_upgrade_view_load_products_error_message" = "Izdelkov ni bilo mogoče naložiti. Preverite svojo internetno povezavo in poskusite znova pozneje. Če napaka ostaja, prosimo, kontaktirajte podporo.";
+
+"alert_upgrade_view_restore_success_title" = "Nakupi obnovljeni";
+"alert_upgrade_view_restore_success_message" = "Vaši nakupi so bili uspešno obnovljeni! 😊";
+"alert_upgrade_view_restore_error_message" = "Vaših nakupov ni bilo mogoče obnoviti. Prosimo, poskusite znova pozneje.";
+"alert_upgrade_view_restore_nothing_to_do_title" = "Na voljo ni preteklih nakupov 😢";
+"alert_upgrade_view_restore_nothing_to_do_message" = "Ni bilo mogoče najti nobenih nakupov za obnovitev.";
+
+
+/* MARK: - Upgrade FAQ View */
+/* Titles */
+"upgrade_faq_view_title" = "Pogosta vprašanja";
+
+/* Sections */
+"upgrade_faq_general_section_title" = "Splošno";
+"upgrade_faq_purchases_section_title" = "Nakupi & Naročnine";
+
+/* Items */
+"upgrade_faq_about_title" = "Kaj je Budget Flow?";
+"upgrade_faq_about_value" = "Budget Flow je moderna in enostavna aplikacija za sledenje proračunu za vse, ki želijo imeti pregled nad svojimi financami in učinkovito upravljati svoje stroške.";
+"upgrade_faq_developer_title" = "Kdo je razvil aplikacijo?";
+"upgrade_faq_developer_value" = "Budget Flow se je začel kot stranski projekt in je od takrat v celoti zasnovan, razvit in vzdrževan zame, Fabian Hasse. Sem navdušen razvijalec programske opreme z več kot 10 leti izkušenj in z veliko strastjo delam na razvoju najboljše aplikacije za načrt porabe in sledenje stroškom v App Store.";
+"upgrade_faq_free_use_title" = "Ali je aplikacijo mogoče uporabljati tudi brezplačno?";
+"upgrade_faq_free_use_value" = "Da, osnovne funkcije aplikacije, kot je ustvarjanje transakcij, lahko uporabljate popolnoma brezplačno.\n\nPoleg tega aplikacija ponuja preizkusno obdobje za polno različico, tako da jo lahko preizkusite vnaprej, preden se odločite za nakup ali naročnino polne različice.";
+"upgrade_faq_security_title" = "Ali so moji podatki varni?";
+"upgrade_faq_security_value" = "Vaše finance so zasebne – in naj tako ostanejo. Zato so vaši podatki shranjeni izključno na vaši napravi ali (po želji) v vašem osebnem iCloud.";
+"upgrade_faq_why_subscription_title" = "Zakaj je polna različica predvsem ponujena kot naročnina?";
+"upgrade_faq_why_subscription_value" = "Moj cilj je razviti visokokakovostno aplikacijo, ki vam kot uporabniku redno ponuja nove funkcije in izboljšave. Vendar pa za dosego tega cilja aplikacija potrebuje stalne prihodke, da se financira in je ekonomsko trajnostna.\n\nKar mnogi ne vedo: Razvijanje in vzdrževanje aplikacije zahteva veliko časa. V primeru Budget Flow je na primer trajalo skoraj dve leti in več tisoč ur dela od ideje do razvoja in testiranja, preden je bila prva različica lahko izdana v App Store.\n\nZ naročniškim modelom uživate v rednih posodobitvah in izboljšavah, kot tudi v podpori, ki zagotavlja vašo stalno zadovoljstvo. Prav tako imate priložnost, da aplikacijo preizkusite brezplačno vnaprej, da se prepričate, da ustreza vašim potrebam, in lahko kadarkoli spremenite ali prekinete naročnino, če se premislite.\n\nVendar pa, ker nekateri uporabniki ne marajo naročnin, je na voljo tudi nekoliko dražji enkratni nakup. Cena enkratnega nakupa predstavlja življenjsko vrednost stranke (CLV) in je približno 2,5-kratnik letne cene naročnine. Posledično so vsi prihodnji stroški za posodobitve in podporo pokriti za celotno življenjsko dobo aplikacije, ki bi jih sicer pokrila ponavljajoča plačila kot del naročnine.\n\nNa splošno vam ta poslovni model kot uporabniku prinaša številne koristi in boljšo izkušnjo z nenehnimi posodobitvami in podporo. Dolgoročno enkratni nakup z nizko ceno žal ne bi bil trajnosten, saj ta poslovni model zahteva, da novi uporabniki še naprej kupujejo aplikacijo, da se zagotovi njen nenehni razvoj.\n\nČe vam je aplikacija všeč, bi bil zelo vesel, če podprete moje delo, da vam lahko v prihodnosti ponudim še več odličnih funkcij!❤️";
+"upgrade_faq_multiple_devices_title" = "Ali lahko uporabljam polno različico na več napravah?";
+"upgrade_faq_multiple_devices_value" = "Da, polno različico Budget Flow lahko uporabljate na vseh svojih Apple napravah z istim Apple ID. Ker se aplikacija sinhronizira prek iCloud, lahko nemoteno preklapljate med svojimi napravami in vedno imate dostop do svojih finančnih podatkov in nastavitev.";
+"upgrade_faq_multiple_people_title" = "Ali lahko uporabljam polno različico z več ljudmi?";
+"upgrade_faq_multiple_people_value" = "Da, lahko delite enkratni nakup kot tudi naročnino polne različice z do petimi ljudmi znotraj družinske skupine. Vse kar morate storiti je, da vklopite družinsko skupno rabo v sistemskih nastavitvah in dodate druge ljudi v skupino.";
+"upgrade_faq_cancel_subscription_title" = "Kako prekličem svojo naročnino?";
+"upgrade_faq_cancel_subscription_value" = "Svojo naročnino lahko kadarkoli prekličete z uporabo svojega Apple ID v sistemskih nastavitvah.";
+"upgrade_faq_subscription_data_loss_title" = "Ali bodo moji podatki izgubljeni, če prekličem naročnino?";
+"upgrade_faq_subscription_data_loss_value" = "Ne. Vse, kar ustvarite med naročnino na polno različico, bo še vedno na voljo, če se vrnete na brezplačno različico.";
+"upgrade_faq_refund_title" = "Kako lahko dobim povrnjen denar?";
+"upgrade_faq_refund_value" = "Plačila, opravljena prek App Store, lahko vrne samo Apple. Če želite povrnitev, se morate obrniti na Apple podporo v 14 dneh po nakupu.";
+"upgrade_faq_switch_plan_title" = "Ali je mogoče kasneje preklopiti z naročnine na enkratni nakup?";
+"upgrade_faq_switch_plan_value" = "Da, z aktivne naročnine lahko kadarkoli preklopite na enkratni nakup z nakupom ustreznega izdelka v aplikaciji. Vendar ne pozabite preklicati svoje prejšnje naročnine, da ne boste plačali več kot enkrat.";
+
+
+/* MARK: - User Feedback */
+"user_feedback" = "povratne informacije";
+
+/* Buttons */
+"user_feedback_message_title" = "Živjo, sem Fabian, razvijalec Budget Flow. Ali imate trenutek, da mi podate povratne informacije o aplikaciji? 😊";
+
+/* Alert Views */
+"alert_user_feedback_title" = "Vam je aplikacija všeč?";
+
+"alert_user_feedback_like_title" = "Hvala! 🎉";
+"alert_user_feedback_like_message" = "Če vam je aplikacija všeč, prosimo, napišite pozitivno oceno v App Store. Res veliko pomaga in motivira za nenehno izboljševanje aplikacije. 😊";
+"alert_user_feedback_rate_app_button" = "Oceni aplikacijo";
+"alert_user_feedback_maybe_later_button" = "Mogoče kasneje";
+
+"alert_user_feedback_dislike_title" = "Predlogi? 🤔";
+"alert_user_feedback_dislike_message" = "Žal mi je, da vam aplikacija še ni všeč. Da to spremenimo, me prosimo kontaktirajte neposredno ali dodajte svoje ideje in predloge na seznam funkcij. 😊";
+"alert_user_feedback_contact_developer_button" = "Kontaktiraj razvijalca";
+
+
+/* MARK: - Progress View */
+"progress_view_load_images_title" = "Nalaganje fotografij...";
+"progress_view_load_images_subtitle" = "Info: Če uporabljate iCloud Photo Library, lahko nalaganje vaših fotografij traja nekaj časa.";
+
+"progress_view_load_documents_title" = "Nalaganje dokumentov...";
+"progress_view_load_documents_subtitle" = "Info: Če uporabljate iCloud Drive, lahko nalaganje vaših dokumentov traja nekaj časa.";
+
+"progress_view_import_csv_title" = "Uvažanje podatkov...";
+"progress_view_import_csv_subtitle" = "Prosimo počakajte...";
+
+"progress_view_import_from_cloud_title" = "Nalaganje podatkov iz iClouda...";
+"progress_view_import_from_cloud_initialization_subtitle" = "Prosimo, počakajte...";
+"progress_view_import_from_cloud_loaded_objects_subtitle" = "Naloženi objekti: %d";
+
+
+/* MARK: - Widgets */
+"chart_widget_title" = "Grafikon";
+"chart_widget_description" = "Ta pripomoček prikazuje grafikon vaših stanj na računih, trenutno stanje ali razčlenitev prihodkov in odhodkov za izbrano časovno obdobje.";
+
+"account_widget_title" = "Račun";
+"account_widget_description" = "Ta pripomoček prikazuje graf stanja vašega računa za določen račun in izbrano časovno obdobje.";
+"account_widget_no_account_title" = "Ni izbranega računa";
+
+"overview_widget_title" = "Pregled";
+"overview_widget_description" = "Ta pripomoček prikazuje pregled vaših stanj na računih, trenutno stanje ali skupno vsoto prihodkov in odhodkov za izbrano obdobje.";
+
+"upcoming_transactions_widget_title" = "Načrtovano";
+"upcoming_transactions_widget_description" = "Ta pripomoček prikazuje vaše naslednje načrtovane transakcije.";
+
+"budget_widget_title" = "Budget Flow";
+"budget_widget_description" = "Ta pripomoček prikazuje določen budget za izbrano obdobje.";
+"budget_widget_no_budget_title" = "Ni izbranega budgeta";
+
+"suggestion_widget_title" = "Predlagano";
+"suggestion_widget_description" = "Ta pripomoček prikazuje predlagano kategorijo glede na trenutni datum, za katero lahko ustvarite novo transakcijo.";
+
+"quick_actions_widget_title" = "Hiter vnos";
+"quick_actions_widget_description" = "Ta pripomoček omogoča hitro dodajanje novih transakcij.";
+"quick_actions_widget_new_title" = "Novo";
+
+"widget_upgrade_locked_title" = "Zaklenjeno";
+"widget_upgrade_necessary_title" = "Polna verzija";
+"widget_upgrade_necessary_title_long" = "Zahtevana polna verzija";
+"widget_upgrade_necessary_description" = "Za uporabo tega pripomočka je potrebna nadgradnja na polno verzijo.";
+"widget_upgrade_necessary_highlighted_text" = "polno verzijo";
+
+
+/* MARK: - Add Item Form View */
+/* Alert Views */
+/* Info */
+"alert_no_budget_book_selected_title" = "Ni izbranega budgeta";
+"alert_upgrade_necessary_title" = "Polna verzija";
+"alert_upgrade_necessary_description" = "Za uporabo te funkcije morate nadgraditi na polno verzijo. To lahko aktivirate znotraj aplikacije.";
+
+/* Dismiss */
+"alert_confirm_dismiss_title" = "Ali ste prepričani, da želite zavreči spremembe?";
+
+/* Delete */
+"alert_confirm_delete_budgetbook_title" = "Ali ste prepričani, da želite izbrisati ta budget? Vse povezane račune, kategorije, transakcije in denarnice bodo prav tako izbrisani.";
+"alert_confirm_delete_budgetbook_button" = "Izbriši budget";
+"alert_confirm_delete_budgetbook_multiple_title" = "Ali ste prepričani, da želite izbrisati vse izbrane budgete? Vse povezane račune, kategorije, transakcije in denarnice bodo prav tako izbrisani.";
+"alert_confirm_delete_budgetbook_multiple_button" = "Izbriši budgete";
+
+"alert_confirm_delete_account_title" = "Ali ste prepričani, da želite izbrisati ta račun? Vse povezane transakcije bodo prav tako izbrisane.";
+"alert_confirm_delete_account_button" = "Izbriši račun";
+"alert_confirm_delete_account_multiple_title" = "Ali ste prepričani, da želite izbrisati vse izbrane račune? Vse povezane transakcije bodo prav tako izbrisane.";
+"alert_confirm_delete_account_multiple_button" = "Izbriši račune";
+
+"alert_confirm_delete_categorygroup_title" = "Ali ste prepričani, da želite izbrisati to mapo? Vse povezane kategorije, transakcije in denarnice bodo prav tako izbrisani (če je potrebno).";
+"alert_confirm_delete_categorygroup_button" = "Izbriši mapo";
+"alert_confirm_delete_categorygroup_multiple_title" = "Ali ste prepričani, da želite izbrisati vse izbrane mape? Vse povezane kategorije, transakcije in denarnice bodo prav tako izbrisani (če je potrebno).";
+"alert_confirm_delete_categorygroup_multiple_button" = "Izbriši mape";
+
+"alert_confirm_delete_category_title" = "Ali ste prepričani, da želite izbrisati to kategorijo? Vse povezane budgete bodo prav tako izbrisani (če je potrebno).";
+"alert_confirm_delete_category_button" = "Izbriši kategorijo";
+"alert_confirm_delete_category_multiple_title" = "Ali ste prepričani, da želite izbrisati vse izbrane kategorije? Vse povezane transakcije in denarnice bodo prav tako izbrisani.";
+"alert_confirm_delete_category_multiple_button" = "Izbriši kategorije";
+
+"alert_confirm_delete_payee_title" = "Ali ste prepričani, da želite izbrisati tega plačnika?";
+"alert_confirm_delete_payee_button" = "Izbriši plačnika";
+"alert_confirm_delete_payee_multiple_title" = "Ali ste prepričani, da želite izbrisati vse izbrane plačnike?";
+"alert_confirm_delete_payee_multiple_button" = "Izbriši plačnike";
+
+"alert_confirm_delete_tag_title" = "Ali ste prepričani, da želite izbrisati to oznako?";
+"alert_confirm_delete_tag_button" = "Izbriši oznako";
+"alert_confirm_delete_tag_multiple_title" = "Ali ste prepričani, da želite izbrisati vse izbrane oznake?";
+"alert_confirm_delete_tag_multiple_button" = "Izbriši oznake";
+
+"alert_confirm_delete_reminder_title" = "Ali ste prepričani, da želite izbrisati to opomnik?";
+"alert_confirm_delete_reminder_button" = "Izbriši opomnik";
+"alert_confirm_delete_reminder_multiple_title" = "Ali ste prepričani, da želite izbrisati vse izbrane opomnike?";
+"alert_confirm_delete_reminder_multiple_button" = "Izbriši opomnike";
+
+"alert_confirm_delete_transaction_title" = "Ali ste prepričani, da želite izbrisati to transakcijo?";
+"alert_confirm_delete_assigned_transaction_title" = "Ali želite izbrisati tudi vse povezane transakcije?";
+"alert_confirm_delete_transaction_button" = "Izbriši transakcijo";
+"alert_confirm_delete_transaction_multiple_title" = "Ali ste prepričani, da želite izbrisati vse izbrane transakcije?";
+"alert_confirm_delete_transaction_multiple_button" = "Izbriši transakcije";
+
+"alert_confirm_delete_imageitem_title" = "Ali ste prepričani, da želite izbrisati to fotografijo?";
+"alert_confirm_delete_imageitem_button" = "Izbriši fotografijo";
+"alert_confirm_delete_imageitem_multiple_title" = "Ali ste prepričani, da želite izbrisati vse izbrane fotografije?";
+"alert_confirm_delete_imageitem_multiple_button" = "Izbriši fotografije";
+
+"alert_confirm_delete_documentitem_title" = "Ali ste prepričani, da želite izbrisati ta dokument?";
+"alert_confirm_delete_documentitem_button" = "Izbriši dokument";
+"alert_confirm_delete_documentitem_multiple_title" = "Ali ste prepričani, da želite izbrisati vse izbrane dokumente?";
+"alert_confirm_delete_documentitem_multiple_button" = "Izbriši dokumente";
+
+"alert_confirm_delete_budget_title" = "Ali ste prepričani, da želite izbrisati ta budget?";
+"alert_confirm_delete_budget_button" = "Izbriši budget";
+"alert_confirm_delete_budget_multiple_title" = "Ali ste prepričani, da želite izbrisati vse izbrane budgete?";
+"alert_confirm_delete_budget_multiple_button" = "Izbriši budgete";
+
+"alert_confirm_delete_backupitem_title" = "Ali ste prepričani, da želite izbrisati to varnostno kopijo?";
+"alert_confirm_delete_backupitem_button" = "Izbriši varnostno kopijo";
+
+"alert_confirm_delete_contra_entry_title" = "Ta transakcija je prenos. Ali želite izbrisati tudi nasprotni vnos?";
+
+/* Updates */
+"alert_confirm_update_contra_entry_title" = "Ta transakcija je prenos. Ali želite posodobiti tudi nasprotni vnos?";
+"alert_confirm_update_transaction_multiple_title" = "Ta transakcija pripada skupini. Kaj točno želite shraniti?";
+"alert_confirm_update_transaction_single_button" = "Shrani samo to";
+"alert_confirm_update_transaction_all_button" = "Shrani to in prihodnje";
+
+/* End Repetition */
+"alert_confirm_end_repetition_for_transaction_title" = "Ali ste prepričani, da želite prekiniti ponavljanje te transakcije?";
+"alert_confirm_end_repetition_for_transaction_button" = "Končaj ponavljanje";
+"alert_confirm_end_repetition_for_transaction_multiple_title" = "Ali ste prepričani, da želite prekiniti ponavljanje vseh izbranih transakcij?";
+"alert_confirm_end_repetition_for_transaction_multiple_button" = "Končaj ponavljanje";
+
+/* Currency Selection */
+"alert_change_currency_or_exchange_rate_title" = "Kaj točno želite spremeniti?";
+"alert_change_currency_button" = "Valuta";
+"alert_change_exchange_rate_button" = "Menjalni tečaj";
+
+
+/* MARK: - Currency Selection View */
+/* Titles */
+"currency_selection_title" = "Valute";
+
+/* Info */
+"currency_selection_info_title" = "Opis";
+"currency_selection_info_description" = "Izberite privzeto valuto za obstoječe in prihodnje transakcije.";
+
+/* Sections */
+"default_currency_section_title" = "Privzeta valuta";
+"suggested_currencies_section_title" = "Predlogi";
+
+/* Messages */
+"no_currencies_found_title" = "Ni najdenih valut";
+"currency_selection_search_placeholder_message" = "Iščite po imenu valute ali njeni kratici";
+
+/* Buttons */
+"change_default_currency_button" = "Spremeni privzeto valuto";
+
+/* Alert Views */
+"alert_confirm_change_default_currency_title" = "Ali ste prepričani, da želite spremeniti privzeto valuto? Vse obstoječe transakcije bodo pretvorjene v novo valuto (%@).";
+"alert_confirm_change_default_account_currency_title" = "Ali ste prepričani, da želite spremeniti valuto? Vse obstoječe transakcije tega računa bodo pretvorjene v novo valuto (%@).";
+
+
+/* MARK: - Currency Conversion View */
+/* Titles */
+"currency_conversion_title" = "Pretvori";
+"currency_conversion_last_synchronization_title" = "Posodobljeno: %@";
+"currency_conversion_synchronization_failed_title" = "Sinhronizacija ni uspela";
+"currency_conversion_synchronization_failed_no_internet_title" = "Ni internetne povezave";
+
+/* Sections */
+"source_currency_section_title" = "Od";
+"target_currency_section_title" = "Za";
+
+
+/* MARK: - Time Zone Selection View */
+/* Titles */
+"time_zone_selection_title" = "Časovni pas";
+
+/* Messages */
+"no_timezones_found_title" = "Ni najdenih časovnih pasov";
+"time_zone_selection_search_placeholder_message" = "Išči časovni pas države ali mesta";
+
+
+/* MARK: - Manage Item View */
+/* Titles */
+"manage_budgetbooks_title" = "Denarnice";
+"manage_accounts_title" = "Računi";
+"manage_categories_title" = "Kategorije";
+"manage_category_groups_title" = "Mape";
+"manage_payees_title" = "Plačniki";
+"manage_tags_title" = "Oznake";
+"manage_reminders_title" = "Opomniki";
+
+/* Info */
+"manage_reminders_info_title" = "Opis";
+"manage_reminders_info_description" = "Ustvarite lastne opomnike ali jih dodajte k prihodnjim transakcijam, da vas bo aplikacija obvestila.";
+
+/* Sections */
+"shared_by_you_budgetbooks_section_title" = "Deljeno z vami";
+"shared_with_you_budgetbooks_section_title" = "Deljeno z vami";
+"not_shared_budgetbooks_section_title" = "Ni deljeno";
+"most_used_items_section_title" = "Najpogosteje uporabljeno";
+"archived_items_section_title" = "Arhivirano";
+"own_reminders_section_title" = "Lastni opomniki";
+
+/* Messages */
+"no_budget_books_found_title" = "Ni najdenih načrtov porabe";
+"no_budget_books_found_message" = "Kliknite gumb \"+\" za dodajanje novega načrta porabe.";
+"no_budget_books_found_button_title" = "Nov načrt porabe";
+"no_budget_books_found_cloud_sync_message" = "Obstoječi podatki se nalagajo iz iCloud. Prosimo, počakajte trenutek...\n\nLahko tudi kliknite gumb \"+\" za dodajanje novega načrta porabe.";
+"no_budget_books_found_cloud_sync_message_short" = "Obstoječi podatki se nalagajo iz iCloud. Prosimo, počakajte trenutek...";
+"budget_books_search_placeholder_message" = "Iščite po imenu načrtu porabe";
+
+"no_accounts_title" = "Ni računov";
+"no_accounts_found_title" = "Ni najdenih računov";
+"no_accounts_found_message" = "Kliknite gumb \"+\" za dodajanje novega računa.";
+"no_accounts_found_button_title" = "Nov račun";
+"accounts_search_placeholder_message" = "Iščite po imenu računa ali vrsti računa";
+
+"no_categories_found_title" = "Ni najdenih kategorij";
+"no_categories_found_message" = "Kliknite gumb \"+\" za dodajanje nove kategorije.";
+"no_categories_found_button_title" = "Nova kategorija";
+"categories_search_placeholder_message" = "Iščite po imenu kategorije ali mape";
+
+"no_category_groups_found_title" = "Ni najdenih map";
+"no_category_groups_found_message" = "Kliknite gumb \"+\" za dodajanje nove mape.";
+"no_category_groups_found_button_title" = "Nova mapa";
+"category_groups_search_placeholder_message" = "Iščite po imenu mape";
+
+"no_payees_found_title" = "Ni najdenih plačnikov";
+"no_payees_found_message" = "Kliknite gumb \"+\" za dodajanje novega plačnika.";
+"no_payees_found_button_title" = "Nov plačnik";
+"payees_search_placeholder_message" = "Iščite po imenu plačnika";
+
+"no_tags_found_title" = "Ni najdenih oznak";
+"no_tags_found_message" = "Kliknite gumb \"+\" za dodajanje nove oznake.";
+"no_tags_found_button_title" = "Nova oznaka";
+"tags_search_placeholder_message" = "Iščite po imenu oznake";
+
+"no_reminders_found_title" = "Ni najdenih opomnikov";
+"no_reminders_found_message" = "Kliknite gumb \"+\" za dodajanje novega opomnika.";
+"no_reminders_found_button_title" = "Nov opomnik";
+"reminders_search_placeholder_message" = "Iščite po naslovu opomnika";
+
+/* Value */
+"balance" = "Stanje";
+
+
+/* MARK: - Add Item Form View */
+/* Titles */
+"form_title_edit" = "Uredi";
+
+/* Sections */
+"form_name_section_title" = "Ime";
+"form_title_section_title" = "Naslov";
+"form_color_section_title" = "Barva";
+"form_icon_section_title" = "Ikona";
+"form_assignment_section_title" = "Dodelitev";
+"form_miscellaneous_section_title" = "Razno";
+
+/* Miscellaneous */
+"number_of_selected_items" = "%d izbranih";
+
+
+/* MARK: - Add Proračunska knjiga Form View */
+/* Titles */
+"form_title_new_budgetbook" = "Nova denarnica";
+
+/* Items */
+"form_budgetbook_currency_title" = "Valuta";
+
+/* Buttons */
+"form_button_delete_budgetbook" = "Izbriši denarnico";
+
+
+/* MARK: - Add Account Form View */
+/* Titles */
+"form_title_new_account" = "Nov račun";
+
+/* Sections */
+"form_billing_section_title" = "Samodejno obračunavanje";
+"form_transactions_section_title" = "Transakcije";
+"form_account_balance_section_title" = "Stanje na računu";
+
+/* Footer */
+"form_billing_footer_title" = "Omogočite to funkcijo za samodejno poravnavo tega kreditnega karticnega računa na določen dan v mesecu.";
+"form_transactions_footer_title" = "Omogočite to funkcijo, da se nove transakcije za ta račun samodejno označijo kot \"v čakanju\".";
+"form_account_balance_footer_title" = "Spremenite začetno/skupno stanje za ročno usklajevanje stanja na računu.";
+
+/* Items */
+"form_enable_automatic_billing_title" = "Omogočeno";
+"form_billing_day_title" = "Dan obračuna";
+"form_mark_transactions_as_pending_title" = "Označi kot v čakanju";
+"form_account_type_title" = "Vrsta računa";
+"form_initial_balance_title" = "Začetno stanje";
+"form_total_balance_title" = "Skupno stanje";
+"form_use_as_default_account_title" = "Privzeti račun";
+"form_account_currency_title" = "Valuta";
+
+/* Buttons */
+"form_button_archive_account" = "Arhiviraj račun";
+"form_button_unarchive_account" = "Odarhiviraj račun";
+"form_button_delete_account" = "Izbriši račun";
+
+
+/* MARK: - Add Category Group Form View */
+/* Titles */
+"form_title_new_categorygroup" = "Nova mapa";
+
+/* Buttons */
+"form_button_delete_categorygroup" = "Izbriši mapo";
+
+
+/* MARK: - Add Category Form View */
+/* Titles */
+"form_title_new_category" = "Nova kategorija";
+
+/* Items */
+"form_category_group_title" = "Mapa";
+"form_category_group_none_type_value" = "Brez";
+
+/* Buttons */
+"form_button_delete_category" = "Izbriši kategorijo";
+
+
+/* MARK: - Add Payee Form View */
+/* Titles */
+"form_title_new_payee" = "Nov plačnik";
+
+/* Footer */
+"form_assignment_default_entries_footer_title" = "Dodelite temu plačniku račun, kategorijo ali lokacijo, ki se bo privzeto uporabljala za transakcije.";
+
+/* Items */
+"form_location_title" = "Lokacija";
+"form_location_none_type_value" = "Brez";
+
+/* Buttons */
+"form_button_delete_payee" = "Izbriši plačnika";
+
+
+/* MARK: - Add Tag Form View */
+/* Titles */
+"form_title_new_tag" = "Nova oznaka";
+
+/* Buttons */
+"form_button_delete_tag" = "Izbriši oznako";
+
+
+/* MARK: - Add Reminder Form View */
+/* Titles */
+"form_title_new_reminder" = "Nov opomnik";
+
+/* Items */
+"form_is_enabled_title" = "Omogočeno";
+
+/* Buttons */
+"form_button_preview_reminder" = "Prikaži predogled";
+"form_button_delete_reminder" = "Izbriši opomnik";
+
+/* Notifications */
+"reminder_notification_title" = "Opomnik";
+
+
+/* MARK: - Add Transaction Form View */
+/* Titles */
+"form_title_new_income" = "Nov prihodek";
+"form_title_new_expense" = "Nov odhodek";
+"form_title_new_transfer" = "Nov prenos";
+
+/* Sections */
+"form_date_section_title" = "Datum";
+"form_reminder_section_title" = "Opomnik";
+"form_location_section_title" = "Lokacija";
+"form_notes_section_title" = "Opombe";
+"form_currency_section_title" = "Valuta";
+"form_payment_status_section_title" = "Plačilo";
+"form_evaluation_section_title" = "Ocenjeno";
+"form_attachments_section_title" = "Priloge";
+"form_tags_section_title" = "Oznake";
+
+/* Items */
+"form_account_title" = "Račun";
+"form_from_account_title" = "Iz";
+"form_to_account_title" = "Na";
+"form_account_none_type_value" = "Brez";
+"form_category_title" = "Kategorija";
+"form_categories_title" = "Kategorije";
+"form_category_none_type_value" = "Brez";
+"form_payee_title" = "Plačnik";
+"form_payee_none_type_value" = "Brez";
+"form_tags_title" = "Oznake";
+"form_tag_none_type_value" = "Brez";
+"form_date_title" = "Datum";
+"form_date_format_title" = "Oblika datuma";
+"form_time_title" = "Čas";
+"form_repetition_frequency_title" = "Ponovi";
+"form_date_repetition_has_end_date_title" = "Konec";
+"form_date_repetition_end_date_title" = "Datum konca";
+"form_reminder_title" = "Aktivno";
+"form_reminder_none_type_value" = "Brez";
+"form_reminder_none_type_value_long" = "Brez opomnika";
+"form_reminder_on_due_value" = "Na datum";
+"form_location_none_type_value_long" = "Brez lokacije";
+"form_original_amount_title" = "Prvotni znesek";
+"form_exchange_rate_title" = "Menjalni tečaj";
+"form_is_selected_title" = "Izbrano";
+"form_is_pending_title" = "Na čakanju";
+"form_payed_by_title" = "Dodeljeno";
+"form_payed_by_none_type_value" = "Nihče";
+"form_include_in_statistics_title" = "Statistika";
+"form_include_in_budgets_title" = "Načrt porabe";
+
+/* Footer */
+"form_payment_status_footer_title" = "Označite plačilo kot \"v čakanju\", da znesek ne bo vključen v izračune.";
+"form_evaluation_footer_title" = "Izključite to transakcijo iz statistike in/ali proračunov, da se upošteva samo v stanju računa.";
+"form_reminded_transactions_is_invalid_footer_title" = "Info: Če želite tej transakciji dodati opomnik, morate izbrati bodisi prihodnji datum bodisi interval ponavljanja.";
+
+/* Buttons */
+"form_button_delete_transaction" = "Izbriši transakcijo";
+"form_button_end_repetition_for_transaction" = "Končaj ponavljanje";
+"form_button_clear_title" = "Počisti";
+"form_button_today_title" = "Danes";
+
+/* Miscellaneous */
+"receipt_total" = "Skupaj";
+"receipt_amount" = "Znesek";
+"receipt_to_pay" = "Za plačilo";
+
+/* Notifications */
+"transaction_notification_body" = "Znesek: %@\nDatum: %@";
+"transaction_notification_body_notes" = "Opombe: %@";
+
+
+/* MARK: - Add Budget Form View */
+/* Titles */
+"form_title_new_budget" = "Nov načrt porabe";
+
+/* Sections */
+"form_interval_section_title" = "Interval";
+
+/* Footer */
+"form_budget_amount_calculation_footer_title" = "Interval določa, kako pogosto se načrt porabe ponavlja, pri čemer se prikazani razpoložljivi znesek samodejno prilagodi izbranemu časovnemu obdobju.";
+
+/* Items */
+"form_is_cumulative_title" = "Kumulativno";
+
+/* Buttons */
+"form_button_delete_budget" = "Izbriši načrt porabe";
+
+
+/* MARK: - Assign CSV Fields Form View */
+/* Titles */
+"form_title_csv_assign_fields" = "Dodelite polja";
+
+/* Info */
+"csv_assign_fields_info_title" = "Opis";
+"csv_assign_fields_info_description" = "Prosimo, dodelite stolpce CSV datoteke, ki jo uvozite, ustreznim poljem.";
+
+/* Sections */
+"form_general_section_title" = "Splošno";
+
+/* Footer */
+"form_invalid_footer_title" = "Napaka:";
+"form_invalid_amount_footer_title" = "Vrednosti za \"%@\" niso veljavni denarni zneski.";
+"form_invalid_currency_footer_title" = "Vrednosti za \"%@\" niso veljavne valute.";
+"form_invalid_exchange_rate_footer_title" = "Vrednosti za \"%@\" niso veljavne številčne vrednosti.";
+"form_invalid_date_format_footer_title" = "Izbrani datum in/ali oblika nista veljavna.";
+"form_type_footer_title" = "Info: Izberite \"%@\" za izračun vrste transakcije na podlagi predznaka vrednosti zneska.";
+"form_date_format_footer_title" = "Primer: %@";
+
+/* Items */
+"form_type_title" = "Vrsta";
+"form_amount_title" = "Znesek";
+"form_source_currency_title" = "Izvorna valuta";
+"form_target_currency_title" = "Ciljna valuta";
+"form_budget_book_title" = "Budget";
+"form_notes_title" = "Opombe";
+"form_skip_zero_amounts_title" = "Preskoči \"0\" zneske";
+"form_skip_duplicates_title" = "Preskoči podvojene";
+"form_csv_assign_field_none_type_value" = "Nedodeljeno";
+
+
+/* MARK: - Color Selection View */
+/* Titles */
+"color_selection_title" = "Barve";
+
+/* Messages */
+"no_colors_found_title" = "Ni najdenih barv";
+"color_selection_search_placeholder_message" = "Iščite po barvi ali imenu skupine";
+
+
+/* MARK: - Icon Selection View */
+/* Titles */
+"icon_selection_title" = "Ikone";
+
+/* Messages */
+"no_icons_found_title" = "Ni najdenih ikon";
+"icon_selection_search_placeholder_message" = "Iščite po oznaki ikone ali imenu skupine";
+
+
+/* MARK: - Location Selection View */
+/* Titles */
+"location_selection_title" = "Lokacija";
+"location_selection_searchbar_placeholder" = "Išči";
+"location_selection_search_history_title" = "Nedavno";
+
+/* Buttons */
+"location_selection_select_button_title" = "Izberi";
+
+/* Alert Views */
+"location_selection_no_internet_error_title" = "Napaka";
+"location_selection_no_internet_error_message" = "Zdi se, da ni internetne povezave";
+
+
+/* MARK: - Other Alert Views */
+"alert_selected_period_changed_title" = "%@ izbrano";
+"alert_selected_period_changed_message" = "Ker se je začel %@, je bilo trenutno obdobje samodejno prilagojeno.\n\nZa preklapljanje med obdobji in ogled preteklih transakcij preprosto kliknite gumb \"%@\" v zgornjem levem kotu zaslona, nato pa izberite želeno časovno obdobje.";
+"alert_selected_period_changed_new_month" = "nov mesec";
+"alert_selected_period_changed_new_year" = "novo leto";
+
+"alert_no_mail_initialized_title" = "Ni e-poštnega računa";
+"alert_no_mail_initialized_message" = "Zdi se, da na vaši napravi nimate nastavljenega e-poštnega računa. Vendar je to obvezno za uporabo te funkcije.";
+
+"alert_no_camera_title" = "Ni kamere na voljo";
+"alert_no_camera_message" = "Zdi se, da nimate kamere. Vendar je to obvezno za uporabo te funkcije.";
+
+"alert_permissions_title" = "Skoraj ste tam!";
+"alert_permissions_activate_button" = "Aktivirajte zdaj";
+"alert_permissions_cancel_button" = "Mogoče kasneje";
+
+"alert_camera_permissions_message" = "Za fotografiranje morate samo omogočiti dostop do \"kamere\" v nastavitvah.";
+"alert_photolibrary_permissions_message" = "Za dodajanje fotografij morate samo omogočiti dostop do \"fotografij\" v nastavitvah.";
+"alert_notifications_permissions_message" = "Za prejemanje potisnih obvestil morate samo omogočiti \"obvestila\" v nastavitvah.";
+
+
+/* MARK: - Tips */
+"period_selection_tip_title" = "Spremeni obdobje";
+"period_selection_tip_message" = "Kliknite tukaj, če želite spremeniti prikazano obdobje. To vpliva na vse poglede (pregled, transakcije in denarnice).";
+"interactive_charts_tip_title" = "Interaktivni grafikoni";
+"interactive_charts_tip_message" = "Pomaknite se levo ali desno, če želite spremeniti aktivni grafikon, ali dolgo pritisnite na grafikon, če želite videti vrednosti za določen datum.";
+"switch_budget_books_tip_title" = "Preklopi denarnice";
+"switch_budget_books_tip_message" = "Dolgo pritisnite zavihek pregleda za hitro preklapljanje med vašimi denarnice.";
+
+
+/* MARK: - Watch App */
+/* Titles */
+"cloud_sync_status_section_title" = "Stanje iCloud sinhronizacije";
+"cloud_sync_status_footer_title" = "Info: Za sinhronizacijo podatkov z vašega iPhona morate biti prijavljeni v iCloud.";
+
+
+/* MARK: - Localized URLs */
+"imprintUrl" = "https://budget-flow.app/json/en/imprint.json";
+"termsOfUseUrl" = "https://www.apple.com/legal/internet-services/itunes/dev/stdeula";
+"privacyUrl" = "https://www.iubenda.com/api/privacy-policy/17322265/no-markup";
+"privacyUrlWeb" = "https://budget-flow.app/privacy-policy";
+"imprintUrlWeb" = "https://budget-flow.app/imprint";
+"familySharingUrl" = "https://www.apple.com/family-sharing";
+
+
+/* MARK: - Default Data */
+"default_account_name" = "Privzeti račun";
+
+"default_category_group_name_income" = "Prihodki";
+"default_category_name_salary" = "Plača";
+
+"default_category_group_name_free_time" = "Prosti čas";
+"default_category_name_shopping" = "Nakupovanje";
+"default_category_name_vacation" = "Dopust";
+
+"default_category_group_name_mobility" = "Mobilnost";
+"default_category_name_car" = "Avto";
+
+"default_category_group_name_groceries" = "Živila";
+"default_category_name_supermarket" = "Supermarket";
+"default_category_name_restaurant" = "Restavracija";
+"default_category_name_fast_food" = "Hitra hrana";
+
+"default_category_group_name_living" = "Bivanje";
+"default_category_name_rent" = "Najemnina";
+
+"default_category_group_name_miscellaneous" = "Razno";
+
+"default_reminder_title" = "Zabeleži stroške";
+
+
+/* MARK: - Color Sections */
+"color_section_classic_title" = "Klasično";
+"color_section_sunset_title" = "Sončni zahod";
+"color_section_afterglow_title" = "Afterglow";
+"color_section_ocean_title" = "Ocean";
+"color_section_nightsky_title" = "Nočno nebo";
+"color_section_apple_title" = "Apple Inc.";
+"color_section_pastel_title" = "Pastelne barve";
+
+
+/* MARK: - Color Keywords */
+"color_keyword_custom" = "Po meri";
+"color_keyword_red" = "Rdeča";
+"color_keyword_green" = "Zelena";
+"color_keyword_blue" = "Modra";
+"color_keyword_yellow" = "Rumena";
+"color_keyword_orange" = "Oranžna";
+"color_keyword_purple" = "Vijolična";
+"color_keyword_pink" = "Roza";
+"color_keyword_brown" = "Rjava";
+"color_keyword_mint" = "Meta";
+"color_keyword_cyan" = "Cian";
+"color_keyword_violet" = "Vijolična";
+"color_keyword_gray" = "Siva";
+
+
+/* MARK: - Icon Sections */
+"icon_section_suggestions_title" = "Predlogi";
+"icon_section_general_title" = "Splošno";
+"icon_section_mobility_title" = "Mobilnost";
+"icon_section_household_title" = "Gospodinjstvo";
+"icon_section_freetime_title" = "Prosti čas";
+"icon_section_nature_title" = "Narava";
+"icon_section_food_and_drinks_title" = "Hrana in pijača";
+"icon_section_shopping_title" = "Nakupovanje";
+"icon_section_health_title" = "Zdravje";
+"icon_section_office_title" = "Pisarna";
+"icon_section_arrows_title" = "Puščice";
+"icon_section_objects_title" = "Predmeti";
+"icon_section_people_title" = "Ljudje";
+"icon_section_buildings_title" = "Stavbe";
+"icon_section_payment_methods_title" = "Plačilni načini";
+
+
+/* MARK: - Icon Keywords */
+"icon_keyword_emoji" = "Emoji";
+"icon_keyword_tag" = "Oznaka";
+"icon_keyword_heart" = "Srce";
+"icon_keyword_star" = "Zvezda";
+"icon_keyword_folder" = "Mapa";
+"icon_keyword_bookmark" = "Zaznamek";
+"icon_keyword_building" = "Stavba";
+"icon_keyword_house" = "Hiša";
+"icon_keyword_lightbulb" = "Žarnica";
+"icon_keyword_fan" = "Ventilator";
+"icon_keyword_lamp" = "Svetilka";
+"icon_keyword_alarm_system" = "Alarmni sistem";
+"icon_keyword_webcam" = "Spletna kamera";
+"icon_keyword_camera" = "Fotoaparat";
+"icon_keyword_door" = "Vrata";
+"icon_keyword_garage" = "Garaža";
+"icon_keyword_window" = "Okno";
+"icon_keyword_blinds" = "Žaluzije";
+"icon_keyword_roller" = "Rolo";
+"icon_keyword_curtains" = "Zavese";
+"icon_keyword_air_purifier" = "Prečiščevalnik zraka";
+"icon_keyword_dehumidifier" = "Izsuševalnik";
+"icon_keyword_humidifier" = "Vlažilec zraka";
+"icon_keyword_heater" = "Grelnik";
+"icon_keyword_air_conditioner" = "Klima";
+"icon_keyword_sprinkler" = "Pršilnik";
+"icon_keyword_trash" = "Koš za smeti";
+"icon_keyword_spigot" = "Pipe";
+"icon_keyword_shower" = "Prha";
+"icon_keyword_bathtub" = "Kad";
+"icon_keyword_pipe" = "Vodna cev";
+"icon_keyword_hifi_reveiver" = "Hifi sistem";
+"icon_keyword_video_projector" = "Video projektor";
+"icon_keyword_beamer" = "Projektor";
+"icon_keyword_wifi_router" = "Wifi usmerjevalnik";
+"icon_keyword_internet" = "Internet";
+"icon_keyword_party" = "Zabava";
+"icon_keyword_balloon" = "Balon";
+"icon_keyword_pan" = "Ponev";
+"icon_keyword_cooking" = "Kuhanje";
+"icon_keyword_kitchen" = "Kuhinja";
+"icon_keyword_popcorn" = "Pokovka";
+"icon_keyword_cinema" = "Kino";
+"icon_keyword_movie" = "Film";
+"icon_keyword_food" = "Hrana";
+"icon_keyword_bed" = "Postelja";
+"icon_keyword_bedroom" = "Spalnica";
+"icon_keyword_hotel" = "Hotel";
+"icon_keyword_sofa" = "Kavč";
+"icon_keyword_couch" = "Kavč";
+"icon_keyword_livingroom" = "Dnevna soba";
+"icon_keyword_chair" = "Stol";
+"icon_keyword_armchair" = "Fotelja";
+"icon_keyword_cabinet" = "Omarica";
+"icon_keyword_fireplace" = "Kamin";
+"icon_keyword_washer" = "Pralni stroj";
+"icon_keyword_dryer" = "Sušilni stroj";
+"icon_keyword_dishwasher" = "Pomivalni stroj";
+"icon_keyword_oven" = "Pečica";
+"icon_keyword_stove" = "Štedilnik";
+"icon_keyword_microwave" = "Mikrovalovna pečica";
+"icon_keyword_refrigerator" = "Hladilnik";
+"icon_keyword_sink" = "Korito";
+"icon_keyword_toilet" = "WC";
+"icon_keyword_bathroom" = "Kopalnica";
+"icon_keyword_tv_remote" = "Daljinec";
+"icon_keyword_tv" = "TV";
+"icon_keyword_person" = "Oseba";
+"icon_keyword_human" = "Človek";
+"icon_keyword_airplane" = "Letalo";
+"icon_keyword_vacation" = "Počitnice";
+"icon_keyword_car" = "Avto";
+"icon_keyword_electric_car" = "Električni avto";
+"icon_keyword_charging_station" = "Polnilna postaja";
+"icon_keyword_car_pool" = "Souporaba avtomobila";
+"icon_keyword_bus" = "Avtobus";
+"icon_keyword_tram" = "Vlak";
+"icon_keyword_railroad" = "Železnica";
+"icon_keyword_cablecar" = "Tramvaj";
+"icon_keyword_ferry" = "Trajekt";
+"icon_keyword_ship" = "Ladja";
+"icon_keyword_truck" = "Tovornjak";
+"icon_keyword_relocation" = "Premestitev";
+"icon_keyword_bicycle" = "Kolo";
+"icon_keyword_sport" = "Šport";
+"icon_keyword_scooter" = "Skuter";
+"icon_keyword_sailboat" = "Jadrnica";
+"icon_keyword_fuel" = "Gorivo";
+"icon_keyword_refuel" = "Natočiti gorivo";
+"icon_keyword_gas_station" = "Bencinska črpalka";
+"icon_keyword_walking" = "Hoja";
+"icon_keyword_running" = "Tek";
+"icon_keyword_rugby" = "Rugby";
+"icon_keyword_badminton" = "Badminton";
+"icon_keyword_tennis" = "Tenis";
+"icon_keyword_dancing" = "Ples";
+"icon_keyword_skiing" = "Smučanje";
+"icon_keyword_swimming" = "Plavanje";
+"icon_keyword_skating" = "Drsanje";
+"icon_keyword_strengthtraining" = "Trening moči";
+"icon_keyword_gym" = "Telovadnica";
+"icon_keyword_yoga" = "Joga";
+"icon_keyword_bowling" = "Balinanje";
+"icon_keyword_sportscourt" = "Športno igrišče";
+"icon_keyword_stadium" = "Stadion";
+"icon_keyword_soccer" = "Nogomet";
+"icon_keyword_golf" = "Golf";
+"icon_keyword_baseball" = "Baseball";
+"icon_keyword_basketball" = "Košarka";
+"icon_keyword_volleyball" = "Odbojka";
+"icon_keyword_trophy" = "Pokal";
+"icon_keyword_medal" = "Kolajna";
+"icon_keyword_flag" = "Zastava";
+"icon_keyword_race" = "Avtomobilska dirka";
+"icon_keyword_gamecontroller" = "Igralni krmilnik";
+"icon_keyword_videogames" = "Video igre";
+"icon_keyword_gaming" = "Igranje iger";
+"icon_keyword_playstation" = "PlayStation";
+"icon_keyword_xbox" = "Xbox";
+"icon_keyword_nintento_switch" = "Nintendo Switch";
+"icon_keyword_book" = "Knjiga";
+"icon_keyword_books" = "Knjige";
+"icon_keyword_magazine" = "Revija";
+"icon_keyword_reading" = "Branje";
+"icon_keyword_painting" = "Barvanje";
+"icon_keyword_drawing" = "Risanje";
+"icon_keyword_theater" = "Gledališče";
+"icon_keyword_singing" = "Petje";
+"icon_keyword_karaoke" = "Karaoke";
+"icon_keyword_music" = "Glasba";
+"icon_keyword_spotify" = "Spotify";
+"icon_keyword_apple_music" = "Apple Music";
+"icon_keyword_piano" = "Klavir";
+"icon_keyword_guitar" = "Kitara";
+"icon_keyword_rockband" = "Rock skupina";
+"icon_keyword_festival" = "Festival";
+"icon_keyword_tent" = "Šotor";
+"icon_keyword_dice" = "Kocka";
+"icon_keyword_boardgames" = "Družabne igre";
+"icon_keyword_gambling" = "Igre na srečo";
+"icon_keyword_camera" = "Fotoaparat";
+"icon_keyword_photography" = "Fotografija";
+"icon_keyword_photo" = "Fotka";
+"icon_keyword_world" = "Svet";
+"icon_keyword_globe" = "Globus";
+"icon_keyword_sun" = "Sonce";
+"icon_keyword_summer" = "Poletje";
+"icon_keyword_moon" = "Luna";
+"icon_keyword_stars" = "Zvezde";
+"icon_keyword_cloud" = "Oblaki";
+"icon_keyword_icloud" = "iCloud";
+"icon_keyword_rain" = "Dež";
+"icon_keyword_flame" = "Plamen";
+"icon_keyword_fire" = "Ogenj";
+"icon_keyword_snow" = "Sneg";
+"icon_keyword_winter" = "Zima";
+"icon_keyword_bolt" = "Strela";
+"icon_keyword_plug" = "Vtič";
+"icon_keyword_electric" = "Elektrika";
+"icon_keyword_electrics" = "Elektrika";
+"icon_keyword_electricity" = "Elektrika";
+"icon_keyword_tornado" = "Tornado";
+"icon_keyword_sea" = "Morje";
+"icon_keyword_hare" = "Zajec";
+"icon_keyword_rabbit" = "Zajec";
+"icon_keyword_animal" = "Žival";
+"icon_keyword_tortoise" = "Želva";
+"icon_keyword_lizard" = "Kuščar";
+"icon_keyword_bird" = "Ptica";
+"icon_keyword_ant" = "Mravlja";
+"icon_keyword_ladybug" = "Hrošč";
+"icon_keyword_fish" = "Riba";
+"icon_keyword_pet" = "Hišni ljubljenček";
+"icon_keyword_cat" = "Mačka";
+"icon_keyword_dog" = "Pes";
+"icon_keyword_leaf" = "List";
+"icon_keyword_plant" = "Rastlina";
+"icon_keyword_flower" = "Cvet";
+"icon_keyword_eating" = "Jest";
+"icon_keyword_restaurant" = "Restavracija";
+"icon_keyword_drinking" = "Piti";
+"icon_keyword_cafe" = "Kavarna";
+"icon_keyword_coffee" = "Kava";
+"icon_keyword_fastfood" = "Hitra hrana";
+"icon_keyword_picnic" = "Piknik";
+"icon_keyword_wine" = "Vino";
+"icon_keyword_birthday" = "Rojstni dan";
+"icon_keyword_cake" = "Torta";
+"icon_keyword_carrot" = "Korenje";
+"icon_keyword_vegetables" = "Zelenjava";
+"icon_keyword_bag" = "Torba";
+"icon_keyword_cone" = "Torba";
+"icon_keyword_shopping" = "Nakupovanje";
+"icon_keyword_supermarket" = "Supermarket";
+"icon_keyword_groceries" = "Živila";
+"icon_keyword_creditcard" = "Kreditna kartica";
+"icon_keyword_giftcard" = "Darilna kartica";
+"icon_keyword_gift" = "Darilo";
+"icon_keyword_clothes" = "Oblačila";
+"icon_keyword_clothing" = "Oblačila";
+"icon_keyword_globe" = "Globus";
+"icon_keyword_online" = "Spletno";
+"icon_keyword_internet" = "Internet";
+"icon_keyword_amazon" = "Amazon";
+"icon_keyword_package" = "Paket";
+"icon_keyword_apple" = "Apple";
+"icon_keyword_banknote" = "Bankovec";
+"icon_keyword_refund" = "Vračilo";
+"icon_keyword_dollar" = "Dolarji";
+"icon_keyword_cents" = "Cent";
+"icon_keyword_yen" = "Jen";
+"icon_keyword_pound" = "Funt";
+"icon_keyword_franc" = "Frank";
+"icon_keyword_lira" = "Lira";
+"icon_keyword_ruble" = "Rubelj";
+"icon_keyword_euro" = "Evro";
+"icon_keyword_rupee" = "Rupija";
+"icon_keyword_peso" = "Peso";
+"icon_keyword_bitcoin" = "Bitcoin";
+"icon_keyword_real" = "Brazilski real";
+"icon_keyword_case" = "Kovček";
+"icon_keyword_lungs" = "Pljuča";
+"icon_keyword_allergens" = "Alergije";
+"icon_keyword_thermometer" = "Termometer";
+"icon_keyword_bandage" = "Obanda";
+"icon_keyword_syringe" = "Brizga";
+"icon_keyword_medicine" = "Zdravilo";
+"icon_keyword_drug" = "Droga";
+"icon_keyword_facemask" = "Mask";
+"icon_keyword_pills" = "Tablete";
+"icon_keyword_cross" = "Križ";
+"icon_keyword_hospital" = "Bolnica";
+"icon_keyword_ivfluid" = "Infuzija";
+"icon_keyword_eye" = "Oko";
+"icon_keyword_brain" = "Možgani";
+"icon_keyword_ear" = "Uho";
+"icon_keyword_mouth" = "Usta";
+"icon_keyword_ecg" = "EKG";
+"icon_keyword_shield" = "Ščit";
+"icon_keyword_insurance" = "Zavarovanje";
+"icon_keyword_video_conference" = "Video konferenca";
+"icon_keyword_facetime" = "Facetime";
+"icon_keyword_phone" = "Telefon";
+"icon_keyword_mobilephone" = "Mobilni telefon";
+"icon_keyword_iphone" = "iPhone";
+"icon_keyword_tablet" = "Tablica";
+"icon_keyword_ipad" = "iPad";
+"icon_keyword_macintosh" = "Macintosh";
+"icon_keyword_macbook" = "Macbook";
+"icon_keyword_imac" = "iMac";
+"icon_keyword_smartphone" = "Pametni telefon";
+"icon_keyword_calling" = "Klicanje";
+"icon_keyword_message" = "Sporočilo";
+"icon_keyword_envelope" = "Ovojnica";
+"icon_keyword_mail" = "Pošta";
+"icon_keyword_email" = "E-pošta";
+"icon_keyword_chart" = "Grafikon";
+"icon_keyword_stocks" = "Delnice";
+"icon_keyword_investment" = "Naložba";
+"icon_keyword_signature" = "Podpis";
+"icon_keyword_contract" = "Pogodba";
+"icon_keyword_computer" = "Računalnik";
+"icon_keyword_pc" = "PC";
+"icon_keyword_display" = "Monitor";
+"icon_keyword_mouse" = "Miška";
+"icon_keyword_keyboard" = "Tipkovnica";
+"icon_keyword_printer" = "Tiskalnik";
+"icon_keyword_scanner" = "Optični bralnik";
+"icon_keyword_pin" = "Pripinjač";
+"icon_keyword_paperclip" = "Sponka za papir";
+"icon_keyword_clipboard" = "Odložišče";
+"icon_keyword_list" = "Seznam";
+"icon_keyword_server" = "Strežnik";
+"icon_keyword_simcard" = "Sim kartica";
+"icon_keyword_bank" = "Banka";
+"icon_keyword_apple_watch" = "Apple Watch";
+"icon_keyword_clock" = "Ura";
+"icon_keyword_alarm" = "Budilka";
+"icon_keyword_box" = "Škatla";
+"icon_keyword_wand" = "Čarobna paličica";
+"icon_keyword_hourglass" = "Peščena ura";
+"icon_keyword_newspaper" = "Časopis";
+"icon_keyword_wrench" = "Ključ";
+"icon_keyword_screwdriver" = "Izvijač";
+"icon_keyword_hammer" = "Kladivo";
+"icon_keyword_craftsman" = "Obrtnik";
+"icon_keyword_tools" = "Orodje";
+"icon_keyword_plumber" = "Vodovodar";
+"icon_keyword_construction_market" = "Gradbeni trg";
+"icon_keyword_scissors" = "Škarje";
+"icon_keyword_hairdresser" = "Frizer";
+"icon_keyword_key" = "Ključ";
+"icon_keyword_school" = "Šola";
+"icon_keyword_university" = "Univerza";
+"icon_keyword_study" = "Študij";
+"icon_keyword_tuition_fees" = "Šolnina";
+"icon_keyword_flashlight" = "Baterijska svetilka";
+"icon_keyword_bell" = "Zvon";
+"icon_keyword_subscription" = "Naročnina";
+"icon_keyword_loupe" = "Povečevalno steklo";
+"icon_keyword_binoculars" = "Daljnogled";
+"icon_keyword_rosette" = "Rozeta";
+"icon_keyword_crown" = "Krona";
+"icon_keyword_umbrella" = "Dežnik";
+"icon_keyword_beach" = "Plaža";
+"icon_keyword_megaphone" = "Megafon";
+"icon_keyword_advertisement" = "Oglas";
+"icon_keyword_puzzle" = "Uganka";
+"icon_keyword_lab" = "Laboratorij";
+"icon_keyword_calendar" = "Koledar";
+"icon_keyword_rent" = "Najemnina";
+"icon_keyword_flat" = "Stanovanje";
+"icon_keyword_work" = "Delo";
+"icon_keyword_salary" = "Plača";
+"icon_keyword_corona" = "Corona";
+"icon_keyword_rainbow" = "Mavrica";
+"icon_keyword_glasses" = "Očala";
+"icon_keyword_sunglasses" = "Sončna očala";
+"icon_keyword_discount" = "Popust";
+"icon_keyword_percent" = "Odstotek";
+"icon_keyword_wallet" = "Denarnica";
+"icon_keyword_convertible" = "Kabriolet";
+"icon_keyword_drone" = "Dron";
+"icon_keyword_motorcycle" = "Motorno kolo";
+"icon_keyword_tire" = "Pnevmatika";
+"icon_keyword_oilcan" = "Kanca za olje";
+"icon_keyword_keys" = "Ključi";
+"icon_keyword_fire_extinguisher" = "Gašilni aparat";
+"icon_keyword_hockey" = "Hokej";
+"icon_keyword_ice_hockey" = "Hokej na ledu";
+"icon_keyword_ice_skating" = "Drsanje na ledu";
+"icon_keyword_rowing" = "Veslanje";
+"icon_keyword_inhaler" = "Inhalator";
+"icon_keyword_wheelchair" = "Invozidelska stolica";
+"icon_keyword_vacuum" = "Pralni stroj";
+"icon_keyword_doctor" = "Zdravnik";
+"icon_keyword_dentist" = "Zobozdravnik";
+"icon_keyword_parking" = "Parkirišče";
+
+
+/* MARK: - App Intents */
+/* Entities */
+"budget_book_entity_name" = "Ime denarnice";
+"account_entity_name" = "Račun";
+"category_group_entity_name" = "Mapa";
+"category_entity_name" = "Kategorija";
+"payee_entity_name" = "Plačnik";
+
+/* Categories */
+"add_category_name" = "Dodaj";
+"open_category_name" = "Odpri";
+"show_category_name" = "Prikaži";
+"search_category_name" = "Išči";
+
+/* Search */
+"search_budget_book_title" = "Iskanje proračunska knjiga";
+"search_budget_book_description" = "Iskanje določenega proračunska knjiga po imenu.";
+"search_budget_book_parameter_summary" = "Iskanje proračunska knjiga z ${name}";
+"search_account_title" = "Iskanje računa";
+"search_account_description" = "Iskanje določenega računa po imenu.";
+"search_account_parameter_summary" = "Iskanje računa z ${name} v ${budgetBook}";
+"search_category_group_title" = "Iskanje mape";
+"search_category_group_description" = "Iskanje določene mape po imenu.";
+"search_category_group_parameter_summary" = "Iskanje mape z ${name} v ${budgetBook}";
+"search_category_title" = "Iskanje kategorije";
+"search_category_description" = "Iskanje določene kategorije po imenu.";
+"search_category_parameter_summary" = "Iskanje kategorije z ${name} v ${categoryGroup} od ${budgetBook}";
+"search_payee_title" = "Iskanje plačnika";
+"search_payee_description" = "Iskanje določenega plačnika po imenu.";
+"search_payee_parameter_summary" = "Iskanje plačnika z ${name} v ${budgetBook}";
+
+"name_parameter_title" = "Ime";
+"name_parameter_dialog" = "Kako je ime?";
+
+"budget_book_parameter_title" = "Proračunska knjiga";
+"budget_book_parameter_description" = "Povezan proračunska knjiga.";
+"budget_book_parameter_dialog" = "Kateri proračunska knjiga je povezan?";
+"category_group_parameter_title" = "Mapa";
+"category_group_parameter_description" = "Povezana mapa.";
+"category_group_parameter_dialog" = "Katera mapa je povezana?";
+
+/* Open */
+"open_add_new_income_view_title" = "Dodaj nov prihodek";
+"open_add_new_income_view_description" = "Odpre pogled za dodajanje novega prihodka v aplikaciji.";
+"open_add_new_expense_view_title" = "Dodaj nov odhodek";
+"open_add_new_expense_view_description" = "Odpre pogled za dodajanje novega odhodka v aplikaciji.";
+"open_add_new_transfer_view_title" = "Dodaj nov transfer";
+"open_add_new_transfer_view_description" = "Odpre pogled za dodajanje novega transferja v aplikaciji.";
+"open_add_new_recurring_view_title" = "Dodaj novo ponavljajočo transakcijo";
+"open_add_new_recurring_view_description" = "Odpre pogled za dodajanje nove ponavljajoče transakcije v aplikaciji.";
+"open_upcoming_transactions_view_title" = "Načrtovane transakcije";
+"open_upcoming_transactions_view_description" = "Odpre pogled za načrtovane transakcije v aplikaciji.";
+
+/* Show */
+"show_chart_title" = "Prikaži graf";
+"show_chart_description" = "Prikaže graf vaših stanj na računu, prihodkov ali odhodkov za določeno obdobje.";
+"show_chart_parameter_summary" = "Prikaži ${type} graf za ${periodType}";
+
+"chart_type_parameter_title" = "Vrsta";
+"chart_type_dialog" = "Kakšen graf želite?";
+"chart_type_account_balances_title" = "Stanja na računu";
+"chart_type_balance_title" = "Stanje";
+"chart_type_total_income_title" = "Skupni prihodki";
+"chart_type_total_expenses_title" = "Skupni odhodki";
+"chart_type_fixed_expenses_title" = "Fiksni odhodki";
+"chart_type_variable_expenses_title" = "Spremenljivi odhodki";
+
+"chart_period_type_parameter_title" = "Obdobje";
+"chart_period_type_dialog" = "Katero obdobje želite pregledati?";
+"chart_type_current_month_title" = "Trenutni mesec";
+"chart_type_current_year_title" = "Trenutno leto";
+
+
+/* MARK: - Dummy Data */
+"default_budget_book_name" = "Moja denarnica";
+"family_budget_book_name" = "Družinska knjiga proračuna";
+"shared_budget_book_name" = "Skupna knjiga proračuna";
+"default_credit_card_name" = "Kreditna kartica";
+"default_location_address" = "Fürstenberg";

@@ -1,0 +1,2069 @@
+/*
+  Localizable.strings
+  BudgetFlow
+
+  Created by Fabian Hasse on 19.05.20.
+  Copyright © 2020 Fabian Hasse. All rights reserved.
+*/
+
+/* MARK: - General */
+"app_name" = "Budget Flow";
+
+"feedback_quick_action_title" = "Zpětná vazba";
+"feedback_quick_action_subtitle" = "Kliknutím sem můžete poskytnout zpětnou vazbu k aplikaci.";
+"income_quick_action_title" = "Nový příjem";
+"expense_quick_action_title" = "Nové výdaje";
+"transfer_quick_action_title" = "Nový převod";
+"recurring_quick_action_title" = "Opakující se";
+
+
+/* MARK: - Miscellaneous */
+"face_id" = "Face ID";
+"touch_id" = "Touch ID";
+"required" = "Vyžadováno";
+"optional" = "Volitelné";
+"uncategorized" = "Necategorized";
+"before" = "před";
+"account_reconcilation" = "Smíření účtu";
+"evaluated" = "Vyhodnoceno";
+"not_evaluated" = "Nevyhodnoceno";
+"share_participant_owner" = "Vlastník";
+"share_participant_you" = "Ty";
+
+
+/* MARK: - Enums */
+"account_type_cash" = "Hotovost";
+"account_type_payment" = "Platební účet";
+"account_type_savings" = "Spořící účet";
+"account_type_credit_card" = "Kreditní karta";
+"account_type_investment" = "Investice";
+"account_type_precaution" = "Opatření";
+"account_type_liability" = "Odpovědnost";
+"account_type_business" = "Obchodní účet";
+
+"account_type_payment_plural" = "Platební účty";
+"account_type_savings_plural" = "Spořící účty";
+"account_type_credit_card_plural" = "Kreditní karty";
+"account_type_investment_plural" = "Investice";
+"account_type_precaution_plural" = "Upozornění";
+"account_type_liability_plural" = "Závazky";
+"account_type_business_plural" = "Obchodní účty";
+
+"transaction_type_income" = "Příjem";
+"transaction_type_expense" = "Výdaj";
+"transaction_type_transfer" = "Převod";
+
+"transaction_type_income_plural" = "Příjmy";
+"transaction_type_expense_plural" = "Výdaje";
+"transaction_type_transfer_plural" = "Převody";
+
+"payment_status" = "Stav";
+"payment_status_completed" = "Dokončeno";
+"payment_status_pending" = "Nevyřízeno";
+
+"attachment_type_image" = "Fotografie";
+"attachment_type_image_plural" = "Fotografie";
+"attachment_type_document" = "Dokument";
+"attachment_type_document_plural" = "Dokumenty";
+
+"period_type_month" = "Měsíc";
+"period_type_year" = "Rok";
+"period_type_custom" = "Datum";
+
+"sort_type_alphabetically" = "Abecedně";
+"sort_type_date" = "Datum";
+"sort_type_amount" = "Částka";
+"sort_type_type" = "Typ";
+
+"sort_option_ascending" = "Vzestupně";
+"sort_option_descending" = "Sestupně";
+
+"group_option_day" = "Den";
+"group_option_month" = "Měsíc";
+"group_option_account" = "Účet";
+"group_option_category" = "Kategorie";
+"group_option_category_group" = "Složka";
+"group_option_type" = "Typ";
+"group_option_payee" = "Příjemce";
+"group_option_repetition_frequency" = "Interval";
+
+"date_repetition_frequency_never" = "Nikdy";
+"date_repetition_frequency_daily" = "Denně";
+"date_repetition_frequency_weekly" = "Týdně";
+"date_repetition_frequency_everyTwoWeeks" = "Každé 2 týdny";
+"date_repetition_frequency_everyThreeWeeks" = "Každé 3 týdny";
+"date_repetition_frequency_everyFourWeeks" = "Každé 4 týdny";
+"date_repetition_frequency_monthly" = "Měsíčně";
+"date_repetition_frequency_everyTwoMonths" = "Každé 2 měsíce";
+"date_repetition_frequency_everyThreeMonths" = "Čtvrtletně";
+"date_repetition_frequency_everySixMonths" = "Půlročně";
+"date_repetition_frequency_yearly" = "Roční";
+"date_repetition_frequency_custom" = "Vlastní";
+
+"csv_transaction_type_automatic" = "Automaticky";
+"csv_transaction_type_income" = "Příjem";
+"csv_transaction_type_expenses" = "Výdaje";
+
+"passcode_type_four_digits" = "Čtyřmístný číselný přístupový kód";
+"passcode_type_six_digits" = "Šestimístný číselný přístupový kód";
+"passcode_type_custom_numeric" = "Vlastní číselný kód";
+"passcode_type_custom_alphanumeric" = "Vlastní alfanumerický kód";
+
+"auto_lock_time_type_immediately" = "Okamžitě";
+"auto_lock_time_type_after_one_minute" = "Po 1 minutě";
+"auto_lock_time_type_after_five_minutes" = "Po 5 minutách";
+"auto_lock_time_type_after_fifteen_minutes" = "Po 15 minutách";
+"auto_lock_time_type_after_one_hour" = "Po 1 hodině";
+"auto_lock_time_type_after_four_hours" = "Po 4 hodinách";
+
+"widget_type_chart_stack" = "Grafy";
+"widget_type_suggestions" = "Návrhy";
+"widget_type_distribution" = "Distribuce";
+"widget_type_balance" = "Zůstatek";
+"widget_type_savings_rate" = "Uloženo";
+"widget_type_upcoming_transactions" = "Plánováno";
+"widget_type_participants" = "Lidé";
+"widget_type_budget" = "Rozpočet";
+"widget_type_pending_transactions" = "Nevyřízeno";
+"widget_type_total_assets" = "Aktiva";
+"widget_type_forecast" = "Prognóza";
+
+"chart_type_bar" = "Sloupcový graf";
+"chart_type_pie" = "Výsečový graf";
+
+"category_chart_data_type_category" = "Kategorie";
+"category_chart_data_type_category_group" = "Složka";
+
+"product_type_individual" = "Jednotlivec";
+"product_type_family" = "Rodina";
+
+"subscription_period_day" = "Den";
+"subscription_period_days" = "dny";
+"subscription_period_month" = "Měsíc";
+"subscription_period_months" = "Měsíce";
+"subscription_period_year" = "rok";
+"subscription_period_years" = "Roky";
+
+"overview_period_type_current_week" = "Tento týden";
+
+"quick_action_type_new_income" = "Nový příjem";
+"quick_action_type_new_expense" = "Nové výdaje";
+"quick_action_type_new_transfer" = "Nový převod";
+"quick_action_type_new_recurring" = "Opakující se";
+
+"suggestion_type_add_income_transaction" = "Nový příjem";
+"suggestion_type_add_expense_transaction" = "Nové náklady";
+
+"user_interface_style_system" = "Systém";
+"user_interface_style_light" = "Světlo";
+"user_interface_style_dark" = "Tmavý";
+
+"transaction_title_type_category" = "Kategorie";
+"transaction_title_type_payee" = "Příjemce";
+"transaction_title_type_notes" = "Poznámky";
+
+"transaction_subtitle_type_none" = "Žádný";
+"transaction_subtitle_type_category" = "Kategorie";
+"transaction_subtitle_type_payee" = "Příjemce";
+"transaction_subtitle_type_notes" = "Poznámky";
+
+"time_zone_type_floating" = "Plovoucí";
+"time_zone_type_floating_title" = "Plovoucí časové pásmo";
+"time_zone_type_floating_subtitle" = "Přizpůsobuje se vaší místní časové zóně";
+
+
+/* MARK: - Custom Date Repetition */
+"frequency" = "Frekvence";
+
+"every" = "každý";
+"every_day" = "Každý";
+"every_week" = "každý";
+"every_month" = "Každý";
+"every_year" = "Každý";
+"every_day_plural" = "Každý";
+"every_week_plural" = "Každý";
+"every_month_plural" = "Každý";
+"every_year_plural" = "Každý";
+
+"each" = "Každý";
+"on_the" = "Na...";
+"days_of_week" = "Dny v týdnu";
+"last_day" = "Poslední den";
+
+"daily" = "Denně";
+"weekly" = "Týdně";
+"monthly" = "Měsíčně";
+"yearly" = "Roční";
+
+"first" = "1.";
+"second" = "2.";
+"third" = "3.";
+"fourth" = "4.";
+"fifth" = "5.";
+"last" = "poslední";
+
+
+/* MARK: - Menu Bar */
+"accounts_menu_title" = "Účty";
+"show_accounts_menu_title" = "Zobrazit všechny účty";
+"budgets_menu_title" = "Rozpočty";
+"show_budgets_menu_title" = "Zobrazit všechny rozpočty";
+"transactions_menu_title" = "Transakce";
+"show_all_transactions_menu_title" = "Zobrazit všechny transakce";
+"show_recurring_transactions_menu_title" = "Zobrazit opakované transakce";
+"show_upcoming_transactions_menu_title" = "Zobrazit plánované transakce";
+
+
+/* MARK: - Sidebar Menu */
+"menu" = "Nabídka";
+"menu_accounts_section" = "Účty";
+"menu_categories_section" = "Kategorie";
+"menu_selected_budget_book_title" = "Vybráno";
+
+
+/* MARK: - Tabs */
+"dashboard_tab" = "Přehled";
+"transactions_tab" = "Transakce";
+"budgets_tab" = "Rozpočty";
+"settings_tab" = "Nastavení";
+
+
+/* MARK: - Buttons */
+"add_button" = "Přidat";
+"edit_button" = "Upravit";
+"copy_button" = "Kopírovat";
+"edit_account_button" = "Upravit účet";
+"edit_category_button" = "Upravit kategorii";
+"edit_category_group_button" = "Upravit složku";
+"edit_payee_button" = "Upravit příjemce";
+"edit_tag_button" = "Upravit značku";
+"edit_budget_button" = "Upravit rozpočet";
+"multi_selection_button" = "Vícenásobný výběr";
+"back_button" = "Zpět";
+"done_button" = "Hotovo";
+"save_button" = "Uložit";
+"import_button" = "Import";
+"unlock_button" = "Odemknout";
+"cancel_button" = "Zrušit";
+"close_button" = "Zavřít";
+"delete_button" = "Smazat";
+"end_repetition_button" = "Konec opakování";
+"reset_button" = "Resetovat";
+"apply_button" = "Použít";
+"yes_button" = "Ano";
+"no_button" = "Ne";
+"ok_button" = "OK";
+"faq_button" = "FAQ";
+"create_reminder_button" = "Vytvořit připomenutí";
+"remove_reminder_button" = "Odstranit připomenutí";
+"do_not_show_again_button" = "Nezobrazovat znovu";
+"mark_as_paid_button" = "Platba dokončena";
+"mark_as_pending_button" = "Nevyřízená platba";
+"show_contra_entry_button" = "Počítadlo";
+
+"save_changes_button" = "Uložit změny";
+"discard_changes_button" = "Zahodit změny";
+
+"show_help_center_button" = "Centrum nápovědy (🇬🇧)";
+"contact_developer_button" = "Kontaktovat vývojáře";
+
+"filter_button" = "Filtr";
+"sort_button" = "Třídit";
+"sort_categories_button" = "Třídit kategorie";
+"sort_category_groups_button" = "Třídit složky";
+"group_button" = "Skupina";
+"configure_button" = "Konfigurovat";
+
+"show_filter_button" = "Zobrazit filtr";
+
+"show_amount_values_button" = "Zobrazit částky";
+"hide_amount_values_button" = "Skrýt částky";
+
+"take_photo_button" = "Vyfotit";
+"select_photos_button" = "Vybrat fotografie";
+"select_documents_button" = "Vybrat dokumenty";
+"scan_receipt_button" = "Skenovat potvrzení";
+"select_receipt_button" = "Vyberte účtenku";
+"select_from_files_button" = "Soubory";
+"select_from_library_button" = "Knihovna fotek";
+
+"open_button" = "Otevřít";
+"open_folder_button" = "Otevřít složku";
+"open_in_browser_button" = "Otevřít v prohlížeči";
+
+"show_more_button" = "Zobrazit více";
+"show_less_button" = "Zobrazit méně";
+
+"add_category_button" = "Nová kategorie";
+"add_category_group_button" = "Nová složka";
+
+"add_income_transaction_button" = "Nový příjem";
+"add_expense_transaction_button" = "Nové náklady";
+"add_transfer_transaction_button" = "Nový převod";
+
+"manage_budget_books_button" = "Spravovat rozpočtové knihy";
+"select_budget_book_button" = "Vybrat knihu rozpočtu";
+"edit_budget_book_button" = "Upravit knihu rozpočtu";
+
+"continue_button" = "Pokračovat";
+"skip_button" = "Přeskočit";
+"accept_button" = "Přijmout";
+"get_started_button" = "Začínáme";
+
+"show_transactions_button" = "Zobrazit transakce";
+"show_in_app_store_button" = "Zobrazit v App Store";
+
+"flip_values_button" = "Převrátit ⇅";
+
+"learn_more" = "Další informace";
+
+
+/* MARK: - Share View */
+/* Titles */
+"share_title" = "Sdílet";
+
+/* Alert Views */
+"alert_sync_shares_in_progress_title" = "Synchronizuji...";
+"alert_sync_shares_in_progress_message" = "Vaše rozpočtové knihy se synchronizují s iCloud, takže máte přístup ke sdílenému obsahu. Buďte prosím trpěliví...";
+"alert_cloud_share_quota_exceeded_error_message" = "Sdílení nelze dokončit, protože na vašem iCloudu není dostatek místa. Uvolněte místo a zkuste to znovu.";
+"alert_cloud_share_unknown_error_message" = "Sdílení nelze dokončit, protože došlo k chybě. Na vašem iCloudu pravděpodobně není dostatek místa. Uvolněte místo a zkuste to znovu.";
+
+
+/* MARK: - Search View */
+/* Titles */
+"search_title" = "Hledat";
+"filter_title" = "Filtr";
+
+/* Sections */
+"search_text_section_title" = "Hledaný text";
+"search_suggestions_section_title" = "Návrhy";
+
+
+/* MARK: - Period Selection View */
+/* Titles */
+"period_selection_title" = "Období";
+"period_selection_current_year_title" = "Aktuální rok";
+"period_selection_current_month_title" = "Aktuální měsíc";
+
+/* Items */
+"from_title" = "Od";
+"to_title" = "Do";
+
+
+/* MARK: - Dashboard View */
+/* Titles */
+"configure_title" = "Konfigurovat";
+"balance_widget_income_title" = "Příjem";
+"balance_widget_expenses_title" = "Výdaje";
+"savings_rate_widget_absolute_title" = "Absolutně";
+"savings_rate_widget_percentual_title" = "Procento";
+"budget_widget_planned_title" = "Plánováno";
+"budget_widget_remaining_title" = "Dostupné";
+"total_assets_widget_absolute_title" = "Absolutně";
+"total_assets_widget_trend_title" = "Trend";
+"forecast_widget_upcoming_title" = "Plánováno";
+"forecast_widget_pending_title" = "Nevyřízeno";
+"forecast_widget_final_balance_title" = "Konečný zůstatek";
+"pie_chart_widget_transactions_title" = "Transakce";
+"pie_chart_widget_categories_title" = "Kategorie";
+
+/* Sections */
+"inactive_widgets_section_title" = "Další widgety";
+
+/* Footer */
+"participants_widget_footer_title" = "Informace: Widget \"lidé\" se zobrazí pouze u sdílených rozpočtových knih.";
+
+/* Messages */
+"no_widgets_title" = "Nebyly přidány žádné widgety";
+"no_widgets_message" = "Kliknutím na tlačítko \"pero\" nakonfigurujete zobrazení.";
+"no_suggestions_title" = "Žádné návrhy";
+"not_shared_title" = "Rozpočtová kniha není sdílena";
+
+/* Widgets */
+"net_worth_widget_title" = "Čistá hodnota";
+"account_balances_widget_title" = "Zůstatky na účtech";
+"balance_widget_title" = "Zůstatek";
+"total_income_widget_title" = "Celkový příjem";
+"total_expenses_widget_title" = "Celkové výdaje";
+"fixed_expenses_widget_title" = "Pevné výdaje";
+"variable_expenses_widget_title" = "Variabilní výdaje";
+
+"net_worth_distribution_widget_title" = "Distribuce";
+"account_balances_distribution_widget_title" = "Zůstatky na účtech";
+"balance_distribution_widget_title" = "Zůstatek";
+"total_income_distribution_widget_title" = "Celkový příjem";
+"total_expenses_distribution_widget_title" = "Celkové výdaje";
+"fixed_expenses_distribution_widget_title" = "Pevné výdaje";
+"variable_expenses_distribution_widget_title" = "Variabilní výdaje";
+
+
+/* MARK: - Transaction List View */
+/* Titles */
+"sum_title" = "Součet";
+"total_sum_title" = "Celkový součet";
+"recurring_transactions_title" = "Opakující se";
+"upcoming_transactions_title" = "Plánováno";
+"reminded_transactions_title" = "S připomenutím";
+
+/* Info */
+"recurring_transactions_info_title" = "Popis";
+"recurring_transactions_info_description" = "Vytvořte opakované transakce, aby byly automaticky přidány do aplikace, když nastanou.";
+
+/* Sections */
+"account_filter_section_title" = "Účet";
+"category_filter_section_title" = "Kategorie";
+"payee_filter_section_title" = "Příjemce";
+"tag_filter_section_title" = "Značka";
+"user_filter_section_title" = "Osoba";
+"payment_status_filter_section_title" = "Platba";
+"transaction_type_filter_section_title" = "Typ";
+"date_range_filter_section_title" = "Datum";
+"amount_range_filter_section_title" = "Částka";
+
+/* Messages */
+"no_transactions_title" = "Žádné transakce";
+"no_transactions_title_short" = "Žádné";
+"no_transactions_found_title" = "Nebyly nalezeny žádné transakce";
+"no_transactions_found_message" = "Kliknutím na tlačítko \"+\" přidáte novou transakci.";
+"no_transactions_found_button_title" = "Nová transakce";
+"no_recurring_transactions_found_message" = "Kliknutím na tlačítko \"+\" přidáte novou opakovanou transakci.";
+"no_upcoming_transactions_found_message" = "Kliknutím na tlačítko \"+\" přidáte novou plánovanou transakci.";
+"no_reminded_transactions_found_message" = "Kliknutím na tlačítko \"+\" přidáte novou transakci s připomenutím.";
+"transactions_search_placeholder_message" = "Hledejte podle názvu kategorie, příjemce platby, štítku nebo poznámky";
+
+/* Buttons */
+"show_analysis_button" = "Zobrazit analýzu";
+"show_analysis_button_short" = "Analýza";
+"show_forecast_button" = "Zobrazit předpověď";
+"show_forecast_button_short" = "Předpověď";
+"show_upcoming_transactions_button" = "Plánováno";
+
+/* Alert Views */
+"alert_confirm_add_next_upcoming_transaction_title" = "Přidat transakci";
+"alert_confirm_add_next_upcoming_transaction_message" = "Opravdu chcete nyní přidat tuto plánovanou transakci?";
+
+/* Miscellaneous */
+"payed_by_and_modified_at" = "Hradí %@\nNaposledy upraveno %@";
+"modified_at" = "Naposledy upraveno %@";
+"average_per_transaction" = "Ø na transakci";
+"average_per_day" = "Ø za den";
+"average_last_twelve_months" = "Ø posledních 12 měsíců";
+
+
+/* MARK: - Budget List View */
+/* Titles */
+"remaining_title" = "Dostupné";
+"balanced_title" = "Vyvážený";
+"exceeded_title" = "Překročeno";
+"user_has_no_budgets_title" = "Nemáte žádné rozpočty.";
+"user_is_within_budget_title" = "Dosahujete svého rozpočtu! 🎉";
+"user_was_within_budget_title" = "Dosáhli jste svého rozpočtu! 🎉";
+"user_is_not_within_budget_title" = "Překročili jste %d rozpočet 😢";
+"user_is_not_within_budgets_title" = "Překročili jste %d rozpočtů 😢";
+
+/* Messages */
+"no_budgets_title" = "Žádné rozpočty";
+"no_budgets_found_title" = "Nebyly nalezeny žádné rozpočty";
+"no_budgets_found_message" = "Kliknutím na tlačítko \"+\" přidáte nový rozpočet.";
+"budgets_search_placeholder_message" = "Hledat podle názvu rozpočtu";
+"no_budgets_found_button_title" = "Nový rozpočet";
+
+
+/* MARK: - Analysis View */
+/* Titles */
+"analysis_title" = "Analýza";
+"trend_widget_average_title" = "Průměr";
+"trend_widget_current_year_title" = "Tento rok";
+"trend_widget_current_month_title" = "Tento měsíc";
+
+/* Messages */
+"trend_widget_received_more_message" = "Vyděláváte více než obvykle.";
+"trend_widget_received_less_message" = "Vyděláváte méně než obvykle.";
+"trend_widget_received_same_message" = "Vyděláváte stejně jako obvykle.";
+"trend_widget_has_received_more_message" = "Vydělali jste více než obvykle.";
+"trend_widget_has_received_less_message" = "Vydělali jste méně než obvykle.";
+"trend_widget_has_received_same_message" = "Vydělali jste stejně jako obvykle.";
+
+"trend_widget_spent_more_message" = "Utrácíte více než obvykle.";
+"trend_widget_spent_less_message" = "Utrácíte méně než obvykle.";
+"trend_widget_spent_same_message" = "Utrácíte stejně jako obvykle.";
+"trend_widget_has_spent_more_message" = "Utratili jste více než obvykle.";
+"trend_widget_has_spent_less_message" = "Utratili jste méně než obvykle.";
+"trend_widget_has_spent_same_message" = "Utratili jste stejně jako obvykle.";
+
+"total_balance_widget_current_balance_message" = "Váš zůstatek je %@.";
+"total_balance_widget_previous_balance_message" = "Váš zůstatek byl %@.";
+
+"savings_rate_widget_current_savings_rate_message" = "Vaše míra úspor je %@.";
+"savings_rate_widget_previous_savings_rate_message" = "Vaše míra úspor byla %@.";
+
+/* Widgets */
+"trend_widget_title" = "Trend";
+"total_balance_widget_title" = "Zůstatek";
+"savings_rate_widget_title" = "Míra úspor";
+
+
+/* MARK: - Account Forecast View */
+/* Titles */
+"account_forecast_title" = "Prognóza";
+"account_balance_title" = "Zůstatek";
+"not_enough_data_title" = "Nedostatek dat";
+
+
+/* MARK: - Settings View */
+/* Titles */
+"no_budget_book_title" = "Žádná rozpočtová kniha";
+
+/* Messages */
+"share_app_message" = "\"%@ - Sledování výdajů\"\n\nStáhnout nyní zdarma:";
+
+/* Sections */
+"general_setting_section_title" = "Obecné";
+"upgrade_setting_section_title" = "Plná verze";
+"support_setting_section_title" = "Podpora";
+"legal_setting_section_title" = "Právní";
+"data_setting_section_title" = "Data";
+"miscellaneous_setting_section_title" = "Různé";
+
+/* Footer */
+"upgrade_setting_footer_title" = "Děkujeme, že používáte plnou verzi!";
+"support_setting_footer_title" = "Nějaké dotazy nebo nápady? Napište zprávu nebo kladnou recenzi v App Store! Vaše zpětná vazba je velmi motivující a pomáhá aplikaci vylepšovat.";
+
+/* Buttons */
+"share_budgetbook_button" = "Sdílet knihu rozpočtu";
+"show_participants_button" = "Zobrazit účastníky";
+"cloud_not_available_button" = "iCloud není dostupný";
+"upgrade_show_all_features_button" = "Zobrazit všechny funkce";
+"reset_app_button" = "Resetovat aplikaci";
+
+/* General Settings */
+"accounts_setting_title" = "Spravovat účty";
+"categories_setting_title" = "Spravovat kategorie";
+"payees_setting_title" = "Spravovat příjemce";
+"tags_setting_title" = "Spravovat značky";
+"reminders_setting_title" = "Připomenutí";
+
+/* Upgrade Settings */
+"upgrade_setting_title" = "Odemknout plnou verzi 🚀";
+"upgrade_setting_description" = "Odemkněte nyní plnou verzi a využijte více dalších funkcí!";
+
+/* Support Settings */
+"share_app_setting_title" = "Informovat přátele";
+"translate_app_setting_title" = "Pomoc s překladem";
+"help_center_setting_title" = "Centrum nápovědy (🇬🇧)";
+"feature_roadmap_setting_title" = "Navrhnout funkci";
+"rate_app_setting_title" = "Hodnocení aplikace";
+
+/* Legal Settings */
+"imprint_setting" = "Otisk";
+"privacy_setting" = "Zásady ochrany osobních údajů";
+"terms_of_use_setting" = "Podmínky použití";
+"acknowledgements_setting" = "Poděkování";
+"licenses_setting" = "Licence";
+
+"acknowledgements_setting_info_title" = "Popis";
+"acknowledgements_setting_info_description" = "Níže je seznam lidí, kteří s aplikací nějakým způsobem pomohli.";
+"translation_acknowledgement" = "Překlad (%@)";
+"licenses_setting_info_title" = "Popis";
+"licenses_setting_info_description" = "Níže je uveden seznam všech licencí třetích stran používaných aplikací.";
+
+/* Data Settings */
+"sync_and_data_setting" = "Synchronizace & data";
+"sync_and_data_setting_short" = "Synchronizace & data";
+"recurring_transactions_setting" = "Opakující se transakce";
+
+/* Miscellaneous Settings */
+"new_features_setting" = "Nové funkce";
+"testflight_beta_setting" = "TestFlight beta";
+"apple_pay_setting" = " Pay integrace";
+"appearance_setting" = "Přizpůsobení";
+"advanced_setting" = "Pokročilá nastavení";
+
+/* Contact Developer */
+"mail_subject_type_contact" = "Contact";
+"mail_subject_type_support" = "Support";
+"mail_subject_type_feedback" = "Feedback";
+"mail_subject_type_translate" = "Translate";
+"mail_subject_type_discount" = "Discount";
+
+"alert_translate_app_title" = "Jak bys chtěl pomoci s překladem?";
+"alert_translate_app_github" = "👨🏻‍💻 S GitHubem";
+"alert_translate_app_email" = "📬 S E-mailem";
+
+"alert_contact_developer_title" = "Čeho se týká váš požadavek?";
+"alert_contact_developer_feature_request" = "💡 Navrhnout funkci";
+"alert_contact_developer_bug_report" = "🐞 Zpráva o chybě";
+"alert_contact_developer_other" = "📬 Jiné (E-Mail)";
+
+"contact_developer_mail_subject" = "%@: %@%@";
+"contact_developer_mail_subject_full_version" = " (full version)";
+"contact_developer_mail_message" = "
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+<b>Support Information:</b>
+</br>
+<u>General:</u></br>
+- Device: %@</br>
+- iOS version: %@</br>
+- Language: %@</br>
+- Currency: %@</br>
+- Time zone: %@</br>
+</br>
+<u>App Specific:</u></br>
+- App version: %@</br>
+- Build: %@</br>
+</br>
+<u>In-App Purchases:</u></br>
+- User ID: %@</br>
+- Active: %@</br>
+- Purchases: %@";
+"contact_developer_mail_no_purchases" = "None";
+
+/* Appearance Settings */
+"appearance_setting_info_title" = "Popis";
+"appearance_setting_info_description" = "Přizpůsobte si aplikaci podle svých představ změnou vzhledu aplikace nebo barvy zvýraznění.";
+"appearance_ui_style_setting_section_title" = "Motiv";
+"appearance_ui_style_apply_to_icons_title" = "Použít na ikony";
+"appearance_ui_style_apply_to_icons_description" = "Použít zvolený vzhled i na všechny ikony v aplikaci.";
+"appearance_accent_color_setting_section_title" = "Barva zvýraznění";
+"appearance_accent_color_setting_footer_title" = "Změní barvu tlačítek a dalších ovládacích prvků v aplikaci.";
+"appearance_app_icon_setting_section_title" = "Ikona aplikace";
+
+/* Sync & Data Settings */
+"sync_and_data_setting_info_title" = "Popis";
+"sync_and_data_setting_info_description" = "Získejte přehled o aktuálním stavu synchronizace a importujte nebo exportujte data pomocí souboru CSV.";
+
+"sync_and_data_cloud_setting_section_title" = "iCloud";
+"sync_and_data_cloud_setting_footer_title" = "Ukazuje, zda byla synchronizace s iCloud úspěšná nebo došlo k chybě.";
+"sync_and_data_setting_cloud_sync_status_title" = "Stav synchronizace";
+"backup_setting_section_title" = "Zálohy";
+"backup_setting_footer_title" = "Spravujte své zálohy a nastavení zálohování.";
+"backup_setting_manage_backups_title" = "Spravovat";
+"sync_and_data_csv_setting_section_title" = "Data CSV";
+"sync_and_data_csv_setting_footer_title" = "Importujte nebo exportujte své transakce pomocí souboru CSV.";
+"sync_and_data_setting_csv_import_title" = "Import";
+"sync_and_data_setting_csv_export_title" = "Exportovat";
+"sync_and_data_setting_get_csv_template_title" = "Stáhnout šablonu";
+
+"clear_cache_button" = "Vymazat mezipaměť";
+"cache_setting_footer_title" = "Informace: Vymazáním mezipaměti se odstraní všechny soubory v adresáři dokumentů aplikace (včetně záloh).";
+
+"alert_csv_import_successful_title" = "Import byl úspěšný 🎉";
+"alert_csv_import_successful_message" = "Celkem bylo importováno %d z %d transakcí.%@";
+"alert_csv_import_skipped_message" = " %d transakcí bylo přeskočeno.";
+"alert_csv_import_error_message" = "Nepodařilo se úspěšně importovat %d z %d transakcí.\n\n%@";
+"alert_csv_import_error_reason_field_message" = "Zkontrolujte prosím následující pole v souboru CSV: %@.";
+
+"alert_csv_export_successful_title" = "Export byl úspěšný 🎉";
+"alert_csv_export_successful_message" = "Vaše data byla úspěšně exportována do \"%@\".";
+
+/* Cloud Settings */
+"cloud_setting_info_title" = "Popis";
+"cloud_setting_info_description" = "Následující zobrazení poskytuje podrobnější přehled aktuálního stavu synchronizace iCloud a pomáhá s řešením problémů.";
+
+"cloud_setting_network_status_title" = "Síť";
+"cloud_setting_network_status_success_value" = "Připojení k internetu dostupné";
+"cloud_setting_network_status_error_value" = "Žádné připojení k internetu";
+"cloud_setting_account_status_title" = "Účet iCloud";
+"cloud_setting_account_status_success_value" = "Přihlášeno do iCloudu";
+"cloud_setting_account_status_error_value" = "Nepřihlášeno do iCloudu";
+"cloud_setting_low_power_mode_status_title" = "Režim nízké spotřeby";
+"cloud_setting_low_power_mode_status_enabled_value" = "Zapnuto (synchronizace může být pozastavena)";
+"cloud_setting_low_power_mode_status_disabled_value" = "Vypnuto";
+"cloud_setting_upload_status_title" = "Naposledy nahráno";
+"cloud_setting_download_status_title" = "Naposledy staženo";
+"cloud_setting_number_of_transactions_title" = "Transakce";
+"cloud_setting_number_of_transactions_value" = "Na zařízení: %d\nV iCloudu: %d";
+"cloud_setting_number_of_transactions_in_progress_title" = "Čekejte prosím...";
+"cloud_setting_number_of_transactions_error_title" = "Chyba";
+
+"import_from_cloud_button" = "Stáhnout z iCloudu";
+"manual_sync_cloud_setting_footer_title" = "Pokud vaše data nebyla nebo nebyla plně synchronizována s iCloudem, můžete zde synchronizaci spustit ručně.";
+
+/* Backup Settings */
+"backup_setting_info_title" = "Popis";
+"backup_setting_info_description" = "Pokud je povoleno, Budget Flow pravidelně zálohuje vaše data, takže můžete aplikaci kdykoli obnovit do předchozího stavu.";
+
+"backup_general_setting_section_title" = "Obecné";
+"backup_recent_backups_setting_section_title" = "Poslední zálohy";
+"backup_setting_use_automatic_backups_title" = "Automatické zálohování";
+"backup_setting_create_backup_title" = "Vytvořit zálohu";
+
+"alert_restore_backup_title" = "Obnovit tuto zálohu?";
+"alert_restore_backup_message" = "Obnovení záloh je momentálně experimentální funkcí. Smaže vaše aktuální data a přepíše je vybranou zálohou.\n\nPoté se aplikace automaticky zavře.\n\nUpozornění: Tento proces nelze vrátit zpět!";
+"alert_restore_backup_button" = "Obnovit zálohu";
+
+/* Advanced Settings */
+"advanced_setting_info_title" = "Popis";
+"advanced_setting_info_description" = "Proveďte další nastavení pro konfiguraci aplikace.";
+
+"advanced_security_setting_section_title" = "Zabezpečení";
+"advanced_view_setting_section_title" = "Zobrazení";
+"advanced_sidebar_setting_section_title" = "Postranní panel";
+"advanced_transaction_setting_section_title" = "Transakce";
+"advanced_input_setting_section_title" = "Vstup";
+"advanced_other_setting_section_title" = "Jiné";
+
+"advanced_setting_use_passcode_title" = "Použít přístupový kód";
+"advanced_setting_use_title" = "Použít %@";
+"advanced_setting_auto_lock_title" = "Kód požadavku";
+
+"advanced_setting_chart_type_title" = "Typ grafu";
+"advanced_setting_show_frequently_used_items_title" = "Zobrazit časté kategorie a štítky";
+"advanced_setting_show_frequently_used_items_description" = "Zobrazit často používané kategorie a značky ve výběrovém seznamu při vytváření a úpravách transakcí.";
+"advanced_setting_show_notes_in_title_title" = "Zobrazit poznámky místo kategorie";
+"advanced_setting_show_notes_in_title_description" = "U transakcí zobrazit místo názvu kategorie obsah poznámek.";
+"advanced_setting_start_day_of_month_title" = "Počáteční den měsíce";
+"advanced_setting_start_day_of_month_description" = "Určete počáteční den každého měsíce, aby byly sestavy, transakce a rozpočty vypočítány správně.";
+"advanced_setting_configure_transaction_title_title" = "Název transakce";
+"advanced_setting_configure_transaction_subtitle_title" = "Podtitul transakce";
+
+"advanced_setting_configure_transaction_title_info_title" = "Popis";
+"advanced_setting_configure_transaction_title_info_description" = "Nastavte pořadí položek, které se mají zobrazit v názvu transakce. Pokud položka chybí, automaticky se použije další v pořadí.";
+
+"advanced_setting_show_accounts_in_sidebar_title" = "Zobrazit účty na postranním panelu";
+"advanced_setting_show_accounts_in_sidebar_description" = "Zobrazit seznam vašich účtů na postranním panelu.";
+"advanced_setting_group_accounts_in_sidebar_title" = "Seskupit účty v postranním panelu";
+"advanced_setting_group_accounts_in_sidebar_description" = "Seskupit své účty v postranním panelu podle typu.";
+"advanced_setting_show_categories_in_sidebar_title" = "Zobrazit kategorie na postranním panelu";
+"advanced_setting_show_categories_in_sidebar_description" = "Zobrazit seznam vašich kategorií na postranním panelu.";
+"advanced_setting_group_categories_in_sidebar_title" = "Skupinové kategorie na postranním panelu";
+"advanced_setting_group_categories_in_sidebar_description" = "Seskupit své kategorie na postranním panelu podle složek.";
+
+"advanced_setting_select_time_automatically_title" = "Automatický výběr času";
+"advanced_setting_select_time_automatically_description" = "Automaticky vybrat aktuální čas pro nové transakce.";
+"advanced_setting_select_location_automatically_title" = "Automatický výběr umístění";
+"advanced_setting_select_location_automatically_description" = "Automaticky vybrat aktuální umístění pro nové transakce.";
+"advanced_setting_save_photos_in_library_title" = "Uložit fotografie do knihovny";
+"advanced_setting_save_photos_description" = "Automaticky ukládat zachycené fotografie do knihovny fotografií.";
+"advanced_setting_consider_pending_items_title" = "Zarezervovat všechny transakce";
+"advanced_setting_consider_pending_items_description" = "Zahrnout čekající transakce při výpočtu zůstatků na účtech, zůstatků, součtů atd.";
+
+"advanced_setting_enable_exact_times_title" = "Zadejte přesné časy";
+"advanced_setting_enable_exact_times_description" = "Vyberte přesné časy pomocí minutového číselníku pro transakce (např. 9:41).";
+"advanced_setting_reverse_keyboard_title" = "Otočená klávesnice";
+"advanced_setting_reverse_keyboard_description" = "Otočí rozložení numerické klávesnice vertikálně, aby odpovídalo tradičnímu stylu kalkulačky.";
+"advanced_setting_enable_haptic_keyboard_title" = "Zpětná vazba na klávesnici";
+"advanced_setting_enable_haptic_keyboard_description" = "Získejte hmatovou odezvu při zadávání peněžních částek pomocí klávesnice.";
+
+"advanced_setting_language_title" = "Jazyk";
+"advanced_setting_time_zone_title" = "Časové pásmo";
+"advanced_setting_enable_live_activities_title" = "Živé aktivity";
+"advanced_setting_enable_live_activities_description" = "Podívejte se na svůj aktuální zůstatek a další informace na dynamickém ostrově a také na zamykací obrazovce.";
+"advanced_setting_ask_for_feedback_title" = "Požádat o zpětnou vazbu";
+"advanced_setting_ask_for_feedback_description" = "Povolte aplikaci, aby vás občas požádala o zpětnou vazbu.";
+
+/* Cloud Sync Status */
+"cloud_sync_status_not_logged_in" = "Nejste přihlášeni k iCloudu";
+"cloud_sync_status_not_started" = "Nesynchronizováno";
+"cloud_sync_status_no_network" = "Žádné připojení k internetu";
+"cloud_sync_status_in_progress" = "Synchronizuji...";
+"cloud_sync_status_succeeded" = "Plně synchronizováno";
+"cloud_sync_status_quota_exceeded" = "Vaše úložiště iCloud je plné. Uvolněte místo a zkuste to znovu.";
+"cloud_sync_status_limit_exceeded" = "Dosáhli jste limitu nahrávání/stahování iCloud. Počkejte chvíli a zkuste to znovu později.";
+"cloud_sync_status_network_failure" = "Došlo k chybě sítě. Zkuste to znovu později.";
+"cloud_sync_status_service_unavailable" = "iCloud je dočasně nedostupný. Zkuste to znovu později.";
+"cloud_sync_status_request_rate_limited" = "Provedli jste příliš mnoho požadavků na iCloud během krátké doby. Počkejte chvíli a zkuste to znovu později.";
+"cloud_sync_status_request_unknown_error" = "Došlo k neznámé chybě. Zkuste to znovu později.";
+
+/* Alert Views */
+"alert_share_app_type_selection_title" = "Co chcete sdílet?";
+"alert_share_app_type_selection_link_button" = "Odkaz";
+"alert_share_app_type_selection_qrcode_button" = "QR kód";
+
+"alert_reset_app_title" = "Resetovat aplikaci";
+"alert_reset_app_message" = "Opravdu chcete obnovit výchozí nastavení aplikace? Tím trvale vymažete všechna data uložená v tomto zařízení a na iCloudu.";
+
+"alert_error_title" = "Došlo k chybě 😢";
+
+/* Social Media */
+"follow_on_social_media" = "Follow \"%@\" on Social Media";
+
+/* Copyright */
+"version" = "Verze";
+"developed_by" = "Vyvinul %@ 👨🏻‍💻";
+
+
+/* MARK: - Passcode View */
+/* Titles */
+"passcode_view_enter_passcode_title" = "Zadejte přístupový kód";
+"passcode_view_create_passcode_title" = "Vytvořit přístupový kód";
+"passcode_view_confirm_passcode_title" = "Potvrdit přístupový kód";
+"passcode_view_authenticate_reason" = "Ověření uživatele";
+
+/* Alert Views */
+"alert_set_passcode_type_title" = "Vyberte možnost přístupového kódu";
+
+
+/* MARK: - Welcome View */
+/* Titles */
+"welcome_view_title" = "Vítejte v";
+"privacy_policy_title" = "Zásady ochrany osobních údajů";
+
+/* Sections */
+"welcome_view_overview_section_title" = "Shrnutí";
+"welcome_view_legal_documents_section_title" = "Další informace";
+
+/* Overview */
+"privacy_overview_datastorage_title" = "Bezpečné úložiště dat";
+"privacy_overview_datastorage_description" = "Vaše finance jsou soukromé – a tak by měly zůstat. Proto jsou vaše data uložena výhradně ve vašem zařízení nebo (volitelně) ve vašem osobním iCloudu.";
+
+"privacy_overview_privacy_control_title" = "Máte kontrolu";
+"privacy_overview_privacy_control_description" = "Ať už jde o vaše uložená data, použití vaší polohy nebo přístup ke kameře – vždy máte vše pod kontrolou. Svá data můžete například snadno smazat resetováním aplikace a přístupová oprávnění aplikace se upraví na kdykoli.";
+
+/* Footer */
+"welcome_view_value_description" = "Snadno kontrolujte všechny své finance: Zadejte svůj rozpočet, získejte přehled a sledujte všechny své příjmy a výdaje.";
+"welcome_view_agreement_description" = "Kliknutím na \"Přijmout\" souhlasíte s %@.";
+
+
+/* MARK: - New Features View */
+/* Titles */
+"new_features_view_title" = "New Features";
+
+/* Buttons */
+"new_features_view_rate_app_button" = "Rate App";
+"new_features_view_close_button" = "Maybe later";
+
+
+/* MARK: - Rate App View */
+/* Titles */
+"purchase_success_view_title" = "Děkuji!";
+
+/* Messages */
+"purchase_success_view_info_message" = "Pokud se vám aplikace líbí, napište prosím kladnou recenzi do App Store. Opravdu to hodně pomáhá a motivuje aplikaci neustále vylepšovat. 😊";
+"purchase_success_view_info_message_info" = "\n\nInfo: Při přechodu z předplatného na celoživotní koupi nezapomeňte po tomto zrušit své stávající předplatné.";
+
+/* Buttons */
+"purchase_success_view_rate_app_button" = "Hodnocení aplikace";
+"purchase_success_view_close_button" = "Možná později";
+
+
+/* MARK: - Upgrade View */
+/* Titles */
+"upgrade_view_title" = "Plná verze";
+
+/* Info */
+"upgrade_info_description" = "Tato funkce je dostupná pouze v plné verzi:";
+"upgrade_sharing_info_text" = "Podporuje Apple Rodinné sdílení";
+"upgrade_sharing_info_highlighted_text" = "Apple Rodinné sdílení";
+
+/* Discount */
+"upgrade_discount_title" = "Speciální nabídka 🌟";
+"upgrade_discount_multiple_title" = "Ušetřete až %@!";
+"upgrade_discount_montly_subscription_title" = "Ušetřete %@ na měsíčním předplatném!";
+"upgrade_discount_yearly_subscription_title" = "Ušetřete %@ na ročním předplatném!";
+"upgrade_discount_lifetime_purchase_title" = "Ušetřete %@ při jednorázovém nákupu!";
+"upgrade_discount_ends_in" = "Končí za";
+
+/* Sections */
+"upgrade_info_section_title" = "Informace";
+"upgrade_reviews_section_title" = "Recenze";
+
+/* Messages */
+"apply_for_discount_text" = "Jste student nebo máte finanční nouzi?\nKliknutím sem zažádejte o slevu.";
+"apply_for_discount_highlighted_text" = "Kliknutím sem zažádejte o slevu.";
+
+/* Features */
+"upgrade_features" = "Funkce";
+"upgrade_more_features" = "Další funkce";
+"upgrade_features_description" = "Následují všechny funkce, které se odemknou zakoupením plné verze:";
+"upgrade_feature_unlimited_accounts_title" = "Další účty";
+"upgrade_feature_unlimited_accounts_description" = "Vytvořte další účty a přiřaďte jim transakce pro ještě lepší přehled o svých příjmech a výdajích.";
+"upgrade_feature_unlimited_categories_and_tags_title" = "Neomezený počet kategorií a značek";
+"upgrade_feature_unlimited_categories_and_tags_description" = "Vytvořte neomezený počet kategorií a štítků, které můžete přidat k transakcím a lépe je uspořádat.";
+"upgrade_feature_extended_analyses_title" = "Rozšířená analýza";
+"upgrade_feature_extended_analyses_description" = "Využijte další analýzy a rozšířené předpovědi budoucích zůstatků na účtech a transakcí.";
+"upgrade_feature_unlimited_budgetbooks_title" = "Více rozpočtových knih";
+"upgrade_feature_unlimited_budgetbooks_description" = "Vytvořte více rozpočtových knih, aby například několik lidí mohlo používat svou vlastní na jednom zařízení, nebo v případě, že chcete sdílet samostatnou rozpočtovou knihu (např. na dovolenou).";
+"upgrade_feature_security_title" = "Zabezpečená data";
+"upgrade_feature_security_description" = "Chraňte svá data pomocí %@.";
+"upgrade_feature_security_description_passcode" = "Chraňte svá data vytvořením kódu";
+"upgrade_feature_security_description_biometric" = "nebo použijte %@";
+"upgrade_feature_currency_converter_title" = "Převodník měn";
+"upgrade_feature_currency_converter_description" = "Použijte vestavěný převodník měn k automatickému převodu částek do jedné z více než 150 cizích měn.";
+"upgrade_feature_customization" = "Personalizace";
+"upgrade_feature_customization_description" = "Vyberte si z několika barev zvýraznění a ikon a přizpůsobte si aplikaci podle svých představ.";
+"upgrade_feature_sharedbudget_books_title" = "Sdílet knihy rozpočtu";
+"upgrade_feature_sharedbudget_books_description" = "Sdílejte své knihy rozpočtů včetně účtů, kategorií, transakcí a rozpočtů, abyste mohli spolupracovat s jednou nebo více lidmi.";
+"upgrade_feature_receipt_scanner_title" = "Skenovat účtenky";
+"upgrade_feature_receipt_scanner_description" = "Použijte vestavěný skener k digitalizaci účtenek a automatickému rozpoznání částky a jména obchodníka.";
+"upgrade_feature_widgets_title" = "Widgety domovské a zamykací obrazovky";
+"upgrade_feature_widgets_description" = "Pomocí widgetů můžete na první pohled vidět své aktuální příjmy a výdaje, zůstatky na účtu a mnoho dalšího, aniž byste museli otevírat aplikaci. Chcete-li zobrazit náhled widgetů, upravit domovskou nebo zamykací obrazovku, otevřete Zobrazit \"Přidat widget\" a poté vybrat tuto aplikaci.";
+"upgrade_feature_reminders_title" = "Vytvořit připomenutí";
+"upgrade_feature_reminders_description" = "Vytvořte připomenutí pro své plánované transakce, abyste mohli dostávat oznámení push (i offline).";
+"upgrade_feature_csv_title" = "Import a export CSV";
+"upgrade_feature_csv_description" = "Importujte a exportujte své transakce pomocí souboru CSV pro přenos dat z vaší banky nebo jiných aplikací.";
+"upgrade_feature_remove_ads_title" = "Žádné reklamy";
+"upgrade_feature_remove_ads_description" = "V aplikaci se již nebudou zobrazovat reklamy na plnou verzi.";
+"upgrade_feature_support_title" = "Podpora vývoje";
+"upgrade_feature_support_description" = "Podporujete mladého vývojáře a tím i neustálý vývoj aplikace! 😊";
+
+/* Reviews */
+"user_review_title_de" = "Awesome app";
+"user_review_description_de" = "The app is very well designed and functional. It meets all my needs and the support is very fast and helpful. I can only recommend it.";
+"user_review_title_hr" = "Beautiful app";
+"user_review_description_hr" = "Feature rich app, with an easy to use user interface. Tried many alternatives on iOS, none of them met my needs the way this app does. Worth the money.";
+"user_review_title_bg" = "Outstanding support";
+"user_review_description_bg" = "Great app with an outstanding customer support. And it’s a very reasonable priced for the quality of the software.";
+"user_review_title_us" = "Great app so far";
+"user_review_description_us" = "Huge fan of this being an app available on iOS, iPad and macOS so that I can update it anywhere. It is also really nice to see that there is no account required or data collection which seems rare these days but important to me for finance applications.";
+"user_review_title_uk" = "This is the one!";
+"user_review_description_uk" = "I’ve been looking for this app for over two years. I wanted a phone based finance manager that was designed around a good looking overview screen, allowing easy entry of new data and the ability to drill down for more info when needed! Give it a go.";
+"user_review_title_es" = "Best budgeting app";
+"user_review_description_es" = "Simply the best I have tried. I think it is still a new app but defetinely you can see the potential it has.";
+"user_review_title_fr" = "Superb, feature-rich app";
+"user_review_description_fr" = "I've been using the app for a few months now and I really like it. Congratulations on your work and I can't wait to see what the app will look like in a few months :)";
+"user_review_title_it" = "Simply great";
+"user_review_description_it" = "Finally. I was lloking for such a solution for years now. Use it with transaction iOS shortcut trigger, love the design. And I like the pay once in a lifetime feature. Keep up the great work!";
+"user_review_title_ch" = "Great support";
+"user_review_description_ch" = "Great support - fast and uncomplicated problem solving. I feel taken seriously as a user.";
+"user_review_title_pl" = "Very pleasant to use";
+"user_review_description_pl" = "The app is an excellent budget tracker and planner that I use on a daily basis. In addition the developer is very attentive to their community, despite its small size.";
+
+/* Products */
+"monthly_subscription_title" = "1";
+"yearly_subscription_title" = "12";
+"lifetime_purchase_title" = "∞";
+
+"monthly_subscription_subtitle" = "Měsíc";
+"yearly_subscription_subtitle" = "Měsíce";
+"lifetime_purchase_subtitle" = "Neomezeno";
+
+"product_discount_header_title" = "- %@";
+
+/* Buttons */
+"upgrade_is_active_button" = "Aktivní";
+"upgrade_purchase_button" = "Koupit";
+"upgrade_subscribe_button" = "Předplatit";
+"upgrade_free_trial_button" = "Test zdarma";
+"upgrade_restore_button" = "Obnovit nákupy";
+"upgrade_restore_in_progress_button" = "Čekejte prosím...";
+
+"subscription_button_info_text" = "Lze kdykoli zrušit.";
+"subscription_trial_button_info_text" = "%d %@ bezplatná zkušební verze. Poté %@ za %@.";
+"lifetime_purchase_button_info_text" = "Jednou odemkne plnou verzi (bez předplatného).";
+
+/* Alert Views */
+"alert_upgrade_view_purchase_success_title" = "Nákup byl úspěšný 🎉";
+"alert_upgrade_view_purchase_success_message" = "Děkujeme za vaši podporu! 😊";
+"alert_upgrade_view_purchase_success_message_info" = "\n\nInformace: Pokud přejdete z předplatného na jednorázový nákup, nezapomeňte poté zrušit své předchozí předplatné.";
+"alert_upgrade_view_purchase_error_message" = "Váš nákup nelze úspěšně dokončit.";
+"alert_upgrade_view_purchase_error_store_problem_message" = "Došlo k problému s App Store.\n\nInformace: Někdy může nákup fungovat pouze tehdy, když místo Touch ID / Face ID potvrdíte heslo.\n\nNapříklad, pokud používáte Face ID, stačí zakrýt přední kameru a zkusit to znovu, abyste viděli dialog pro zadání hesla.";
+"alert_upgrade_view_purchase_error_not_allowed_message" = "Na tomto zařízení nejsou povoleny nákupy.";
+"alert_upgrade_view_purchase_error_invalid_message" = "Zkontrolujte způsob platby a zkuste to znovu později. Pokud chyba přetrvává, kontaktujte podporu.";
+"alert_upgrade_view_purchase_error_network_message" = "Zkontrolujte připojení k internetu a zkuste to znovu později. Pokud chyba přetrvává, kontaktujte podporu.";
+
+"alert_upgrade_view_load_products_error_message" = "Produkty nelze načíst. Zkontrolujte připojení k internetu a zkuste to znovu později. Pokud chyba přetrvává, kontaktujte podporu.";
+
+"alert_upgrade_view_restore_success_title" = "Nákupy obnoveny";
+"alert_upgrade_view_restore_success_message" = "Vaše nákupy byly úspěšně obnoveny! 😊";
+"alert_upgrade_view_restore_error_message" = "Vaše nákupy nelze obnovit. Zkuste to znovu později.";
+"alert_upgrade_view_restore_nothing_to_do_title" = "Nejsou dostupné žádné nákupy 😢";
+"alert_upgrade_view_restore_nothing_to_do_message" = "Nelze najít žádné nákupy k obnovení.";
+
+
+/* MARK: - Upgrade FAQ View */
+/* Titles */
+"upgrade_faq_view_title" = "Časté dotazy";
+
+/* Sections */
+"upgrade_faq_general_section_title" = "Obecné";
+"upgrade_faq_purchases_section_title" = "Nákupy a odběry";
+
+/* Items */
+"upgrade_faq_about_title" = "Co je tok Budget Flow?";
+"upgrade_faq_about_value" = "Budget Flow je moderní a snadno použitelná aplikace pro sledování rozpočtu pro každého, kdo chce mít přehled o svých financích a efektivně spravovat své výdaje.";
+"upgrade_faq_developer_title" = "Kdo vyvinul aplikaci?";
+"upgrade_faq_developer_value" = "Budget Flow byl zahájen jako vedlejší projekt a od té doby jsem ho kompletně navrhl, vyvinul a spravoval jsem já, Fabian Hasse. Jsem nadšený softwarový vývojář s více než 10 lety zkušeností a pracuji s velkou vášní vyvinout nejlepší aplikaci pro rozpočtování a sledování výdajů v App Store.";
+"upgrade_faq_free_use_title" = "Lze aplikaci používat také zdarma?";
+"upgrade_faq_free_use_value" = "Ano, základní funkce aplikace, jako je vytváření transakcí, můžete používat zcela zdarma.\n\nAplikace navíc nabízí zkušební období pro plnou verzi, abyste si ji mohli předem vyzkoušet než se rozhodnete zakoupit nebo předplatit plnou verzi.";
+"upgrade_faq_security_title" = "Jsou moje data v bezpečí?";
+"upgrade_faq_security_value" = "Vaše finance jsou soukromé – a tak by měly zůstat. Proto jsou vaše data uložena výhradně ve vašem zařízení nebo (volitelně) ve vašem osobním iCloudu.";
+"upgrade_faq_why_subscription_title" = "Proč je plná verze nabízena jako předplatné?";
+"upgrade_faq_why_subscription_value" = "Naším cílem je vyvinout vysoce kvalitní aplikaci, která vám jako uživateli bude pravidelně nabízet nové funkce a vylepšení. K dosažení tohoto cíle však aplikace potřebuje neustálé příjmy, aby se mohla financovat být ekonomicky udržitelný.\n\nCo mnozí nevědí Vývoj a údržba aplikace zabere spoustu času. Například v případě Budget Flow to od nápadu k vývoji trvalo téměř dva roky a několik tisíc hodin práce a testování před vydáním první verze do obchodu App Store.\n\nJako zákazník budete těžit zejména z pravidelných aktualizací a vylepšení prostřednictvím modelu předplatného a také z dobré podpory, která zajistí, že budete i nadále spokojeni. také máte možnost si aplikaci předem zdarma vyzkoušet, abyste se ujistili, že bude vyhovovat vašim potřebám. Předplatné můžete kdykoli změnit nebo zrušit, pokud si to rozmyslíte.\n\nModel předplatného vám jako celku nabízí mnoho výhod. zákazník a lepší uživatelský zážitek díky neustálým aktualizacím a podpoře ve srovnání s jednorázovým nákupem. Z dlouhodobého hlediska by jednorázový nákup bohužel nebyl udržitelný, protože tento obchodní model vyžaduje, aby noví uživatelé aplikaci stále kupovali, aby bylo zajištěno pokračování vývoje.\n\nPokud se vám tedy aplikace líbí, budeme velmi rádi pokud podpoříte naši práci, abychom vám v budoucnu mohli nabízet ještě více skvělých funkcí!❤️";
+"upgrade_faq_multiple_devices_title" = "Mohu používat plnou verzi na více zařízeních?";
+"upgrade_faq_multiple_devices_value" = "Ano, plnou verzi Budget Flow můžete používat na všech svých Apple zařízeních se stejným Apple ID. Protože je aplikace synchronizována přes iCloud, můžete bez problémů přepínat mezi svými zařízeními a mít vždy přístup ke svým finančním údajům a nastavení.";
+"upgrade_faq_multiple_people_title" = "Mohu používat plnou verzi pro více lidí?";
+"upgrade_faq_multiple_people_value" = "Ano, jednorázový nákup i předplatné plné verze můžete sdílet až s pěti lidmi v rámci rodinné skupiny. Jediné, co musíte udělat, je zapnout rodinné sdílení v nastavení systému a přidat ostatní lidé do skupiny pozvou.";
+"upgrade_faq_cancel_subscription_title" = "Jak zruším své předplatné?";
+"upgrade_faq_cancel_subscription_value" = "Své předplatné můžete kdykoli zrušit pomocí svého Apple ID v Předvolbách systému.";
+"upgrade_faq_subscription_data_loss_title" = "Budou při zrušení předplatného ztracena má data?";
+"upgrade_faq_subscription_data_loss_value" = "Ne. Vše, co vytvoříte při přihlášení k odběru plné verze, bude stále dostupné, pokud přejdete zpět na bezplatnou verzi.";
+"upgrade_faq_refund_title" = "Jak mohu získat náhradu?";
+"upgrade_faq_refund_value" = "Platby provedené prostřednictvím App Store vrací pouze Apple. Chcete-li získat refundaci, musíte kontaktovat podporu Apple do 14 dnů od nákupu.";
+"upgrade_faq_switch_plan_title" = "Je možné přejít z předplatného na jednorázový nákup později?";
+"upgrade_faq_switch_plan_value" = "Ano, z aktivního předplatného můžete kdykoli přejít na jednorázový nákup zakoupením odpovídajícího produktu v aplikaci. Nezapomeňte však zrušit své předchozí předplatné, abyste nezaplatili více než jednou.";
+
+
+/* MARK: - User Feedback */
+"user_feedback" = "zpětné vazby";
+
+/* Buttons */
+"user_feedback_message_title" = "Ahoj, tady Fabian, vývojář Budget Flow. Den, máte chvilku na zaslání zpětné vazby k aplikaci? 😊";
+
+/* Alert Views */
+"alert_user_feedback_title" = "Líbí se vám aplikace?";
+
+"alert_user_feedback_like_title" = "Děkuji! 🎉";
+"alert_user_feedback_like_message" = "Pokud se vám aplikace líbí, napište prosím kladnou recenzi do App Store. Opravdu to hodně pomáhá a motivuje aplikaci neustále vylepšovat. 😊";
+"alert_user_feedback_rate_app_button" = "Hodnocení aplikace";
+"alert_user_feedback_maybe_later_button" = "Možná později";
+
+"alert_user_feedback_dislike_title" = "Návrhy? 🤔";
+"alert_user_feedback_dislike_message" = "Je nám líto, že se vám aplikace zatím nelíbí. Chcete-li to změnit, řekněte mi své nápady a návrhy na zlepšení. 😊";
+"alert_user_feedback_contact_developer_button" = "Kontaktovat vývojáře";
+
+
+/* MARK: - Progress View */
+"progress_view_load_images_title" = "Načítání fotografií...";
+"progress_view_load_images_subtitle" = "Informace: Pokud používáte iCloud Photo Library, stahování vašich fotografií může chvíli trvat.";
+
+"progress_view_load_documents_title" = "Načítání dokumentů...";
+"progress_view_load_documents_subtitle" = "Informace: Pokud používáte iCloud Drive, stahování dokumentů může chvíli trvat.";
+
+"progress_view_import_csv_title" = "Importuji data...";
+"progress_view_import_csv_subtitle" = "Čekejte prosím...";
+
+"progress_view_import_from_cloud_title" = "Načítání dat z iCloudu...";
+"progress_view_import_from_cloud_initialization_subtitle" = "Prosím, čekejte...";
+"progress_view_import_from_cloud_loaded_objects_subtitle" = "Načtené objekty: %d";
+
+
+/* MARK: - Widgets */
+"chart_widget_title" = "Graf";
+"chart_widget_description" = "Tento widget zobrazuje graf zůstatků na vašich účtech, aktuální zůstatek nebo rozpis vašich příjmů a výdajů za zvolené časové období.";
+
+"account_widget_title" = "Účet";
+"account_widget_description" = "Tento widget zobrazuje graf zůstatku na vašem účtu pro konkrétní účet a vybrané období.";
+"account_widget_no_account_title" = "Není vybrán žádný účet";
+
+"overview_widget_title" = "Přehled";
+"overview_widget_description" = "Tento widget zobrazuje přehled zůstatků na vašich účtech, aktuální zůstatek nebo celkové příjmy a výdaje za zvolené období.";
+
+"upcoming_transactions_widget_title" = "Plánováno";
+"upcoming_transactions_widget_description" = "Tento widget vám ukáže vaši příští plánovanou transakci.";
+
+"budget_widget_title" = "Rozpočet";
+"budget_widget_description" = "Tento widget zobrazuje konkrétní rozpočet pro zvolené období.";
+"budget_widget_no_budget_title" = "Není vybrán žádný rozpočet";
+
+"suggestion_widget_title" = "Doporučeno";
+"suggestion_widget_description" = "Tento widget zobrazuje navrhovanou kategorii na základě aktuálního data, pro které můžete vytvořit novou transakci.";
+
+"quick_actions_widget_title" = "Rychlý záznam";
+"quick_actions_widget_description" = "Tento widget umožňuje rychle přidávat nové transakce.";
+"quick_actions_widget_new_title" = "Nové";
+
+"widget_upgrade_locked_title" = "Zamčeno";
+"widget_upgrade_necessary_title" = "Plná verze";
+"widget_upgrade_necessary_title_long" = "Vyžadována plná verze";
+"widget_upgrade_necessary_description" = "Pro použití tohoto widgetu je vyžadována aktualizace plné verze.";
+"widget_upgrade_necessary_highlighted_text" = "plné verze";
+
+
+/* MARK: - Add Item Form View */
+/* Alert Views */
+/* Info */
+"alert_no_budget_book_selected_title" = "Nebyla vybrána žádná rozpočtová kniha";
+"alert_upgrade_necessary_title" = "Plná verze";
+"alert_upgrade_necessary_description" = "Chcete-li tuto funkci používat, musíte upgradovat na plnou verzi. Tu lze aktivovat v aplikaci.";
+
+/* Dismiss */
+"alert_confirm_dismiss_title" = "Opravdu chcete zahodit své změny?";
+
+/* Delete */
+"alert_confirm_delete_budgetbook_title" = "Opravdu chcete smazat tuto rozpočtovou knihu? Všechny související účty, kategorie, transakce a rozpočty budou také smazány.";
+"alert_confirm_delete_budgetbook_button" = "Smazat rozpočtovou knihu";
+"alert_confirm_delete_budgetbook_multiple_title" = "Opravdu chcete smazat všechny vybrané rozpočtové knihy? Všechny přidružené účty, kategorie, transakce a rozpočty budou také smazány.";
+"alert_confirm_delete_budgetbook_multiple_button" = "Smazat rozpočtové knihy";
+
+"alert_confirm_delete_account_title" = "Opravdu chcete smazat tento účet? Všechny související transakce budou také smazány.";
+"alert_confirm_delete_account_button" = "Smazat účet";
+"alert_confirm_delete_account_multiple_title" = "Opravdu chcete smazat všechny vybrané účty? Všechny související transakce budou také smazány.";
+"alert_confirm_delete_account_multiple_button" = "Smazat účty";
+
+"alert_confirm_delete_categorygroup_title" = "Opravdu chcete smazat tuto složku? Všechny související kategorie, transakce a rozpočty budou také smazány (v případě potřeby).";
+"alert_confirm_delete_categorygroup_button" = "Smazat složku";
+"alert_confirm_delete_categorygroup_multiple_title" = "Opravdu chcete smazat všechny vybrané složky? Všechny související kategorie, transakce a rozpočty budou také smazány (v případě potřeby).";
+"alert_confirm_delete_categorygroup_multiple_button" = "Smazat složku";
+
+"alert_confirm_delete_category_title" = "Opravdu chcete smazat tuto kategorii? Všechny související rozpočty budou také smazány (v případě potřeby).";
+"alert_confirm_delete_category_button" = "Smazat kategorii";
+"alert_confirm_delete_category_multiple_title" = "Opravdu chcete smazat všechny vybrané kategorie? Všechny související transakce a rozpočty budou také smazány.";
+"alert_confirm_delete_category_multiple_button" = "Smazat kategorie";
+
+"alert_confirm_delete_payee_title" = "Opravdu chcete tohoto příjemce platby smazat?";
+"alert_confirm_delete_payee_button" = "Smazat příjemce platby";
+"alert_confirm_delete_payee_multiple_title" = "Opravdu chcete smazat všechny vybrané příjemce?";
+"alert_confirm_delete_payee_multiple_button" = "Smazat příjemce";
+
+"alert_confirm_delete_tag_title" = "Opravdu chcete smazat tuto značku?";
+"alert_confirm_delete_tag_button" = "Smazat značku";
+"alert_confirm_delete_tag_multiple_title" = "Opravdu chcete smazat všechny vybrané značky?";
+"alert_confirm_delete_tag_multiple_button" = "Smazat značky";
+
+"alert_confirm_delete_reminder_title" = "Opravdu chcete smazat toto připomenutí?";
+"alert_confirm_delete_reminder_button" = "Smazat připomenutí";
+"alert_confirm_delete_reminder_multiple_title" = "Opravdu chcete smazat všechna vybraná připomenutí?";
+"alert_confirm_delete_reminder_multiple_button" = "Smazat připomenutí";
+
+"alert_confirm_delete_transaction_title" = "Opravdu chcete smazat tuto transakci?";
+"alert_confirm_delete_assigned_transaction_title" = "Chcete také smazat všechny přiřazené transakce?";
+"alert_confirm_delete_transaction_button" = "Smazat transakci";
+"alert_confirm_delete_transaction_multiple_title" = "Opravdu chcete smazat všechny vybrané transakce?";
+"alert_confirm_delete_transaction_multiple_button" = "Smazat transakce";
+
+"alert_confirm_delete_imageitem_title" = "Opravdu chcete smazat tuto fotografii?";
+"alert_confirm_delete_imageitem_button" = "Smazat fotografii";
+"alert_confirm_delete_imageitem_multiple_title" = "Opravdu chcete smazat všechny vybrané fotografie?";
+"alert_confirm_delete_imageitem_multiple_button" = "Smazat fotografie";
+
+"alert_confirm_delete_documentitem_title" = "Opravdu chcete smazat tento dokument?";
+"alert_confirm_delete_documentitem_button" = "Smazat dokument";
+"alert_confirm_delete_documentitem_multiple_title" = "Opravdu chcete smazat všechny vybrané dokumenty?";
+"alert_confirm_delete_documentitem_multiple_button" = "Smazat dokumenty";
+
+"alert_confirm_delete_budget_title" = "Opravdu chcete smazat tento rozpočet?";
+"alert_confirm_delete_budget_button" = "Smazat rozpočet";
+"alert_confirm_delete_budget_multiple_title" = "Opravdu chcete smazat všechny vybrané rozpočty?";
+"alert_confirm_delete_budget_multiple_button" = "Smazat rozpočty";
+
+"alert_confirm_delete_backupitem_title" = "Opravdu chcete smazat tuto zálohu?";
+"alert_confirm_delete_backupitem_button" = "Smazat zálohu";
+
+"alert_confirm_delete_contra_entry_title" = "Tato transakce je převod. Chcete také smazat záznam kontra?";
+
+/* Updates */
+"alert_confirm_update_contra_entry_title" = "Tato transakce je převod. Přejete si také aktualizovat záznam kontra?";
+"alert_confirm_update_transaction_multiple_title" = "Tato transakce patří do skupiny. Co přesně chcete uložit?";
+"alert_confirm_update_transaction_single_button" = "Uložit pouze tento";
+"alert_confirm_update_transaction_all_button" = "Uložit toto a budoucí";
+
+/* End Repetition */
+"alert_confirm_end_repetition_for_transaction_title" = "Opravdu chcete zastavit opakování této transakce?";
+"alert_confirm_end_repetition_for_transaction_button" = "Ukončit opakování";
+"alert_confirm_end_repetition_for_transaction_multiple_title" = "Opravdu chcete, aby se všechny vybrané transakce přestaly opakovat?";
+"alert_confirm_end_repetition_for_transaction_multiple_button" = "Ukončit opakování";
+
+/* Currency Selection */
+"alert_change_currency_or_exchange_rate_title" = "Co přesně chcete změnit?";
+"alert_change_currency_button" = "Měna";
+"alert_change_exchange_rate_button" = "Směnný kurz";
+
+
+/* MARK: - Currency Selection View */
+/* Titles */
+"currency_selection_title" = "Měny";
+
+/* Info */
+"currency_selection_info_title" = "Popis";
+"currency_selection_info_description" = "Vyberte výchozí měnu pro stávající a budoucí transakce.";
+
+/* Sections */
+"default_currency_section_title" = "Výchozí měna";
+"suggested_currencies_section_title" = "Návrhy";
+
+/* Messages */
+"no_currencies_found_title" = "Nebyly nalezeny žádné měny";
+"currency_selection_search_placeholder_message" = "Vyhledat název měny nebo její zkratku";
+
+/* Buttons */
+"change_default_currency_button" = "Změnit výchozí měnu";
+
+/* Alert Views */
+"alert_confirm_change_default_currency_title" = "Opravdu chcete změnit svou výchozí měnu? Tím se převedou všechny existující transakce na novou měnu (%@).";
+"alert_confirm_change_default_account_currency_title" = "Opravdu chcete změnit měnu? Tím se převedou všechny existující transakce tohoto účtu na novou měnu (%@).";
+
+
+/* MARK: - Currency Conversion View */
+/* Titles */
+"currency_conversion_title" = "Převést";
+"currency_conversion_last_synchronization_title" = "Aktualizováno: %@";
+"currency_conversion_synchronization_failed_title" = "Synchronizace se nezdařila";
+"currency_conversion_synchronization_failed_no_internet_title" = "Žádné připojení k internetu";
+
+/* Sections */
+"source_currency_section_title" = "Od";
+"target_currency_section_title" = "Komu";
+
+
+/* MARK: - Time Zone Selection View */
+/* Titles */
+"time_zone_selection_title" = "Časové pásmo";
+
+/* Messages */
+"no_timezones_found_title" = "Nenalezena žádná časová pásma";
+"time_zone_selection_search_placeholder_message" = "Vyhledejte časové pásmo země nebo města";
+
+
+/* MARK: - Manage Item View */
+/* Titles */
+"manage_budgetbooks_title" = "Rozpočtové knihy";
+"manage_accounts_title" = "Účty";
+"manage_categories_title" = "Kategorie";
+"manage_category_groups_title" = "Složky";
+"manage_payees_title" = "Příjemci";
+"manage_tags_title" = "Značky";
+"manage_reminders_title" = "Připomenutí";
+
+/* Info */
+"manage_reminders_info_title" = "Popis";
+"manage_reminders_info_description" = "Vytvořte vlastní připomenutí nebo je přidejte do budoucích transakcí, aby vás aplikace upozornila.";
+
+/* Sections */
+"shared_by_you_budgetbooks_section_title" = "Sdíleno vámi";
+"shared_with_you_budgetbooks_section_title" = "Sdíleno s vámi";
+"not_shared_budgetbooks_section_title" = "Nesdíleno";
+"most_used_items_section_title" = "Nejpoužívanější";
+"archived_items_section_title" = "Archivováno";
+"own_reminders_section_title" = "Vlastní připomenutí";
+
+/* Messages */
+"no_budget_books_found_title" = "Nebyly nalezeny žádné rozpočtové knihy";
+"no_budget_books_found_message" = "Kliknutím na tlačítko \"+\" přidáte novou rozpočtovou knihu.";
+"no_budget_books_found_button_title" = "Nová rozpočtová kniha";
+"no_budget_books_found_cloud_sync_message" = "Stávající data se načítají z iCloudu. Chvíli prosím počkejte...\n\nPřípadně klikněte na tlačítko \"+\" a přidejte novou rozpočtovou knihu.";
+"no_budget_books_found_cloud_sync_message_short" = "Stávající data se načítají z iCloudu. Počkejte prosím chvíli...";
+"budget_books_search_placeholder_message" = "Vyhledat jméno rozpočtového bookera";
+
+"no_accounts_title" = "Žádné účty";
+"no_accounts_found_title" = "Nebyly nalezeny žádné účty";
+"no_accounts_found_message" = "Kliknutím na tlačítko \"+\" přidáte nový účet.";
+"no_accounts_found_button_title" = "Nový účet";
+"accounts_search_placeholder_message" = "Hledat podle názvu účtu nebo typu účtu";
+
+"no_categories_found_title" = "Nebyly nalezeny žádné kategorie";
+"no_categories_found_message" = "Kliknutím na tlačítko \"+\" přidáte novou kategorii.";
+"no_categories_found_button_title" = "Nová kategorie";
+"categories_search_placeholder_message" = "Hledat podle kategorie nebo názvu složky";
+
+"no_category_groups_found_title" = "Nebyly nalezeny žádné složky";
+"no_category_groups_found_message" = "Kliknutím na tlačítko \"+\" přidáte novou složku.";
+"no_category_groups_found_button_title" = "Nová složka";
+"category_groups_search_placeholder_message" = "Hledat podle názvu složky";
+
+"no_payees_found_title" = "Nebyli nalezeni žádní příjemci";
+"no_payees_found_message" = "Kliknutím na tlačítko \"+\" přidáte nového příjemce.";
+"no_payees_found_button_title" = "Nový příjemce";
+"payees_search_placeholder_message" = "Hledat podle jména příjemce";
+
+"no_tags_found_title" = "Nebyly nalezeny žádné značky";
+"no_tags_found_message" = "Kliknutím na tlačítko \"+\" přidáte novou značku.";
+"no_tags_found_button_title" = "Nová značka";
+"tags_search_placeholder_message" = "Hledat podle názvu značky";
+
+"no_reminders_found_title" = "Nebyla nalezena žádná připomenutí";
+"no_reminders_found_message" = "Kliknutím na tlačítko \"+\" přidáte nové připomenutí.";
+"no_reminders_found_button_title" = "Nové připomenutí";
+"reminders_search_placeholder_message" = "Hledat podle názvu připomenutí";
+
+/* Value */
+"balance" = "Zůstatek";
+
+
+/* MARK: - Add Item Form View */
+/* Titles */
+"form_title_edit" = "Upravit";
+
+/* Sections */
+"form_name_section_title" = "Jméno";
+"form_title_section_title" = "Název";
+"form_color_section_title" = "Barva";
+"form_icon_section_title" = "Ikona";
+"form_assignment_section_title" = "Zadání";
+"form_miscellaneous_section_title" = "Různé";
+
+/* Miscellaneous */
+"number_of_selected_items" = "%d vybráno";
+
+
+/* MARK: - Add Budget Book Form View */
+/* Titles */
+"form_title_new_budgetbook" = "Nová rozpočtová kniha";
+
+/* Items */
+"form_budgetbook_currency_title" = "Měna";
+
+/* Buttons */
+"form_button_delete_budgetbook" = "Smazat rozpočtovou knihu";
+
+
+/* MARK: - Add Account Form View */
+/* Titles */
+"form_title_new_account" = "Nový účet";
+
+/* Sections */
+"form_billing_section_title" = "Automatická fakturace";
+"form_transactions_section_title" = "Transakce";
+"form_account_balance_section_title" = "Zůstatek na účtu";
+
+/* Footer */
+"form_billing_footer_title" = "Povolte tuto funkci, abyste automaticky vyrovnali kreditní kartu v určitý den v měsíci (pokud je to nutné).";
+"form_transactions_footer_title" = "Povolte tuto funkci, aby se nové transakce pro tento účet automaticky označovaly jako \"nevyřízené\".";
+"form_account_balance_footer_title" = "Změňte počáteční/celkový zůstatek pro ruční odsouhlasení zůstatku na účtu.";
+
+/* Items */
+"form_enable_automatic_billing_title" = "Povoleno";
+"form_billing_day_title" = "Den fakturace";
+"form_mark_transactions_as_pending_title" = "Označit jako čekající";
+"form_account_type_title" = "Typ účtu";
+"form_initial_balance_title" = "Počáteční zůstatek";
+"form_total_balance_title" = "Celkový zůstatek";
+"form_use_as_default_account_title" = "Výchozí účet";
+"form_account_currency_title" = "Měna";
+
+/* Buttons */
+"form_button_archive_account" = "Archivovat účet";
+"form_button_unarchive_account" = "Zrušit archivaci účtu";
+"form_button_delete_account" = "Smazat účet";
+
+
+/* MARK: - Add Category Group Form View */
+/* Titles */
+"form_title_new_categorygroup" = "Nová složka";
+
+/* Buttons */
+"form_button_delete_categorygroup" = "Smazat složku";
+
+
+/* MARK: - Add Category Form View */
+/* Titles */
+"form_title_new_category" = "Nová kategorie";
+
+/* Items */
+"form_category_group_title" = "Složka";
+"form_category_group_none_type_value" = "Žádné";
+
+/* Buttons */
+"form_button_delete_category" = "Smazat kategorii";
+
+
+/* MARK: - Add Payee Form View */
+/* Titles */
+"form_title_new_payee" = "Nový příjemce";
+
+/* Footer */
+"form_assignment_default_entries_footer_title" = "Přiřaďte tomuto příjemci účet, kategorii nebo umístění, které se má jako výchozí používat pro transakce.";
+
+/* Items */
+"form_location_title" = "Umístění";
+"form_location_none_type_value" = "Žádné";
+
+/* Buttons */
+"form_button_delete_payee" = "Smazat příjemce";
+
+
+/* MARK: - Add Tag Form View */
+/* Titles */
+"form_title_new_tag" = "Nová značka";
+
+/* Buttons */
+"form_button_delete_tag" = "Smazat značku";
+
+
+/* MARK: - Add Reminder Form View */
+/* Titles */
+"form_title_new_reminder" = "Nové připomenutí";
+
+/* Items */
+"form_is_enabled_title" = "Povoleno";
+
+/* Buttons */
+"form_button_preview_reminder" = "Zobrazit náhled";
+"form_button_delete_reminder" = "Smazat připomenutí";
+
+/* Notifications */
+"reminder_notification_title" = "Připomenutí";
+
+
+/* MARK: - Add Transaction Form View */
+/* Titles */
+"form_title_new_income" = "Nový příjem";
+"form_title_new_expense" = "Nové náklady";
+"form_title_new_transfer" = "Nový převod";
+
+/* Sections */
+"form_date_section_title" = "Splatnost";
+"form_reminder_section_title" = "Připomenutí";
+"form_location_section_title" = "Umístění";
+"form_notes_section_title" = "Poznámky";
+"form_currency_section_title" = "Měna";
+"form_payment_status_section_title" = "Platba";
+"form_evaluation_section_title" = "Hodnoceno";
+"form_attachments_section_title" = "Přílohy";
+"form_tags_section_title" = "Značky";
+
+/* Items */
+"form_account_title" = "Účet";
+"form_from_account_title" = "Od";
+"form_to_account_title" = "Komu";
+"form_account_none_type_value" = "Žádné";
+"form_category_title" = "Kategorie";
+"form_categories_title" = "Kategorie";
+"form_category_none_type_value" = "Žádné";
+"form_payee_title" = "Příjemce";
+"form_payee_none_type_value" = "Žádné";
+"form_tags_title" = "Značky";
+"form_tag_none_type_value" = "Žádné";
+"form_date_title" = "Datum";
+"form_date_format_title" = "Formát data";
+"form_time_title" = "Čas";
+"form_repetition_frequency_title" = "Opakovat";
+"form_date_repetition_has_end_date_title" = "Konec";
+"form_date_repetition_end_date_title" = "Datum ukončení";
+"form_reminder_title" = "Aktivní";
+"form_reminder_none_type_value" = "Žádné";
+"form_reminder_none_type_value_long" = "Žádná připomínka";
+"form_reminder_on_due_value" = "V termínu";
+"form_location_none_type_value_long" = "Žádné umístění";
+"form_original_amount_title" = "Původní částka";
+"form_exchange_rate_title" = "Směnný kurz";
+"form_is_selected_title" = "Vybráno";
+"form_is_pending_title" = "Nevyřízeno";
+"form_payed_by_title" = "Přiděleno";
+"form_payed_by_none_type_value" = "Nikdo";
+"form_include_in_statistics_title" = "Statistiky";
+"form_include_in_budgets_title" = "Rozpočty";
+
+/* Footer */
+"form_payment_status_footer_title" = "Označit platbu jako \"nevyřízenou\", aby částka nebyla zahrnuta do výpočtů.";
+"form_evaluation_footer_title" = "Vyloučte tuto transakci ze statistik a/nebo rozpočtů, aby byla zohledněna pouze v zůstatku účtu.";
+"form_reminded_transactions_is_invalid_footer_title" = "Informace: Chcete-li k této transakci přidat upomínku, musíte vybrat buď budoucí datum, nebo interval opakování.";
+
+/* Buttons */
+"form_button_delete_transaction" = "Smazat transakci";
+"form_button_end_repetition_for_transaction" = "Ukončit opakování";
+"form_button_clear_title" = "Odstranit";
+"form_button_today_title" = "Dnes";
+
+/* Miscellaneous */
+"receipt_total" = "Celkem";
+"receipt_amount" = "Částka";
+"receipt_to_pay" = "Zaplatit";
+
+/* Notifications */
+"transaction_notification_body" = "Částka: %@\nDatum: %@";
+"transaction_notification_body_notes" = "Poznámky: %@";
+
+
+/* MARK: - Add Budget Form View */
+/* Titles */
+"form_title_new_budget" = "Nový rozpočet";
+
+/* Sections */
+"form_interval_section_title" = "Interval";
+
+/* Footer */
+"form_budget_amount_calculation_footer_title" = "Interval určuje, jak často se bude rozpočet opakovat, přičemž zobrazená dostupná částka se automaticky přizpůsobí zvolenému časovému období.";
+
+/* Items */
+"form_is_cumulative_title" = "Kumulativní";
+
+/* Buttons */
+"form_button_delete_budget" = "Smazat rozpočet";
+
+
+/* MARK: - Assign CSV Fields Form View */
+/* Titles */
+"form_title_csv_assign_fields" = "Přiřadit pole";
+
+/* Info */
+"csv_assign_fields_info_title" = "Popis";
+"csv_assign_fields_info_description" = "Přiřaďte prosím sloupce souboru CSV k importu do odpovídajících polí.";
+
+/* Sections */
+"form_general_section_title" = "Obecné";
+
+/* Footer */
+"form_invalid_footer_title" = "Chyba:";
+"form_invalid_amount_footer_title" = "Hodnoty pro \"%@\" nejsou platné peněžní částky.";
+"form_invalid_currency_footer_title" = "Hodnoty pro \"%@\" nejsou platné měny.";
+"form_invalid_exchange_rate_footer_title" = "Hodnoty pro \"%@\" nejsou platné číselné hodnoty.";
+"form_invalid_date_format_footer_title" = "Vybrané datum a/nebo formát je neplatný.";
+"form_type_footer_title" = "Informace: Vyberte \"%@\" pro výpočet typu transakce na základě znaménka hodnoty částky.";
+"form_date_format_footer_title" = "Příklad: %@";
+
+/* Items */
+"form_type_title" = "Typ";
+"form_amount_title" = "Částka";
+"form_source_currency_title" = "Zdrojová měna";
+"form_target_currency_title" = "Cílová měna";
+"form_budget_book_title" = "Rozpočtová kniha";
+"form_notes_title" = "Poznámky";
+"form_skip_zero_amounts_title" = "Přeskočit částky \"0\"";
+"form_skip_duplicates_title" = "Přeskočit duplikáty";
+"form_csv_assign_field_none_type_value" = "Nepřiřazeno";
+
+
+/* MARK: - Color Selection View */
+/* Titles */
+"color_selection_title" = "Barvy";
+
+/* Messages */
+"no_colors_found_title" = "Nebyly nalezeny žádné barvy";
+"color_selection_search_placeholder_message" = "Hledej barvu nebo název skupiny";
+
+
+/* MARK: - Icon Selection View */
+/* Titles */
+"icon_selection_title" = "Ikony";
+
+/* Messages */
+"no_icons_found_title" = "Nebyly nalezeny žádné ikony";
+"icon_selection_search_placeholder_message" = "Vyhledat štítek ikony nebo název skupiny";
+
+
+/* MARK: - Location Selection View */
+/* Titles */
+"location_selection_title" = "Umístění";
+"location_selection_searchbar_placeholder" = "Hledat";
+"location_selection_search_history_title" = "Nedávné";
+
+/* Buttons */
+"location_selection_select_button_title" = "Vybrat";
+
+/* Alert Views */
+"location_selection_no_internet_error_title" = "Chyba";
+"location_selection_no_internet_error_message" = "Zdá se, že není k dispozici připojení k internetu";
+
+
+/* MARK: - Other Alert Views */
+"alert_selected_period_changed_title" = "%@ vybráno";
+"alert_selected_period_changed_message" = "Protože %@ začalo, aktuální období bylo automaticky upraveno.\n\nChcete-li přepínat mezi obdobími a zobrazit minulé transakce, jednoduše klikněte na tlačítko \"%@\" v levém horním rohu obrazovky a poté vyberte požadované časové období.";
+"alert_selected_period_changed_new_month" = "nový měsíc";
+"alert_selected_period_changed_new_year" = "nový rok";
+
+"alert_no_mail_initialized_title" = "Žádný e-mailový účet";
+"alert_no_mail_initialized_message" = "Zdá se, že na svém zařízení nemáte nastaven e-mailový účet. Pro použití této funkce je to však povinné.";
+
+"alert_no_camera_title" = "Kamera není k dispozici";
+"alert_no_camera_message" = "Zdá se, že nemáte kameru. Tuto funkci je však povinné používat.";
+
+"alert_permissions_title" = "Téměř hotovo!";
+"alert_permissions_activate_button" = "Aktivovat nyní";
+"alert_permissions_cancel_button" = "Možná později";
+
+"alert_camera_permissions_message" = "Chcete-li fotografovat, vše, co musíte udělat, je povolit přístup k \"fotoaparátu\" v nastavení.";
+"alert_photolibrary_permissions_message" = "Chcete-li přidat fotografie, vše, co musíte udělat, je povolit přístup k \"fotkám\" v nastavení.";
+"alert_notifications_permissions_message" = "Chcete-li dostávat upozornění push, stačí povolit \"upozornění\" v nastavení.";
+
+
+/* MARK: - Tips */
+"period_selection_tip_title" = "Změnit období";
+"period_selection_tip_message" = "Kliknutím sem změníte zobrazené období. To ovlivní všechna zobrazení (přehled, transakce a rozpočty).";
+"interactive_charts_tip_title" = "Interaktivní grafy";
+"interactive_charts_tip_message" = "Přejetím doleva nebo doprava změníte aktivní graf nebo dlouhým stisknutím grafu zobrazíte hodnoty pro konkrétní datum.";
+"switch_budget_books_tip_title" = "Přepnout rozpočtové knihy";
+"switch_budget_books_tip_message" = "Dlouhým stisknutím záložky přehledu rychle přepnete mezi svými rozpočtovými knihami.";
+
+
+/* MARK: - Watch App */
+/* Titles */
+"cloud_sync_status_section_title" = "Stav synchronizace iCloud";
+"cloud_sync_status_footer_title" = "Informace: Pro synchronizaci dat z iPhonu musíte být přihlášeni do iCloud.";
+
+
+/* MARK: - Localized URLs */
+"imprintUrl" = "https://budget-flow.app/json/en/imprint.json";
+"termsOfUseUrl" = "https://www.apple.com/legal/internet-services/itunes/dev/stdeula";
+"privacyUrl" = "https://www.iubenda.com/api/privacy-policy/17322265/no-markup";
+"privacyUrlWeb" = "https://budget-flow.app/privacy-policy";
+"imprintUrlWeb" = "https://budget-flow.app/imprint";
+"familySharingUrl" = "https://www.apple.com/family-sharing";
+
+
+/* MARK: - Default Data */
+"default_account_name" = "Výchozí účet";
+
+"default_category_group_name_income" = "Příjem";
+"default_category_name_salary" = "Plat";
+
+"default_category_group_name_free_time" = "Volný čas";
+"default_category_name_shopping" = "Nakupování";
+"default_category_name_vacation" = "Dovolená";
+
+"default_category_group_name_mobility" = "Mobilita";
+"default_category_name_car" = "Auto";
+
+"default_category_group_name_groceries" = "Potraviny";
+"default_category_name_supermarket" = "Supermarket";
+"default_category_name_restaurant" = "Restaurace";
+"default_category_name_fast_food" = "Rychlé občerstvení";
+
+"default_category_group_name_living" = "Žijící";
+"default_category_name_rent" = "Pronájem";
+
+"default_category_group_name_miscellaneous" = "Různé";
+
+"default_reminder_title" = "Zaznamenejte výdaje";
+
+
+/* MARK: - Color Sections */
+"color_section_classic_title" = "Klasické";
+"color_section_sunset_title" = "Západ slunce";
+"color_section_afterglow_title" = "Dosvit";
+"color_section_ocean_title" = "Oceán";
+"color_section_nightsky_title" = "Noční obloha";
+"color_section_apple_title" = "Apple Inc.";
+"color_section_pastel_title" = "Pastel";
+
+
+/* MARK: - Color Keywords */
+"color_keyword_custom" = "Vlastní";
+"color_keyword_red" = "Červená";
+"color_keyword_green" = "Zelená";
+"color_keyword_blue" = "Modrá";
+"color_keyword_yellow" = "Žlutá";
+"color_keyword_orange" = "Oranžová";
+"color_keyword_purple" = "Fialová";
+"color_keyword_pink" = "Růžová";
+"color_keyword_brown" = "Hnědá";
+"color_keyword_mint" = "Mátová";
+"color_keyword_cyan" = "Azurová";
+"color_keyword_violet" = "Fialová";
+"color_keyword_gray" = "Šedá";
+
+
+/* MARK: - Icon Sections */
+"icon_section_suggestions_title" = "Návrhy";
+"icon_section_general_title" = "Obecné";
+"icon_section_mobility_title" = "Mobilita";
+"icon_section_household_title" = "Domácnost";
+"icon_section_freetime_title" = "Volný čas";
+"icon_section_nature_title" = "Příroda";
+"icon_section_food_and_drinks_title" = "Jídlo a nápoje";
+"icon_section_shopping_title" = "Nakupování";
+"icon_section_health_title" = "Zdraví";
+"icon_section_office_title" = "Kancelář";
+"icon_section_arrows_title" = "Šipky";
+"icon_section_objects_title" = "Objekty";
+"icon_section_people_title" = "Lidé";
+"icon_section_buildings_title" = "Budovy";
+"icon_section_payment_methods_title" = "Způsoby platby";
+
+
+/* MARK: - Icon Keywords */
+"icon_keyword_emoji" = "Emoji";
+"icon_keyword_tag" = "Značka";
+"icon_keyword_heart" = "Srdce";
+"icon_keyword_star" = "Hvězda";
+"icon_keyword_folder" = "Složka";
+"icon_keyword_bookmark" = "Záložka";
+"icon_keyword_building" = "Budova";
+"icon_keyword_house" = "Dům";
+"icon_keyword_lightbulb" = "Žárovka";
+"icon_keyword_fan" = "Fanoušek";
+"icon_keyword_lamp" = "Lampa";
+"icon_keyword_alarm_system" = "Poplachový systém";
+"icon_keyword_webcam" = "Webová kamera";
+"icon_keyword_camera" = "Fotoaparát";
+"icon_keyword_door" = "Dveře";
+"icon_keyword_garage" = "Garáž";
+"icon_keyword_window" = "Okno";
+"icon_keyword_blinds" = "Rolety";
+"icon_keyword_roller" = "Válec";
+"icon_keyword_curtains" = "Záclony";
+"icon_keyword_air_purifier" = "Čistička vzduchu";
+"icon_keyword_dehumidifier" = "Odvlhčovač";
+"icon_keyword_humidifier" = "Zvlhčovač";
+"icon_keyword_heater" = "Ohřívač";
+"icon_keyword_air_conditioner" = "Klimatizace";
+"icon_keyword_sprinkler" = "Postřikovač";
+"icon_keyword_trash" = "Odpadkový koš";
+"icon_keyword_spigot" = "Faucet";
+"icon_keyword_shower" = "Sprcha";
+"icon_keyword_bathtub" = "Vana";
+"icon_keyword_pipe" = "Vodní potrubí";
+"icon_keyword_hifi_reveiver" = "Hifi systém";
+"icon_keyword_video_projector" = "Videoprojektor";
+"icon_keyword_beamer" = "Beamer";
+"icon_keyword_wifi_router" = "Wifi router";
+"icon_keyword_internet" = "Internet";
+"icon_keyword_party" = "Večírek";
+"icon_keyword_balloon" = "Balón";
+"icon_keyword_pan" = "Pánev";
+"icon_keyword_cooking" = "Vaření";
+"icon_keyword_kitchen" = "Kuchyně";
+"icon_keyword_popcorn" = "Popcorn";
+"icon_keyword_cinema" = "Kino";
+"icon_keyword_movie" = "Film";
+"icon_keyword_food" = "Jídlo";
+"icon_keyword_bed" = "Postel";
+"icon_keyword_bedroom" = "Ložnice";
+"icon_keyword_hotel" = "Hotel";
+"icon_keyword_sofa" = "Pohovka";
+"icon_keyword_couch" = "Pohovka";
+"icon_keyword_livingroom" = "Obývací pokoj";
+"icon_keyword_chair" = "Židle";
+"icon_keyword_armchair" = "Křeslo";
+"icon_keyword_cabinet" = "Skříň";
+"icon_keyword_fireplace" = "Krb";
+"icon_keyword_washer" = "Pračka";
+"icon_keyword_dryer" = "Sušička";
+"icon_keyword_dishwasher" = "Myčka nádobí";
+"icon_keyword_oven" = "Trouba";
+"icon_keyword_stove" = "Vařič";
+"icon_keyword_microwave" = "Mikrovlnná trouba";
+"icon_keyword_refrigerator" = "chladnička";
+"icon_keyword_sink" = "Umyvadlo";
+"icon_keyword_toilet" = "Toaleta";
+"icon_keyword_bathroom" = "Koupelna";
+"icon_keyword_tv_remote" = "Dálkové ovládání";
+"icon_keyword_tv" = "TV";
+"icon_keyword_person" = "Osoba";
+"icon_keyword_human" = "Člověk";
+"icon_keyword_airplane" = "Letadlo";
+"icon_keyword_vacation" = "Dovolená";
+"icon_keyword_car" = "Auto";
+"icon_keyword_electric_car" = "Elektrický vůz";
+"icon_keyword_charging_station" = "Nabíjecí stanice";
+"icon_keyword_car_pool" = "Carpool";
+"icon_keyword_bus" = "Sběrnice";
+"icon_keyword_tram" = "Vlak";
+"icon_keyword_railroad" = "Železnice";
+"icon_keyword_cablecar" = "Tramvaj";
+"icon_keyword_ferry" = "Trajekt";
+"icon_keyword_ship" = "Loď";
+"icon_keyword_truck" = "Nákladní auto";
+"icon_keyword_relocation" = "Přemístění";
+"icon_keyword_bicycle" = "Kolo";
+"icon_keyword_sport" = "Sport";
+"icon_keyword_scooter" = "Skútr";
+"icon_keyword_sailboat" = "Plachetnice";
+"icon_keyword_fuel" = "Palivo";
+"icon_keyword_refuel" = "Natankovat";
+"icon_keyword_gas_station" = "Čerpací stanice";
+"icon_keyword_walking" = "Chůze";
+"icon_keyword_running" = "Běží";
+"icon_keyword_rugby" = "Rugby";
+"icon_keyword_badminton" = "Badminton";
+"icon_keyword_tennis" = "Tenis";
+"icon_keyword_dancing" = "Tanec";
+"icon_keyword_skiing" = "Lyžování";
+"icon_keyword_swimming" = "Plavání";
+"icon_keyword_skating" = "Bruslení";
+"icon_keyword_strengthtraining" = "Silový trénink";
+"icon_keyword_gym" = "Posilovna";
+"icon_keyword_yoga" = "Jóga";
+"icon_keyword_bowling" = "Bowling";
+"icon_keyword_sportscourt" = "Sportovní hřiště";
+"icon_keyword_stadium" = "Stadion";
+"icon_keyword_soccer" = "Fotbal";
+"icon_keyword_golf" = "Golf";
+"icon_keyword_baseball" = "Baseball";
+"icon_keyword_basketball" = "Basketbal";
+"icon_keyword_volleyball" = "Volejbal";
+"icon_keyword_trophy" = "Trofej";
+"icon_keyword_medal" = "Medaile";
+"icon_keyword_flag" = "Příznak";
+"icon_keyword_race" = "Závod automobilů";
+"icon_keyword_gamecontroller" = "Herní ovladač";
+"icon_keyword_videogames" = "Videohry";
+"icon_keyword_gaming" = "Hry";
+"icon_keyword_playstation" = "PlayStation";
+"icon_keyword_xbox" = "Xbox";
+"icon_keyword_nintento_switch" = "Nintendo Switch";
+"icon_keyword_book" = "Kniha";
+"icon_keyword_books" = "Knihy";
+"icon_keyword_magazine" = "Časopis";
+"icon_keyword_reading" = "Čtení";
+"icon_keyword_painting" = "Malování";
+"icon_keyword_drawing" = "Výkres";
+"icon_keyword_theater" = "Divadlo";
+"icon_keyword_singing" = "Zpěv";
+"icon_keyword_karaoke" = "Karaoke";
+"icon_keyword_music" = "Hudba";
+"icon_keyword_spotify" = "Spotify";
+"icon_keyword_apple_music" = "Hudba Apple";
+"icon_keyword_piano" = "Piano";
+"icon_keyword_guitar" = "Kytara";
+"icon_keyword_rockband" = "Rockband";
+"icon_keyword_festival" = "Festival";
+"icon_keyword_tent" = "Stan";
+"icon_keyword_dice" = "Kostky";
+"icon_keyword_boardgames" = "Deskové hry";
+"icon_keyword_gambling" = "Hazardní hry";
+"icon_keyword_camera" = "Fotoaparát";
+"icon_keyword_photography" = "Fotografie";
+"icon_keyword_photo" = "Fotografie";
+"icon_keyword_world" = "Svět";
+"icon_keyword_globe" = "Glóbus";
+"icon_keyword_sun" = "Slunce";
+"icon_keyword_summer" = "Léto";
+"icon_keyword_moon" = "Měsíc";
+"icon_keyword_stars" = "Hvězdy";
+"icon_keyword_cloud" = "Mraky";
+"icon_keyword_icloud" = "iCloud";
+"icon_keyword_rain" = "Déšť";
+"icon_keyword_flame" = "Plamen";
+"icon_keyword_fire" = "Požár";
+"icon_keyword_snow" = "Sníh";
+"icon_keyword_winter" = "Zima";
+"icon_keyword_bolt" = "Blesk";
+"icon_keyword_plug" = "Zásuvka";
+"icon_keyword_electric" = "Elektrický";
+"icon_keyword_electrics" = "Elektrika";
+"icon_keyword_electricity" = "Elektřina";
+"icon_keyword_tornado" = "Tornádo";
+"icon_keyword_sea" = "Moře";
+"icon_keyword_hare" = "Králík";
+"icon_keyword_rabbit" = "Králík";
+"icon_keyword_animal" = "Zvíře";
+"icon_keyword_tortoise" = "Želva";
+"icon_keyword_lizard" = "Ještěrka";
+"icon_keyword_bird" = "Pták";
+"icon_keyword_ant" = "Mravenec";
+"icon_keyword_ladybug" = "Chyba";
+"icon_keyword_fish" = "Ryba";
+"icon_keyword_pet" = "Zvířátko";
+"icon_keyword_cat" = "Kočka";
+"icon_keyword_dog" = "Pes";
+"icon_keyword_leaf" = "List";
+"icon_keyword_plant" = "Rostlina";
+"icon_keyword_flower" = "Květina";
+"icon_keyword_eating" = "Jíst";
+"icon_keyword_restaurant" = "Restaurace";
+"icon_keyword_drinking" = "Pití";
+"icon_keyword_cafe" = "Kavárna";
+"icon_keyword_coffee" = "Káva";
+"icon_keyword_fastfood" = "Rychlé občerstvení";
+"icon_keyword_picnic" = "Piknik";
+"icon_keyword_wine" = "Víno";
+"icon_keyword_birthday" = "Narozeniny";
+"icon_keyword_cake" = "Dort";
+"icon_keyword_carrot" = "Mrkev";
+"icon_keyword_vegetables" = "Zelenina";
+"icon_keyword_bag" = "Taška";
+"icon_keyword_cone" = "Taška";
+"icon_keyword_shopping" = "Nakupování";
+"icon_keyword_supermarket" = "Supermarket";
+"icon_keyword_groceries" = "Potraviny";
+"icon_keyword_creditcard" = "Kreditní karta";
+"icon_keyword_giftcard" = "Dárková karta";
+"icon_keyword_gift" = "Dárek";
+"icon_keyword_clothes" = "Oblečení";
+"icon_keyword_clothing" = "Oblečení";
+"icon_keyword_globe" = "Glóbus";
+"icon_keyword_online" = "Online";
+"icon_keyword_internet" = "Internet";
+"icon_keyword_amazon" = "Amazon";
+"icon_keyword_package" = "Balík";
+"icon_keyword_apple" = "Jablko";
+"icon_keyword_banknote" = "Bankovka";
+"icon_keyword_refund" = "Vrácení peněz";
+"icon_keyword_dollar" = "Dolary";
+"icon_keyword_cents" = "Centy";
+"icon_keyword_yen" = "Yen";
+"icon_keyword_pound" = "Libra";
+"icon_keyword_franc" = "Francie";
+"icon_keyword_lira" = "Lira";
+"icon_keyword_ruble" = "Rubl";
+"icon_keyword_euro" = "Euro";
+"icon_keyword_rupee" = "Rupie";
+"icon_keyword_peso" = "Peso";
+"icon_keyword_bitcoin" = "Bitcoin";
+"icon_keyword_real" = "Brazilský reál";
+"icon_keyword_case" = "Kufřík";
+"icon_keyword_lungs" = "Plíce";
+"icon_keyword_allergens" = "Alergie";
+"icon_keyword_thermometer" = "Teploměr";
+"icon_keyword_bandage" = "Náplasti";
+"icon_keyword_syringe" = "Injekční stříkačka";
+"icon_keyword_medicine" = "Lékař";
+"icon_keyword_drug" = "Droga";
+"icon_keyword_facemask" = "Maska na obličej";
+"icon_keyword_pills" = "Pilulky";
+"icon_keyword_cross" = "Kříž";
+"icon_keyword_hospital" = "Nemocnice";
+"icon_keyword_ivfluid" = "Infuze";
+"icon_keyword_eye" = "Oko";
+"icon_keyword_brain" = "Mozek";
+"icon_keyword_ear" = "Ucho";
+"icon_keyword_mouth" = "Ústa";
+"icon_keyword_ecg" = "EKG";
+"icon_keyword_shield" = "Štít";
+"icon_keyword_insurance" = "Pojištění";
+"icon_keyword_video_conference" = "Videokonference";
+"icon_keyword_facetime" = "Facetime";
+"icon_keyword_phone" = "Telefon";
+"icon_keyword_mobilephone" = "Mobil";
+"icon_keyword_iphone" = "iPhone";
+"icon_keyword_tablet" = "Tablet";
+"icon_keyword_ipad" = "iPad";
+"icon_keyword_macintosh" = "Macintosh";
+"icon_keyword_macbook" = "Macbook";
+"icon_keyword_imac" = "iMac";
+"icon_keyword_smartphone" = "Chytrý telefon";
+"icon_keyword_calling" = "Volání";
+"icon_keyword_message" = "Zpráva";
+"icon_keyword_envelope" = "Obálka";
+"icon_keyword_mail" = "Pošta";
+"icon_keyword_email" = "E-mail";
+"icon_keyword_chart" = "Graf";
+"icon_keyword_stocks" = "Akcie";
+"icon_keyword_investment" = "Investice";
+"icon_keyword_signature" = "Podpis";
+"icon_keyword_contract" = "Smlouva";
+"icon_keyword_computer" = "Počítač";
+"icon_keyword_pc" = "PC";
+"icon_keyword_display" = "Monitor";
+"icon_keyword_mouse" = "Myš";
+"icon_keyword_keyboard" = "Klávesnice";
+"icon_keyword_printer" = "Tiskárna";
+"icon_keyword_scanner" = "Skener";
+"icon_keyword_pin" = "Připínáček";
+"icon_keyword_paperclip" = "Paperclip";
+"icon_keyword_clipboard" = "Schránka";
+"icon_keyword_list" = "Seznam";
+"icon_keyword_server" = "Server";
+"icon_keyword_simcard" = "Sim karta";
+"icon_keyword_bank" = "Banka";
+"icon_keyword_apple_watch" = "Apple Watch";
+"icon_keyword_clock" = "Hodiny";
+"icon_keyword_alarm" = "Alarm";
+"icon_keyword_box" = "Krabička";
+"icon_keyword_wand" = "Kouzelná hůlka";
+"icon_keyword_hourglass" = "přesýpací hodiny";
+"icon_keyword_newspaper" = "Noviny";
+"icon_keyword_wrench" = "Kleště";
+"icon_keyword_screwdriver" = "Šroubovák";
+"icon_keyword_hammer" = "Kladivo";
+"icon_keyword_craftsman" = "Řemeslník";
+"icon_keyword_tools" = "Nástroj";
+"icon_keyword_plumber" = "Instalatér";
+"icon_keyword_construction_market" = "Stavební trh";
+"icon_keyword_scissors" = "Nůžky";
+"icon_keyword_hairdresser" = "Kadeřník";
+"icon_keyword_key" = "Klíč";
+"icon_keyword_school" = "Škola";
+"icon_keyword_university" = "Univerzita";
+"icon_keyword_study" = "Studie";
+"icon_keyword_tuition_fees" = "Poplatky za studium";
+"icon_keyword_flashlight" = "Baterka";
+"icon_keyword_bell" = "Zvonek";
+"icon_keyword_subscription" = "Předplatné";
+"icon_keyword_loupe" = "Zvětšovací sklo";
+"icon_keyword_binoculars" = "Dalekohled";
+"icon_keyword_rosette" = "Rozeta";
+"icon_keyword_crown" = "Koruna";
+"icon_keyword_umbrella" = "Deštník";
+"icon_keyword_beach" = "Pláž";
+"icon_keyword_megaphone" = "Megafon";
+"icon_keyword_advertisement" = "Reklama";
+"icon_keyword_puzzle" = "Hádanka";
+"icon_keyword_lab" = "Laboratoř";
+"icon_keyword_calendar" = "Kalendář";
+"icon_keyword_rent" = "Pronájem";
+"icon_keyword_flat" = "Ploší";
+"icon_keyword_work" = "Práce";
+"icon_keyword_salary" = "Plat";
+"icon_keyword_corona" = "Korona";
+"icon_keyword_rainbow" = "Duha";
+"icon_keyword_glasses" = "Brýle";
+"icon_keyword_sunglasses" = "Sluneční brýle";
+"icon_keyword_discount" = "Sleva";
+"icon_keyword_percent" = "Procento";
+"icon_keyword_wallet" = "Peněženka";
+"icon_keyword_convertible" = "Konvertibilní";
+"icon_keyword_drone" = "Drone";
+"icon_keyword_motorcycle" = "Motocykl";
+"icon_keyword_tire" = "Pneumatika";
+"icon_keyword_oilcan" = "Olejnička";
+"icon_keyword_keys" = "Klíče";
+"icon_keyword_fire_extinguisher" = "Hasicí přístroj";
+"icon_keyword_hockey" = "Hokej";
+"icon_keyword_ice_hockey" = "Lední hokej";
+"icon_keyword_ice_skating" = "Bruslení";
+"icon_keyword_rowing" = "Veslování";
+"icon_keyword_inhaler" = "Inhalátor";
+"icon_keyword_wheelchair" = "Invalidní vozík";
+"icon_keyword_vacuum" = "Vysavač";
+"icon_keyword_doctor" = "Doktor";
+"icon_keyword_dentist" = "Zubař";
+"icon_keyword_parking" = "Parkování";
+
+
+/* MARK: - App Intents */
+/* Entities */
+"budget_book_entity_name" = "Rozpočtová kniha";
+"account_entity_name" = "Účet";
+"category_group_entity_name" = "Složka";
+"category_entity_name" = "Kategorie";
+"payee_entity_name" = "Příjemce";
+
+/* Categories */
+"add_category_name" = "Přidat";
+"open_category_name" = "Otevřít";
+"show_category_name" = "Zobrazit";
+"search_category_name" = "Hledat";
+
+/* Search */
+"search_budget_book_title" = "Vyhledat knihu rozpočtu";
+"search_budget_book_description" = "Vyhledat konkrétní rozpočtovou knihu podle názvu.";
+"search_budget_book_parameter_summary" = "Prohledat knihu rozpočtu pomocí ${name}";
+"search_account_title" = "Vyhledat účet";
+"search_account_description" = "Vyhledat konkrétní účet podle názvu.";
+"search_account_parameter_summary" = "Vyhledat účet s ${name} v ${budgetBook}";
+"search_category_group_title" = "Vyhledat složku";
+"search_category_group_description" = "Vyhledat konkrétní složku podle názvu.";
+"search_category_group_parameter_summary" = "Prohledat složku s ${name} v ${budgetBook}";
+"search_category_title" = "Vyhledat kategorii";
+"search_category_description" = "Vyhledat konkrétní kategorii podle názvu.";
+"search_category_parameter_summary" = "Vyhledat kategorii s ${name} v ${categoryGroup} z ${budgetBook}";
+"search_payee_title" = "Hledat příjemce platby";
+"search_payee_description" = "Vyhledat konkrétního příjemce podle jména.";
+"search_payee_parameter_summary" = "Vyhledat příjemce platby s ${name} v ${budgetBook}";
+
+"name_parameter_title" = "Jméno";
+"name_parameter_dialog" = "Jaké je jméno?";
+
+"budget_book_parameter_title" = "Rozpočtová kniha";
+"budget_book_parameter_description" = "Přidružená kniha rozpočtu.";
+"budget_book_parameter_dialog" = "Jaká je související rozpočtová kniha?";
+"category_group_parameter_title" = "Složka";
+"category_group_parameter_description" = "Přidružená složka.";
+"category_group_parameter_dialog" = "Jaká je přidružená složka?";
+
+/* Open */
+"open_add_new_income_view_title" = "Přidat nový příjem";
+"open_add_new_income_view_description" = "Otevře zobrazení přidání nového příjmu v aplikaci.";
+"open_add_new_expense_view_title" = "Přidat nový výdaj";
+"open_add_new_expense_view_description" = "Otevře v aplikaci zobrazení přidání nového výdaje.";
+"open_add_new_transfer_view_title" = "Přidat nový převod";
+"open_add_new_transfer_view_description" = "Otevře zobrazení přidání nového přenosu v aplikaci.";
+"open_add_new_recurring_view_title" = "Přidat novou opakovanou transakci";
+"open_add_new_recurring_view_description" = "Otevře zobrazení přidání nové opakované transakce v rámci aplikace.";
+"open_upcoming_transactions_view_title" = "Plánované transakce";
+"open_upcoming_transactions_view_description" = "Otevře zobrazení plánovaných transakcí v aplikaci.";
+
+/* Show */
+"show_chart_title" = "Zobrazit graf";
+"show_chart_description" = "Zobrazí graf zůstatků na účtech, příjmů nebo výdajů za zadané období.";
+"show_chart_parameter_summary" = "Zobrazit graf ${type} za ${periodType}";
+
+"chart_type_parameter_title" = "Typ";
+"chart_type_dialog" = "Jaký typ grafu chcete?";
+"chart_type_account_balances_title" = "Zůstatky na účtech";
+"chart_type_balance_title" = "Zůstatek";
+"chart_type_total_income_title" = "Celkový příjem";
+"chart_type_total_expenses_title" = "Celkové výdaje";
+"chart_type_fixed_expenses_title" = "Pevné výdaje";
+"chart_type_variable_expenses_title" = "Variabilní výdaje";
+
+"chart_period_type_parameter_title" = "Období";
+"chart_period_type_dialog" = "Na které období se chcete podívat?";
+"chart_type_current_month_title" = "Aktuální měsíc";
+"chart_type_current_year_title" = "Aktuální rok";
+
+
+/* MARK: - Dummy Data */
+"default_budget_book_name" = "Moje kniha rozpočtu";
+"family_budget_book_name" = "Rodinná rozpočtová kniha";
+"shared_budget_book_name" = "Sdílená rozpočtová kniha";
+"default_credit_card_name" = "Kreditní karta";
+"default_location_address" = "Fürstenberg";

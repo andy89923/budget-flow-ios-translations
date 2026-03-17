@@ -1,0 +1,2069 @@
+/*
+  Localizable.strings
+  BudgetFlow
+
+  Created by Fabian Hasse on 19.05.20.
+  Copyright © 2020 Fabian Hasse. All rights reserved.
+*/
+
+/* MARK: - General */
+"app_name" = "Budget Flow";
+
+"feedback_quick_action_title" = "フィードバック";
+"feedback_quick_action_subtitle" = "アプリについてフィードバックはこちらから。";
+"income_quick_action_title" = "新しい収入";
+"expense_quick_action_title" = "新しい支出";
+"transfer_quick_action_title" = "新しい振替";
+"recurring_quick_action_title" = "定期的";
+
+
+/* MARK: - Miscellaneous */
+"face_id" = "Face ID";
+"touch_id" = "Touch ID";
+"required" = "必須";
+"optional" = "オプション";
+"uncategorized" = "未分類";
+"before" = "前";
+"account_reconcilation" = "口座照合";
+"evaluated" = "評価済み";
+"not_evaluated" = "未評価";
+"share_participant_owner" = "所有者";
+"share_participant_you" = "あなた";
+
+
+/* MARK: - Enums */
+"account_type_cash" = "現金";
+"account_type_payment" = "支払い口座";
+"account_type_savings" = "普通預金口座";
+"account_type_credit_card" = "クレジットカード";
+"account_type_investment" = "投資";
+"account_type_precaution" = "注意事項";
+"account_type_liability" = "責任";
+"account_type_business" = "ビジネスアカウント";
+
+"account_type_payment_plural" = "支払い口座";
+"account_type_savings_plural" = "普通預金口座";
+"account_type_credit_card_plural" = "クレジットカード";
+"account_type_investment_plural" = "投資";
+"account_type_precaution_plural" = "注意事項";
+"account_type_liability_plural" = "負債";
+"account_type_business_plural" = "ビジネスアカウント";
+
+"transaction_type_income" = "収入";
+"transaction_type_expense" = "支出";
+"transaction_type_transfer" = "振替";
+
+"transaction_type_income_plural" = "収入";
+"transaction_type_expense_plural" = "支出";
+"transaction_type_transfer_plural" = "振替";
+
+"payment_status" = "ステータス";
+"payment_status_completed" = "完了";
+"payment_status_pending" = "保留中";
+
+"attachment_type_image" = "写真";
+"attachment_type_image_plural" = "写真";
+"attachment_type_document" = "ドキュメント";
+"attachment_type_document_plural" = "ドキュメント";
+
+"period_type_month" = "月";
+"period_type_year" = "年";
+"period_type_custom" = "日付";
+
+"sort_type_alphabetically" = "アルファベット順";
+"sort_type_date" = "日付";
+"sort_type_amount" = "金額";
+"sort_type_type" = "タイプ";
+
+"sort_option_ascending" = "昇順";
+"sort_option_descending" = "降順";
+
+"group_option_day" = "日";
+"group_option_month" = "月";
+"group_option_account" = "口座";
+"group_option_category" = "カテゴリ";
+"group_option_category_group" = "フォルダー";
+"group_option_type" = "タイプ";
+"group_option_payee" = "受取人";
+"group_option_repetition_frequency" = "間隔";
+
+"date_repetition_frequency_never" = "しない";
+"date_repetition_frequency_daily" = "毎日";
+"date_repetition_frequency_weekly" = "毎週";
+"date_repetition_frequency_everyTwoWeeks" = "２週間ごと";
+"date_repetition_frequency_everyThreeWeeks" = "３週間ごと";
+"date_repetition_frequency_everyFourWeeks" = "４週間ごと";
+"date_repetition_frequency_monthly" = "毎月";
+"date_repetition_frequency_everyTwoMonths" = "２か月ごと";
+"date_repetition_frequency_everyThreeMonths" = "四半期ごと";
+"date_repetition_frequency_everySixMonths" = "半年ごと";
+"date_repetition_frequency_yearly" = "毎年";
+"date_repetition_frequency_custom" = "カスタム";
+
+"csv_transaction_type_automatic" = "自動";
+"csv_transaction_type_income" = "収入";
+"csv_transaction_type_expenses" = "支出";
+
+"passcode_type_four_digits" = "4桁の数字のパスコード";
+"passcode_type_six_digits" = "6桁の数字のパスコード";
+"passcode_type_custom_numeric" = "カスタム数字コード";
+"passcode_type_custom_alphanumeric" = "カスタム英数字コード";
+
+"auto_lock_time_type_immediately" = "即時";
+"auto_lock_time_type_after_one_minute" = "１分後";
+"auto_lock_time_type_after_five_minutes" = "５分後";
+"auto_lock_time_type_after_fifteen_minutes" = "１５分後";
+"auto_lock_time_type_after_one_hour" = "１時間後";
+"auto_lock_time_type_after_four_hours" = "４時間後";
+
+"widget_type_chart_stack" = "チャート";
+"widget_type_suggestions" = "提案";
+"widget_type_distribution" = "収支分布";
+"widget_type_balance" = "残高";
+"widget_type_savings_rate" = "保存済み";
+"widget_type_upcoming_transactions" = "計画中";
+"widget_type_participants" = "ピープル";
+"widget_type_budget" = "予算";
+"widget_type_pending_transactions" = "保留中";
+"widget_type_total_assets" = "アセット";
+"widget_type_forecast" = "予測";
+
+"chart_type_bar" = "棒グラフ";
+"chart_type_pie" = "円グラフ";
+
+"category_chart_data_type_category" = "カテゴリ";
+"category_chart_data_type_category_group" = "フォルダー";
+
+"product_type_individual" = "個人";
+"product_type_family" = "ファミリー";
+
+"subscription_period_day" = "日";
+"subscription_period_days" = "日数";
+"subscription_period_month" = "月";
+"subscription_period_months" = "月";
+"subscription_period_year" = "年";
+"subscription_period_years" = "年";
+
+"overview_period_type_current_week" = "今週";
+
+"quick_action_type_new_income" = "新しい収入";
+"quick_action_type_new_expense" = "新しい支出";
+"quick_action_type_new_transfer" = "新しい振替";
+"quick_action_type_new_recurring" = "定期的";
+
+"suggestion_type_add_income_transaction" = "新しい収入";
+"suggestion_type_add_expense_transaction" = "新しい支出";
+
+"user_interface_style_system" = "システム";
+"user_interface_style_light" = "ライト";
+"user_interface_style_dark" = "ダーク";
+
+"transaction_title_type_category" = "カテゴリ";
+"transaction_title_type_payee" = "受取人";
+"transaction_title_type_notes" = "メモ";
+
+"transaction_subtitle_type_none" = "なし";
+"transaction_subtitle_type_category" = "カテゴリ";
+"transaction_subtitle_type_payee" = "受取人";
+"transaction_subtitle_type_notes" = "メモ";
+
+"time_zone_type_floating" = "自動";
+"time_zone_type_floating_title" = "自動調整";
+"time_zone_type_floating_subtitle" = "デバイスのタイムゾーンに合わせて調整";
+
+
+/* MARK: - Custom Date Repetition */
+"frequency" = "頻度";
+
+"every" = "毎";
+"every_day" = "毎";
+"every_week" = "毎";
+"every_month" = "毎";
+"every_year" = "毎";
+"every_day_plural" = "毎";
+"every_week_plural" = "毎";
+"every_month_plural" = "毎";
+"every_year_plural" = "毎";
+
+"each" = "各";
+"on_the" = "当日";
+"days_of_week" = "曜日";
+"last_day" = "最終日";
+
+"daily" = "毎日";
+"weekly" = "毎週";
+"monthly" = "毎月";
+"yearly" = "毎年";
+
+"first" = "第１";
+"second" = "第２";
+"third" = "第３";
+"fourth" = "第４";
+"fifth" = "第５";
+"last" = "最終";
+
+
+/* MARK: - Menu Bar */
+"accounts_menu_title" = "口座";
+"show_accounts_menu_title" = "すべての口座を表示";
+"budgets_menu_title" = "予算";
+"show_budgets_menu_title" = "すべての予算を表示";
+"transactions_menu_title" = "トランザクション";
+"show_all_transactions_menu_title" = "すべてのトランザクションを表示";
+"show_recurring_transactions_menu_title" = "定期的なトランザクションを表示";
+"show_upcoming_transactions_menu_title" = "計画されたトランザクションを表示";
+
+
+/* MARK: - Sidebar Menu */
+"menu" = "メニュー";
+"menu_accounts_section" = "口座";
+"menu_categories_section" = "カテゴリ";
+"menu_selected_budget_book_title" = "選択済み";
+
+
+/* MARK: - Tabs */
+"dashboard_tab" = "概要";
+"transactions_tab" = "トランザクション";
+"budgets_tab" = "予算";
+"settings_tab" = "設定";
+
+
+/* MARK: - Buttons */
+"add_button" = "追加";
+"edit_button" = "編集";
+"copy_button" = "コピー";
+"edit_account_button" = "口座を編集";
+"edit_category_button" = "カテゴリを編集";
+"edit_category_group_button" = "フォルダーを編集";
+"edit_payee_button" = "受取人の編集";
+"edit_tag_button" = "タグを編集";
+"edit_budget_button" = "予算を編集";
+"multi_selection_button" = "複数選択";
+"back_button" = "戻る";
+"done_button" = "完了";
+"save_button" = "保存";
+"import_button" = "インポート";
+"unlock_button" = "ロックを解除";
+"cancel_button" = "キャンセル";
+"close_button" = "閉じる";
+"delete_button" = "削除";
+"end_repetition_button" = "繰り返しの終了";
+"reset_button" = "リセット";
+"apply_button" = "適用";
+"yes_button" = "はい";
+"no_button" = "いいえ";
+"ok_button" = "OK";
+"faq_button" = "FAQ";
+"create_reminder_button" = "リマインダーを作成";
+"remove_reminder_button" = "リマインダーを削除";
+"do_not_show_again_button" = "今後は表示しない";
+"mark_as_paid_button" = "支払いが完了しました";
+"mark_as_pending_button" = "支払い保留中";
+"show_contra_entry_button" = "相殺エントリ";
+
+"save_changes_button" = "変更を保存";
+"discard_changes_button" = "変更を破棄";
+
+"show_help_center_button" = "ヘルプセンター (英語)";
+"contact_developer_button" = "開発者に連絡する";
+
+"filter_button" = "フィルター";
+"sort_button" = "並べ替え";
+"sort_categories_button" = "カテゴリを並べ替える";
+"sort_category_groups_button" = "フォルダーを並べ替える";
+"group_button" = "グループ";
+"configure_button" = "設定";
+
+"show_filter_button" = "フィルターを表示";
+
+"show_amount_values_button" = "金額を表示";
+"hide_amount_values_button" = "金額を非表示";
+
+"take_photo_button" = "写真を撮る";
+"select_photos_button" = "写真を選択";
+"select_documents_button" = "ドキュメントを選択";
+"scan_receipt_button" = "領収書のスキャン";
+"select_receipt_button" = "領収書を選択";
+"select_from_files_button" = "ファイル";
+"select_from_library_button" = "フォトライブラリ";
+
+"open_button" = "開く";
+"open_folder_button" = "フォルダーを開く";
+"open_in_browser_button" = "ブラウザで開く";
+
+"show_more_button" = "もっと見る";
+"show_less_button" = "表示を減らす";
+
+"add_category_button" = "新しいカテゴリ";
+"add_category_group_button" = "新しいフォルダー";
+
+"add_income_transaction_button" = "新しい収入";
+"add_expense_transaction_button" = "新しい支出";
+"add_transfer_transaction_button" = "新しい振替";
+
+"manage_budget_books_button" = "帳簿を管理";
+"select_budget_book_button" = "帳簿を選択";
+"edit_budget_book_button" = "帳簿を編集";
+
+"continue_button" = "次へ";
+"skip_button" = "スキップ";
+"accept_button" = "同意する";
+"get_started_button" = "開始する";
+
+"show_transactions_button" = "トランザクションを表示";
+"show_in_app_store_button" = "App Store で表示";
+
+"flip_values_button" = "反転 ⇅";
+
+"learn_more" = "さらに詳しく";
+
+
+/* MARK: - Share View */
+/* Titles */
+"share_title" = "共有";
+
+/* Alert Views */
+"alert_sync_shares_in_progress_title" = "同期中...";
+"alert_sync_shares_in_progress_message" = "帳簿は iCloud と同期されているため、共有コンテンツにアクセスできます。しばらくお待ちください...";
+"alert_cloud_share_quota_exceeded_error_message" = "iCloud に十分な空き容量がないため、共有を完了できませんでした。空き容量を増やして、もう一度お試しください。";
+"alert_cloud_share_unknown_error_message" = "エラーが発生したため、共有を完了できませんでした。iCloud に十分な空き容量がない可能性があります。空き容量を増やして、もう一度お試しください。";
+
+
+/* MARK: - Search View */
+/* Titles */
+"search_title" = "検索";
+"filter_title" = "フィルター";
+
+/* Sections */
+"search_text_section_title" = "検索内容";
+"search_suggestions_section_title" = "提案";
+
+
+/* MARK: - Period Selection View */
+/* Titles */
+"period_selection_title" = "期間";
+"period_selection_current_year_title" = "今年";
+"period_selection_current_month_title" = "今月";
+
+/* Items */
+"from_title" = "開始日";
+"to_title" = "終了日";
+
+
+/* MARK: - Dashboard View */
+/* Titles */
+"configure_title" = "設定";
+"balance_widget_income_title" = "収入";
+"balance_widget_expenses_title" = "支出";
+"savings_rate_widget_absolute_title " = " 絶対";
+"savings_rate_widget_percentual_title " = " パーセンテージ";
+"budget_widget_planned_title" = "計画済み";
+"budget_widget_remaining_title" = "利用可能";
+"total_assets_widget_absolute_title" = "絶対";
+"total_assets_widget_trend_title" = "トレンド";
+"forecast_widget_upcoming_title" = "計画中";
+"forecast_widget_pending_title" = "保留中";
+"forecast_widget_final_balance_title" = "最終残高";
+"pie_chart_widget_transactions_title" = "トランザクション";
+"pie_chart_widget_categories_title" = "カテゴリ";
+
+/* Sections */
+"inactive_widgets_section_title" = "その他のウィジェット";
+
+/* Footer */
+"participants_widget_footer_title" = "注: \"ピープル\"ウィジェットは共有帳簿にのみ表示されます。";
+
+/* Messages */
+"no_widgets_title" = "ウィジェットは追加されません";
+"no_widgets_message" = "ビューを設定するには、\"ペン\"ボタンをクリックしてください。";
+"no_suggestions_title" = "提案はありません";
+"not_shared_title" = "帳簿は共有されていません";
+
+/* Widgets */
+"net_worth_widget_title" = "純資産";
+"account_balances_widget_title" = "口座残高";
+"balance_widget_title" = "残高";
+"total_income_widget_title" = "総収入";
+"total_expenses_widget_title" = "総支出";
+"fixed_expenses_widget_title" = "固定費";
+"variable_expenses_widget_title" = "変動費";
+
+"net_worth_distribution_widget_title" = "分布";
+"account_balances_distribution_widget_title" = "口座残高";
+"balance_distribution_widget_title" = "残高";
+"total_income_distribution_widget_title" = "総収入";
+"total_expenses_distribution_widget_title" = "総支出";
+"fixed_expenses_distribution_widget_title" = "固定費";
+"variable_expenses_distribution_widget_title" = "変動費";
+
+
+/* MARK: - Transaction List View */
+/* Titles */
+"sum_title" = "合計";
+"total_sum_title" = "合計金額";
+"recurring_transactions_title" = "定期的";
+"upcoming_transactions_title" = "計画中";
+"reminded_transactions_title" = "リマインダー付き";
+
+/* Info */
+"recurring_transactions_info_title" = "説明";
+"recurring_transactions_info_description" = "定期的なトランザクションを作成して、期限が来たときに自動的にアプリに追加します。";
+
+/* Sections */
+"account_filter_section_title" = "口座";
+"category_filter_section_title" = "カテゴリ";
+"payee_filter_section_title" = "受取人";
+"tag_filter_section_title" = "タグ";
+"user_filter_section_title" = "人物";
+"payment_status_filter_section_title" = "支払い";
+"transaction_type_filter_section_title" = "タイプ";
+"date_range_filter_section_title" = "日付";
+"amount_range_filter_section_title" = "金額";
+
+/* Messages */
+"no_transactions_title" = "トランザクションはありません";
+"no_transactions_title_short" = "なし";
+"no_transactions_found_title" = "トランザクションが見つかりませんでした";
+"no_transactions_found_message" = "新しいトランザクションを追加するには、\"+\"ボタンをクリックしてください。";
+"no_transactions_found_button_title" = "新しいトランザクション";
+"no_recurring_transactions_found_message" = "新しい定期的なトランザクションを追加するには、\"+\"ボタンをクリックします。";
+"no_upcoming_transactions_found_message" = "新しい計画されたトランザクションを追加するには、\"+\"ボタンをクリックします。";
+"no_reminded_transactions_found_message" = "リマインダー付きの新しいトランザクションを追加するには、\"+\" ボタンをクリックします。";
+"transactions_search_placeholder_message" = "カテゴリ、受取人、タグ、またはメモの名前で検索します";
+
+/* Buttons */
+"show_analysis_button" = "分析を表示";
+"show_analysis_button_short" = "分析";
+"show_forecast_button" = "予測を表示";
+"show_forecast_button_short" = "予測";
+"show_upcoming_transactions_button" = "計画済み";
+
+/* Alert Views */
+"alert_confirm_add_next_upcoming_transaction_title" = "トランザクションを追加";
+"alert_confirm_add_next_upcoming_transaction_message" = "この計画されたトランザクションを今すぐ追加してもよろしいですか?";
+
+/* Miscellaneous */
+"payed_by_and_modified_at" = "によって支払われました %@\n最終更新日: %@";
+"modified_at" = "最終更新日: %@";
+"average_per_transaction" = "トランザクションあたりの平均";
+"average_per_day" = "Ø 1日あたり";
+"average_last_twelve_months" = "Ø 過去12ヶ月間";
+
+
+/* MARK: - Budget List View */
+/* Titles */
+"remaining_title" = "利用可能";
+"balanced_title" = "バランス";
+"exceeded_title" = "超過";
+"user_has_no_budgets_title" = "予算がありません。";
+"user_is_within_budget_title" = "予算内です! 🎉";
+"user_was_within_budget_title" = "予算内でした! 🎉";
+"user_is_not_within_budget_title" = "予算を %d オーバーしています 😢";
+"user_is_not_within_budgets_title" = "予算 %d を超えました 😢";
+
+/* Messages */
+"no_budgets_title" = "予算なし";
+"no_budgets_found_title" = "予算が見つかりませんでした";
+"no_budgets_found_message" = "新しい予算を追加するには、\"+\"ボタンをクリックしてください。";
+"budgets_search_placeholder_message" = "予算の名前で検索";
+"no_budgets_found_button_title" = "新しい予算";
+
+
+/* MARK: - Analysis View */
+/* Titles */
+"analysis_title" = "分析";
+"trend_widget_average_title" = "平均";
+"trend_widget_current_year_title" = "今年";
+"trend_widget_current_month_title" = "今月";
+
+/* Messages */
+"trend_widget_received_more_message" = "通常よりも多くの収入を得ています。";
+"trend_widget_received_less_message" = "通常よりも少ない収入を得ています。";
+"trend_widget_received_same_message" = "通常と同じ収入を得ています。";
+"trend_widget_has_received_more_message" = "通常よりも多くの収入を得ています。";
+"trend_widget_has_received_less_message" = "通常よりも少ない収入を得ています。";
+"trend_widget_has_received_same_message" = "通常と同じ金額を獲得しました。";
+
+"trend_widget_spent_more_message" = "通常よりも多く支出しています。";
+"trend_widget_spent_less_message" = "通常よりも少なく支出しています。";
+"trend_widget_spent_same_message" = "通常と同じ金額を支出しています。";
+"trend_widget_has_spent_more_message" = "通常よりも多く支出しています。";
+"trend_widget_has_spent_less_message" = "通常よりも少なく支出しています。";
+"trend_widget_has_spent_same_message" = "通常と同じ金額を支出しています。";
+
+"total_balance_widget_current_balance_message" = "残高は %@ です。";
+"total_balance_widget_previous_balance_message" = "残高は %@ でした。";
+
+"savings_rate_widget_current_savings_rate_message" = "貯蓄率は %@ です。";
+"savings_rate_widget_previous_savings_rate_message" = "貯蓄率は %@ でした。";
+
+/* Widgets */
+"trend_widget_title" = "傾向";
+"total_balance_widget_title" = "残高";
+"savings_rate_widget_title" = "貯蓄率";
+
+
+/* MARK: - Account Forecast View */
+/* Titles */
+"account_forecast_title" = "予測";
+"account_balance_title" = "残高";
+"not_enough_data_title" = "データが不十分です";
+
+
+/* MARK: - Settings View */
+/* Titles */
+"no_budget_book_title" = "予算書はありません";
+
+/* Messages */
+"share_app_message" = "\"%@ - Expense Tracker\"\n\n今すぐ無料でダウンロード:";
+
+/* Sections */
+"general_setting_section_title" = "全般";
+"upgrade_setting_section_title" = "フルバージョン";
+"support_setting_section_title" = "サポート";
+"legal_setting_section_title" = "法的";
+"data_setting_section_title" = "データ";
+"miscellaneous_setting_section_title" = "その他";
+
+/* Footer */
+"upgrade_setting_footer_title" = "製品版をご利用いただきありがとうございます!";
+"support_setting_footer_title" = "ご質問やアイデアはありますか? App Store にメッセージまたは肯定的なレビューを書いてください。フィードバックは非常にモチベーションが高く、アプリの改善に役立ちます。";
+
+/* Buttons */
+"share_budgetbook_button" = "帳簿を共有する";
+"show_participants_button" = "参加者を表示";
+"cloud_not_available_button" = "iCloud は利用できません";
+"upgrade_show_all_features_button" = "すべての機能を表示";
+"reset_app_button" = "アプリをリセット";
+
+/* General Settings */
+"accounts_setting_title" = "口座の管理";
+"categories_setting_title" = "カテゴリの管理";
+"payees_setting_title" = "受取人の管理";
+"tags_setting_title" = "タグの管理";
+"reminders_setting_title" = "リマインダー";
+
+/* Upgrade Settings */
+"upgrade_setting_title" = "フルバージョンのロックを解除 🚀";
+"upgrade_setting_description" = "今すぐフルバージョンのロックを解除して、さらに多くの追加機能を活用してください!";
+
+/* Support Settings */
+"share_app_setting_title" = "友達に知らせる";
+"translate_app_setting_title" = "翻訳のヘルプ";
+"help_center_setting_title" = "ヘルプセンター (英語)";
+"feature_roadmap_setting_title" = "機能の提案";
+"rate_app_setting_title" = "アプリを評価";
+
+/* Legal Settings */
+"imprint_setting" = "インプリント";
+"privacy_setting" = "プライバシーポリシー";
+"terms_of_use_setting" = "利用規約";
+"acknowledgements_setting" = "謝辞";
+"licenses_setting" = "ライセンス";
+
+"acknowledgements_setting_info_title" = "説明";
+"acknowledgements_setting_info_description" = "以下は、アプリに何らかの形で協力してくれた人々のリストです。";
+"translation_acknowledgement" = "翻訳 (%@)";
+"licenses_setting_info_title" = "説明";
+"licenses_setting_info_description" = "以下は、アプリで使用されるすべてのサードパーティライセンスのリストです。";
+
+/* Data Settings */
+"sync_and_data_setting" = "同期とデータ";
+"sync_and_data_setting_short" = "同期とデータ";
+"recurring_transactions_setting" = "定期的なトランザクション";
+
+/* Miscellaneous Settings */
+"new_features_setting" = "新機能";
+"testflight_beta_setting" = "TestFlight Beta";
+"apple_pay_setting" = " Pay 統合";
+"appearance_setting" = "パーソナライゼーション";
+"advanced_setting" = "詳細設定";
+
+/* Contact Developer */
+"mail_subject_type_contact" = "Contact";
+"mail_subject_type_support" = "Support";
+"mail_subject_type_feedback" = "Feedback";
+"mail_subject_type_translate" = "Translate";
+"mail_subject_type_discount" = "Discount";
+
+"alert_translate_app_title" = "翻訳をどう手伝いたいですか？";
+"alert_translate_app_github" = "👨🏻‍💻 GitHub で協力する";
+"alert_translate_app_email" = "📬 E-Mail で連絡する";
+
+"alert_contact_developer_title" = "リクエストの内容は何ですか?";
+"alert_contact_developer_feature_request" = "💡 機能を提案する";
+"alert_contact_developer_bug_report" = "🐞 バグレポート";
+"alert_contact_developer_other" = "📬 その他 (E-Mail)";
+
+"contact_developer_mail_subject" = "%@: %@%@";
+"contact_developer_mail_subject_full_version" = " (full version)";
+"contact_developer_mail_message" = "
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+<b>Support Information:</b>
+</br>
+<u>General:</u></br>
+- Device: %@</br>
+- iOS version: %@</br>
+- Language: %@</br>
+- Currency: %@</br>
+- Time zone: %@</br>
+</br>
+<u>App Specific:</u></br>
+- App version: %@</br>
+- Build: %@</br>
+</br>
+<u>In-App Purchases:</u></br>
+- User ID: %@</br>
+- Active: %@</br>
+- Purchases: %@";
+"contact_developer_mail_no_purchases" = "None";
+
+/* Appearance Settings */
+"appearance_setting_info_title" = "説明";
+"appearance_setting_info_description" = "アプリの外観やアクセントカラーを変更して、アプリを好みに合わせてカスタマイズします。";
+"appearance_ui_style_setting_section_title" = "テーマ";
+"appearance_ui_style_apply_to_icons_title" = "アイコンに適用";
+"appearance_ui_style_apply_to_icons_description" = "選択した外観をアプリ内のすべてのアイコンにも適用します。";
+"appearance_accent_color_setting_section_title" = "アクセントカラー";
+"appearance_accent_color_setting_footer_title" = "アプリ内のボタンやその他のコントロールの色を変更します。";
+"appearance_app_icon_setting_section_title" = "アプリアイコン";
+
+/* Sync & Data Settings */
+"sync_and_data_setting_info_title" = "説明";
+"sync_and_data_setting_info_description" = "現在の同期ステータスの概要を取得し、CSV ファイルを使用してデータをインポートまたはエクスポートします。";
+
+"sync_and_data_cloud_setting_section_title" = "iCloud";
+"sync_and_data_cloud_setting_footer_title" = "iCloud との同期が成功したか、エラーが発生したかを示します。";
+"sync_and_data_setting_cloud_sync_status_title" = "同期ステータス";
+"backup_setting_section_title" = "バックアップ";
+"backup_setting_footer_title" = "バックアップとバックアップ設定を管理します。";
+"backup_setting_manage_backups_title" = "管理";
+"sync_and_data_csv_setting_section_title" = "CSV データ";
+"sync_and_data_csv_setting_footer_title" = "CSV ファイルを使用してトランザクションをインポートまたはエクスポートします。";
+"sync_and_data_setting_csv_import_title" = "インポート";
+"sync_and_data_setting_csv_export_title" = "エクスポート";
+"sync_and_data_setting_get_csv_template_title" = "テンプレート";
+
+"clear_cache_button" = "キャッシュをクリア";
+"cache_setting_footer_title" = "情報: キャッシュをクリアすると、アプリのドキュメントディレクトリ内のすべてのファイル (バックアップを含む) が削除されます。";
+
+"alert_csv_import_successful_title" = "インポートは成功しました 🎉";
+"alert_csv_import_successful_message" = "合計、%d 件中 %d 件のトランザクションがインポートされました。%@";
+"alert_csv_import_skipped_message" = " これにより、%d 個のトランザクションがスキップされました。";
+"alert_csv_import_error_message" = "%d 件中 %d 件のトランザクションを正常にインポートできませんでした。\n\n%@";
+"alert_csv_import_error_reason_field_message" = "CSV ファイル内の次のフィールドを確認してください: %@。";
+
+"alert_csv_export_successful_title" = "エクスポートは成功しました 🎉";
+"alert_csv_export_successful_message" = "データは \"%@\" に正常にエクスポートされました。";
+
+/* Cloud Settings */
+"cloud_setting_info_title" = "説明";
+"cloud_setting_info_description" = "次のビューは、現在の iCloud 同期ステータスのより詳細な概要を提供し、トラブルシューティングに役立ちます。";
+
+"cloud_setting_network_status_title" = "ネットワーク";
+"cloud_setting_network_status_success_value" = "インターネット接続が利用可能";
+"cloud_setting_network_status_error_value" = "インターネット接続がありません";
+"cloud_setting_account_status_title" = "iCloud アカウント";
+"cloud_setting_account_status_success_value" = "iCloud にサインイン済み";
+"cloud_setting_account_status_error_value" = "iCloud にサインインしていません";
+"cloud_setting_low_power_mode_status_title" = "低電力モード";
+"cloud_setting_low_power_mode_status_enabled_value" = "有効（同期が一時停止する場合があります）";
+"cloud_setting_low_power_mode_status_disabled_value" = "無効";
+"cloud_setting_upload_status_title" = "最終アップロード";
+"cloud_setting_download_status_title" = "最終ダウンロード";
+"cloud_setting_number_of_transactions_title" = "トランザクション";
+"cloud_setting_number_of_transactions_value" = "デバイス上: %d\niCloud 内: %d";
+"cloud_setting_number_of_transactions_in_progress_title" = "お待ちください...";
+"cloud_setting_number_of_transactions_error_title" = "エラー";
+
+"import_from_cloud_button" = "iCloudからダウンロード";
+"manual_sync_cloud_setting_footer_title" = "データがiCloudと同期されていない、または完全に同期されていない場合は、ここで手動で同期を開始できます。";
+
+/* Backup Settings */
+"backup_setting_info_title" = "説明";
+"backup_setting_info_description" = "有効にすると、Budget Flow が定期的にデータをバックアップするため、いつでもアプリを以前の状態に復元できます。";
+
+"backup_general_setting_section_title" = "全般";
+"backup_recent_backups_setting_section_title" = "最近のバックアップ";
+"backup_setting_use_automatic_backups_title" = "自動バックアップ";
+"backup_setting_create_backup_title" = "バックアップを作成";
+
+"alert_restore_backup_title" = "このバックアップを復元しますか?";
+"alert_restore_backup_message" = "バックアップの復元は現在実験的な機能です。現在のデータが削除され、選択したバックアップで上書きされます。\n\nその後、アプリは自動的に閉じられます。\n\n警告: このプロセスは元に戻すことができません !";
+"alert_restore_backup_button" = "バックアップを復元";
+
+/* Advanced Settings */
+"advanced_setting_info_title" = "説明";
+"advanced_setting_info_description" = "アプリを構成するためにさらに設定を行います。";
+
+"advanced_security_setting_section_title" = "セキュリティ";
+"advanced_view_setting_section_title" = "表示";
+"advanced_sidebar_setting_section_title" = "サイドバー";
+"advanced_transaction_setting_section_title" = "トランザクション";
+"advanced_input_setting_section_title" = "入力";
+"advanced_other_setting_section_title" = "その他";
+
+"advanced_setting_use_passcode_title" = "パスコードを使用";
+"advanced_setting_use_title" = "%@ を使用";
+"advanced_setting_auto_lock_title" = "リクエストコード";
+
+"advanced_setting_chart_type_title" = "グラフの種類";
+"advanced_setting_show_frequently_used_items_title" = "頻繁に使用されるカテゴリとタグを表示する";
+"advanced_setting_show_frequently_used_items_description" = "トランザクションの作成および編集時に、頻繁に使用されるカテゴリとタグを選択リストに表示するには、この機能を有効にします。";
+"advanced_setting_show_notes_in_title_title" = "カテゴリの代わりにメモを表示";
+"advanced_setting_show_notes_in_title_description" = "トランザクションのカテゴリ名の代わりにメモの内容を表示するには、この機能を有効にします。";
+"advanced_setting_start_day_of_month_title" = "月の開始日";
+"advanced_setting_start_day_of_month_description" = "レポート、トランザクション、予算が適切に計算されるように、各月の開始日を指定します。";
+"advanced_setting_configure_transaction_title_title" = "トランザクションタイトル";
+"advanced_setting_configure_transaction_subtitle_title" = "トランザクションサブタイトル";
+
+"advanced_setting_configure_transaction_title_info_title" = "説明";
+"advanced_setting_configure_transaction_title_info_description" = "トランザクションタイトルに表示される項目の順序を設定します。項目が欠落している場合は、順序の次の項目が自動的に使用されます。";
+
+"advanced_setting_show_accounts_in_sidebar_title" = "サイドバーに口座を表示";
+"advanced_setting_show_accounts_in_sidebar_description" = "サイドバーに口座のリストを表示するには、この機能をオンにします。";
+"advanced_setting_group_accounts_in_sidebar_title" = "サイドバーで口座をグループ化します";
+"advanced_setting_group_accounts_in_sidebar_description" = "サイドバーで口座をタイプ別にグループ化します。";
+"advanced_setting_show_categories_in_sidebar_title" = "サイドバーにカテゴリを表示します";
+"advanced_setting_show_categories_in_sidebar_description" = "サイドバーにカテゴリのリストを表示します。";
+"advanced_setting_group_categories_in_sidebar_title" = "サイドバーでカテゴリをグループ化します";
+"advanced_setting_group_categories_in_sidebar_description" = "サイドバーでカテゴリをフォルダー別にグループ化します。";
+
+"advanced_setting_select_time_automatically_title" = "時刻の自動選択";
+"advanced_setting_select_time_automatically_description" = "新しいトランザクションの現在時刻を自動的に選択するには、この機能を有効にします。";
+"advanced_setting_select_location_automatically_title" = "場所の自動選択";
+"advanced_setting_select_location_automatically_description" = "新しいトランザクションのために現在の場所を自動的に選択するには、この機能をオンにします。";
+"advanced_setting_save_photos_in_library_title" = "写真をライブラリに保存";
+"advanced_setting_save_photos_description" = "撮影した写真をフォト ライブラリに自動的に保存するには、この機能をオンにします。";
+"advanced_setting_consider_pending_items_title" = "すべてのトランザクションを予約";
+"advanced_setting_consider_pending_items_description" = "口座残高、残高、合計などを計算するときに保留中のトランザクションを含めるには、この機能を有効にします。";
+
+"advanced_setting_enable_exact_times_title" = "正確な時間を使用する";
+"advanced_setting_enable_exact_times_description" = "トランザクションの時間フォームを使用して正確な時間を選択するには、この機能をオンにします (例: 9:41)。";
+"advanced_setting_reverse_keyboard_title" = "逆向きキーボード";
+"advanced_setting_reverse_keyboard_description" = "数字キーボードのレイアウトを垂直に反転させ、従来の電卓スタイルに合わせます。";
+"advanced_setting_enable_haptic_keyboard_title" = "キーボードフィードバック";
+"advanced_setting_enable_haptic_keyboard_description" = "キーボードで金額を入力するときに触覚フィードバックを取得するには、この機能をオンにします。";
+
+"advanced_setting_language_title" = "言語";
+"advanced_setting_time_zone_title" = "タイムゾーン";
+"advanced_setting_enable_live_activities_title" = "Live-Activities";
+"advanced_setting_enable_live_activities_description" = "現在の残高などを dynamic island およびロック画面で確認するには、この機能を有効にします。";
+"advanced_setting_ask_for_feedback_title" = "フィードバックの要求";
+"advanced_setting_ask_for_feedback_description" = "アプリが時折フィードバックを要求できるようにするには、この機能を有効にします。";
+
+/* Cloud Sync Status */
+"cloud_sync_status_not_logged_in" = "iCloud にログインしていません";
+"cloud_sync_status_not_started" = "同期されていません";
+"cloud_sync_status_no_network" = "インターネット接続がありません";
+"cloud_sync_status_in_progress" = "同期中...";
+"cloud_sync_status_succeeded" = "完全に同期されました";
+"cloud_sync_status_quota_exceeded" = "iCloudのストレージがいっぱいです。空き容量を作成して、もう一度試してください。";
+"cloud_sync_status_limit_exceeded" = "iCloudのアップロード/ダウンロード制限に達しました。しばらく待ってから再試行してください。";
+"cloud_sync_status_network_failure" = "ネットワークエラーが発生しました。後で再試行してください。";
+"cloud_sync_status_service_unavailable" = "iCloudは一時的に利用できません。後で再試行してください。";
+"cloud_sync_status_request_rate_limited" = "短時間にiCloudへのリクエストが多すぎます。しばらく待ってから再試行してください。";
+"cloud_sync_status_request_unknown_error" = "不明なエラーが発生しました。後で再試行してください。";
+
+/* Alert Views */
+"alert_share_app_type_selection_title" = "何で共有しますか?";
+"alert_share_app_type_selection_link_button" = "リンク";
+"alert_share_app_type_selection_qrcode_button" = "QRコード";
+
+"alert_reset_app_title" = "アプリをリセット";
+"alert_reset_app_message" = "アプリをデフォルト設定にリセットしてもよろしいですか? これにより、このデバイスと iCloud に保存されているすべてのデータが完全に消去されます。";
+
+"alert_error_title" = "エラーが発生しました 😢";
+
+/* Social Media */
+"follow_on_social_media" = "SNSで\"%@\"をフォローしてください！";
+
+/* Copyright */
+"version" = "バージョン";
+"developed_by" = "%@ 👨🏻‍💻によって開発されました";
+
+
+/* MARK: - Passcode View */
+/* Titles */
+"passcode_view_enter_passcode_title" = "パスコードを入力してください";
+"passcode_view_create_passcode_title" = "パスコードを作成";
+"passcode_view_confirm_passcode_title" = "パスコードを確認";
+"passcode_view_authenticate_reason" = "ユーザー認証";
+
+/* Alert Views */
+"alert_set_passcode_type_title" = "パスコードのオプションを選択してください";
+
+
+/* MARK: - Welcome View */
+/* Titles */
+"welcome_view_title" = "ようこそ";
+"privacy_policy_title" = "プライバシー ポリシー";
+
+/* Sections */
+"welcome_view_overview_section_title" = "概要";
+"welcome_view_legal_documents_section_title" = "詳細情報";
+
+/* Overview */
+"privacy_overview_datastorage_title" = "安全なデータ ストレージ";
+"privacy_overview_datastorage_description" = "あなたの財務情報はプライベートであり、その状態が維持されるべきです。そのため、あなたのデータはあなたのデバイス上または（任意で）個人の iCloud 上にのみ保存されます。";
+
+"privacy_overview_privacy_control_title" = "制御権はあなたにあります";
+"privacy_overview_privacy_control_description" = "保存したデータ、位置情報の使用、カメラへのアクセスなど、いつでもあなたがコントロールできます。たとえば、アプリをリセットし、アプリのアクセス許可を調整することで、データを簡単に削除できます。";
+
+/* Footer */
+"welcome_view_value_description" = "すべての財務を簡単に管理: 予算を入力し、洞察を取得し、すべての収入と支出を追跡します。";
+"welcome_view_agreement_description" = "\"同意する\" をクリックすると、%@ に同意したことになります。";
+
+
+/* MARK: - New Features View */
+/* Titles */
+"new_features_view_title" = "新機能";
+
+/* Buttons */
+"new_features_view_rate_app_button" = "評価する";
+"new_features_view_close_button" = "また後で";
+
+
+/* MARK: - Rate App View */
+/* Titles */
+"purchase_success_view_title" = "ありがとうございます!";
+
+/* Messages */
+"purchase_success_view_info_message" = "アプリが気に入ったら、App Store に肯定的なレビューを書いてください。それは本当に役立ち、アプリを継続的に改善するモチベーションになります。😊";
+"purchase_success_view_info_message_info" = "\n\n注意事項：サブスクリプションからライフタイム購入に切り替える場合、その後既存の定期購入をキャンセルすることを忘れないでください。";
+
+/* Buttons */
+"purchase_success_view_rate_app_button" = "アプリを評価する";
+"purchase_success_view_close_button" = "また後で";
+
+
+/* MARK: - Upgrade View */
+/* Titles */
+"upgrade_view_title" = "フルバージョン";
+
+/* Info */
+"upgrade_info_description" = "この機能はフルバージョンでのみ利用可能です:";
+"upgrade_sharing_info_text" = "Appleのファミリー共有に対応";
+"upgrade_sharing_info_highlighted_text" = "Appleのファミリー共有";
+
+/* Discount */
+"upgrade_discount_title" = "特別オファー 🌟";
+"upgrade_discount_multiple_title" = "最大 %@ 割引!";
+"upgrade_discount_montly_subscription_title" = "月額サブスクリプションが %@ 割引!";
+"upgrade_discount_yearly_subscription_title" = "年間サブスクリプションが %@ 節約!";
+"upgrade_discount_lifetime_purchase_title" = "一度の購入で %@ 割引!";
+"upgrade_discount_ends_in" = "終了日";
+
+/* Sections */
+"upgrade_info_section_title" = "情報";
+"upgrade_reviews_section_title" = "レビュー";
+
+/* Messages */
+"apply_for_discount_text" = "あなたは学生ですか、それとも経済的に困っていますか?\nここをクリックして割引を申請してください。";
+"apply_for_discount_highlighted_text" = "ここをクリックして割引を申請してください。";
+
+/* Features */
+"upgrade_features" = "機能";
+"upgrade_more_features" = "その他の機能";
+"upgrade_features_description" = "フルバージョンでロックが解除されるすべての機能を以下に示します:";
+"upgrade_feature_unlimited_accounts_title" = "さらに多くの口座";
+"upgrade_feature_unlimited_accounts_description" = "追加の口座を作成し、それらにトランザクションを割り当てると、収入と支出の概要がさらにわかりやすくなります。";
+"upgrade_feature_unlimited_categories_and_tags_title" = "無制限のカテゴリとタグ";
+"upgrade_feature_unlimited_categories_and_tags_description" = "トランザクションをより適切に整理するためにトランザクションに追加できるカテゴリとタグを無制限に作成します。";
+"upgrade_feature_extended_analyses_title" = "拡張分析";
+"upgrade_feature_extended_analyses_description" = "追加の分析と、将来の口座残高とトランザクションの拡張予測によるメリットが得られます。";
+"upgrade_feature_unlimited_budgetbooks_title" = "複数の予算書";
+"upgrade_feature_unlimited_budgetbooks_description" = "複数の帳簿を作成すると、たとえば、複数の人が 1 台のデバイスでそれぞれの帳簿を使用したり、別個の帳簿を共有したい場合 (休暇用など) に使用できます。";
+"upgrade_feature_security_title" = "安全なデータ";
+"upgrade_feature_security_description" = "%@ でデータを保護します。";
+"upgrade_feature_security_description_passcode" = "コードを作成してデータを保護します";
+"upgrade_feature_security_description_biometric" = "または %@ を使用します。";
+"upgrade_feature_currency_converter_title" = "通貨コンバータ";
+"upgrade_feature_currency_converter_description" = "内蔵通貨コンバータを使用して、金額を 150 以上の外国通貨のいずれかに自動的に変換します。";
+"upgrade_feature_customization" = "パーソナライゼーション";
+"upgrade_feature_customization_description" = "複数のアクセント カラーとアイコンから選択して、アプリを好みに合わせてカスタマイズします。";
+"upgrade_feature_sharedbudget_books_title" = "帳簿を共有する";
+"upgrade_feature_sharedbudget_books_description" = "口座、カテゴリ、トランザクション、予算を含む帳簿を共有して、1 人以上のユーザーと共同作業します。";
+"upgrade_feature_receipt_scanner_title" = "領収書のスキャン";
+"upgrade_feature_receipt_scanner_description" = "内蔵スキャナーを使用してレシートをデジタル化し、金額と販売者名を自動的に認識します。";
+"upgrade_feature_widgets_title" = "ホームとロック画面のウィジェット";
+"upgrade_feature_widgets_description" = "ウィジェットを使用すると、アプリを開かなくても、現在の収入と支出、口座残高などを一目で確認できます。ウィジェットをプレビューするには、ホーム画面またはロック画面を編集し、 \"ウィジェットの追加\" を表示して、このアプリを選択します。";
+"upgrade_feature_reminders_title" = "リマインダーを作成";
+"upgrade_feature_reminders_description" = "プッシュ通知を受け取るために、計画したトランザクションのリマインダーを作成します (オフラインでも)。";
+"upgrade_feature_csv_title" = "CSV インポートとエクスポート";
+"upgrade_feature_csv_description" = "CSV ファイルを使用してトランザクションをインポートおよびエクスポートし、銀行または他のアプリケーションからデータを振替します。";
+"upgrade_feature_remove_ads_title" = "広告なし";
+"upgrade_feature_remove_ads_description" = "アプリ内で完全版の広告は表示されなくなります。";
+"upgrade_feature_support_title" = "開発のサポート";
+"upgrade_feature_support_description" = "あなたは若い開発者をサポートしており、それによってアプリの継続的な開発をサポートしています! 😊";
+
+/* Reviews */
+"user_review_title_de" = "Awesome app";
+"user_review_description_de" = "The app is very well designed and functional. It meets all my needs and the support is very fast and helpful. I can only recommend it.";
+"user_review_title_hr" = "Beautiful app";
+"user_review_description_hr" = "Feature rich app, with an easy to use user interface. Tried many alternatives on iOS, none of them met my needs the way this app does. Worth the money.";
+"user_review_title_bg" = "Outstanding support";
+"user_review_description_bg" = "Great app with an outstanding customer support. And it’s a very reasonable priced for the quality of the software.";
+"user_review_title_us" = "Great app so far";
+"user_review_description_us" = "Huge fan of this being an app available on iOS, iPad and macOS so that I can update it anywhere. It is also really nice to see that there is no account required or data collection which seems rare these days but important to me for finance applications.";
+"user_review_title_uk" = "This is the one!";
+"user_review_description_uk" = "I’ve been looking for this app for over two years. I wanted a phone based finance manager that was designed around a good looking overview screen, allowing easy entry of new data and the ability to drill down for more info when needed! Give it a go.";
+"user_review_title_es" = "Best budgeting app";
+"user_review_description_es" = "Simply the best I have tried. I think it is still a new app but defetinely you can see the potential it has.";
+"user_review_title_fr" = "Superb, feature-rich app";
+"user_review_description_fr" = "I've been using the app for a few months now and I really like it. Congratulations on your work and I can't wait to see what the app will look like in a few months :)";
+"user_review_title_it" = "Simply great";
+"user_review_description_it" = "Finally. I was lloking for such a solution for years now. Use it with transaction iOS shortcut trigger, love the design. And I like the pay once in a lifetime feature. Keep up the great work!";
+"user_review_title_ch" = "Great support";
+"user_review_description_ch" = "Great support - fast and uncomplicated problem solving. I feel taken seriously as a user.";
+"user_review_title_pl" = "Very pleasant to use";
+"user_review_description_pl" = "The app is an excellent budget tracker and planner that I use on a daily basis. In addition the developer is very attentive to their community, despite its small size.";
+
+/* Products */
+"monthly_subscription_title" = "1";
+"yearly_subscription_title" = "12";
+"lifetime_purchase_title" = "∞";
+
+"monthly_subscription_subtitle" = "月";
+"yearly_subscription_subtitle" = "月";
+"lifetime_purchase_subtitle" = "無制限";
+
+"product_discount_header_title" = "- %@";
+
+/* Buttons */
+"upgrade_is_active_button" = "アクティブ";
+"upgrade_purchase_button" = "購入";
+"upgrade_subscribe_button" = "購読";
+"upgrade_free_trial_button" = "無料トライアル";
+"upgrade_restore_button" = "購入を復元";
+"upgrade_restore_in_progress_button" = "お待ちください...";
+
+"subscription_button_info_text" = "いつでもキャンセル可能。";
+"subscription_trial_button_info_text" = "%d %@ 無料トライアル。その後、%@ ごとに %@";
+"lifetime_purchase_button_info_text" = "一度の購入でフルバージョンをアンロック (サブスクリプションなし)";
+
+/* Alert Views */
+"alert_upgrade_view_purchase_success_title" = "購入成功 🎉";
+"alert_upgrade_view_purchase_success_message" = "ご支援ありがとうございます! 😊";
+"alert_upgrade_view_purchase_success_message_info" = "\n\n注意事項: サブスクリプションから 1 回限りの購入に切り替える場合は、後で以前のサブスクリプションを忘れずにキャンセルしてください。";
+"alert_upgrade_view_purchase_error_message" = "購入は正常に完了しませんでした。";
+"alert_upgrade_view_purchase_error_store_problem_message" = "App Store に問題が発生しました。\n\n情報: Touch ID / Face ID ではなくパスワードで確認した場合にのみ購入できる場合があります。\n\n例えば、Face IDを使用している場合は、前面のカメラを覆い、パスワードダイアログを表示してください。";
+"alert_upgrade_view_purchase_error_not_allowed_message" = "このデバイスでは購入が許可されていません。";
+"alert_upgrade_view_purchase_error_invalid_message" = "お支払い方法を確認し、後でもう一度お試しください。エラーが解決しない場合は、サポートにお問い合わせください。";
+"alert_upgrade_view_purchase_error_network_message" = "インターネット接続を確認し、後でもう一度お試しください。エラーが解決しない場合は、サポートにお問い合わせください。";
+
+"alert_upgrade_view_load_products_error_message" = "購入を読み込めませんでした。インターネット接続を確認して、後でもう一度お試しください。エラーが解決しない場合は、サポートにお問い合わせください。";
+
+"alert_upgrade_view_restore_success_title" = "購入が復元されました";
+"alert_upgrade_view_restore_success_message" = "購入内容は正常に復元されました! 😊";
+"alert_upgrade_view_restore_error_message" = "購入内容を復元できませんでした。後でもう一度お試しください。";
+"alert_upgrade_view_restore_nothing_to_do_title" = "利用可能な購入はありません 😢";
+"alert_upgrade_view_restore_nothing_to_do_message" = "復元する購入が見つかりませんでした。";
+
+
+/* MARK: - Upgrade FAQ View */
+/* Titles */
+"upgrade_faq_view_title" = "よくある質問";
+
+/* Sections */
+"upgrade_faq_general_section_title" = "全般";
+"upgrade_faq_purchases_section_title" = "購入と定期購入";
+
+/* Items */
+"upgrade_faq_about_title" = "Budget Flow とは何ですか?";
+"upgrade_faq_about_value" = "Budget Flow は、財務状況を追跡し、出費を効果的に管理したいすべての人のための、最新の使いやすい予算追跡アプリです。";
+"upgrade_faq_developer_title" = "アプリを開発したのは誰ですか？";
+"upgrade_faq_developer_value" = "Budget Flow はサイドプロジェクトとして開始され、それ以来、私、Fabian Hasse によって完全に設計、開発、保守されてきました。私は 10 年以上の経験を持つ熱心なソフトウェア開発者であり、App Store で最高の予算作成および支出追跡アプリを開発するために情熱を持って取り組んでいます。";
+"upgrade_faq_free_use_title" = "アプリは無料でも使えますか?";
+"upgrade_faq_free_use_value" = "はい、トランザクションの作成など、アプリの基本機能は完全に無料で使用できます。\n\nさらに、アプリには事前に試してみることができるように、購入または購読する前の試用期間が用意されています。";
+"upgrade_faq_security_title" = "私のデータは安全ですか?";
+"upgrade_faq_security_value" = "あなたの財務情報はプライベートであり、その状態が維持されるべきです。そのため、あなたのデータはあなたのデバイス上または（任意で）個人の iCloud 上にのみ保存されます。";
+"upgrade_faq_why_subscription_title" = "フルバージョンがサブスクリプションとして提供されるのはなぜですか?";
+"upgrade_faq_why_subscription_value" = "私たちの目標は、ユーザーに定期的に新機能や改善を提供する高品質のアプリを開発することです。ただし、この目標を達成するには、アプリ自体の資金を賄うために継続的な収益が必要です。 \n\n多くの人が知らないこと アプリの開発と保守には多くの時間がかかります。たとえば、Budget Flow の場合、アイデアから開発までにほぼ 2 年と数千時間の作業がかかりました。 最初のバージョンが App Store にリリースされる前にテストを行う必要があります。\n\n顧客は、サブスクリプション モデルによる定期的なアップデートと改善、および満足し続けるための優れたサポートから特に恩恵を受けることができます。 また、アプリを事前に無料で試して、ニーズに合うかどうかを確認することもできます。気が変わった場合はいつでもサブスクリプションを変更またはキャンセルできます。\n\n全体として、サブスクリプション モデルには、ユーザーにとって多くのメリットがあります。 1 回限りの購入と比較して、継続的なアップデートとサポートを通じて顧客の利便性を高め、ユーザー エクスペリエンスを向上させます。 このビジネス モデルでは、開発を継続するために新規ユーザーがアプリを購入し続ける必要があるため、長期的には、残念ながら 1 回限りの購入は持続可能ではありません。\n\nそのため、アプリを気に入っていただければ、大変嬉しく思います。 私たちの取り組みをサポートしていただければ、今後もさらに優れた機能を提供し続けることができます!❤️";
+"upgrade_faq_multiple_devices_title" = "複数のデバイスでフルバージョンを使用できますか?";
+"upgrade_faq_multiple_devices_value" = "はい、同じ Apple ID を持つすべての Apple デバイスで Budget Flow のフルバージョンを使用できます。アプリは iCloud 経由で同期されているため、デバイス間をシームレスに切り替えて、財務データと設定に常にアクセスできます。";
+"upgrade_faq_multiple_people_title" = "フルバージョンを複数人で使用できますか?";
+"upgrade_faq_multiple_people_value" = "はい、一度限りの購入と完全版のサブスクリプションをファミリー グループ内の最大 5 人と共有できます。システム設定でファミリー共有をオンにして追加するだけです。他の人をグループに招待します。";
+"upgrade_faq_cancel_subscription_title" = "サブスクリプションをキャンセルするにはどうすればよいですか?";
+"upgrade_faq_cancel_subscription_value" = "システム環境設定で Apple ID を使用していつでもサブスクリプションをキャンセルできます。";
+"upgrade_faq_subscription_data_loss_title" = "サブスクリプションをキャンセルするとデータは失われますか?";
+"upgrade_faq_subscription_data_loss_value" = "いいえ。完全版の購読中に作成したものは、無料版に戻っても引き続き利用できます。";
+"upgrade_faq_refund_title" = "返金を受けるにはどうすればよいですか?";
+"upgrade_faq_refund_value" = "App Store を通じて行われた支払いは、Apple によってのみ返金可能です。返金を受けるには、購入後 14 日以内に Apple サポートに連絡する必要があります。";
+"upgrade_faq_switch_plan_title" = "後日、サブスクリプションから使い切り購入に切り替えることはできますか?";
+"upgrade_faq_switch_plan_value" = "はい、アプリで対応する製品を購入することで、いつでもアクティブなサブスクリプションから 1 回限りの購入に切り替えることができます。ただし、支払額を超えないようにするために、一度、前のサブスクリプションを忘れずにキャンセルしてください。";
+
+
+/* MARK: - User Feedback */
+"user_feedback" = "フィードバック";
+
+/* Buttons */
+"user_feedback_message_title" = "こんにちは、Budget Flow開発者の Fabian です。アプリについてフィードバックの時間をいただけますか? 😊";
+
+/* Alert Views */
+"alert_user_feedback_title" = "このアプリは気に入っていますか?";
+
+"alert_user_feedback_like_title" = "ありがとうございます! 🎉";
+"alert_user_feedback_like_message" = "アプリが気に入ったら、App Store にポジティブなレビューを書いてください。本当に役立ちますし、アプリを継続的に改善するモチベーションになります。😊";
+"alert_user_feedback_rate_app_button" = "アプリを評価する";
+"alert_user_development_maybe_later_button" = "また後で";
+
+"alert_user_feedback_dislike_title" = "提案はありますか? 🤔";
+"alert_user_feedback_dislike_message" = "まだ気に入ってもらえてないみたいで残念です。もしよかったら、改善のためにご意見や機能の要望をロードマップに書き込んでください。😊";
+"alert_user_development_contact_developer_button" = "開発者に連絡する";
+
+
+/* MARK: - Progress View */
+"progress_view_load_images_title" = "写真を読み込み中...";
+"progress_view_load_images_subtitle" = "注: iCloud フォトライブラリを使用している場合、写真のダウンロードに時間がかかる場合があります。";
+
+"progress_view_load_documents_title" = "ドキュメントをロード中...";
+"progress_view_load_documents_subtitle" = "情報: iCloud Drive を使用している場合、ドキュメントのダウンロードに時間がかかる場合があります。";
+
+"progress_view_import_csv_title" = "データをインポートしています...";
+"progress_view_import_csv_subtitle" = "お待ちください...";
+
+"progress_view_import_from_cloud_title" = "iCloudからデータを読み込み中...";
+"progress_view_import_from_cloud_initialization_subtitle" = "お待ちください...";
+"progress_view_import_from_cloud_loaded_objects_subtitle" = "読み込まれたオブジェクト: %d";
+
+
+/* MARK: - Widgets */
+"chart_widget_title" = "チャート";
+"chart_widget_description" = "このウィジェットには、口座残高、現在の残高、または選択した期間の収入と支出の内訳のグラフが表示されます。";
+
+"account_widget_title" = "アカウント";
+"account_widget_description" = "このウィジェットは、特定のアカウントおよび選択した期間における残高グラフを表示します。";
+"account_widget_no_account_title" = "アカウントが選択されていません";
+
+"overview_widget_title" = "概要";
+"overview_widget_description" = "このウィジェットには、口座残高、現在の残高、または選択した期間の収入と支出の合計の概要が表示されます。";
+
+"upcoming_transactions_widget_title" = "計画中";
+"upcoming_transactions_widget_description" = "このウィジェットには、次に計画されているトランザクションが表示されます。";
+
+"budget_widget_title" = "予算";
+"budget_widget_description" = "このウィジェットには、選択した期間の特定の予算が表示されます。";
+"budget_widget_no_budget_title" = "予算が選択されていません";
+
+"suggestion_widget_title" = "提案";
+"suggestion_widget_description" = "このウィジェットは、現在の日付に基づいて、新しいトランザクションを作成できる推奨カテゴリを表示します。";
+
+"quick_actions_widget_title" = "クイックエントリー";
+"quick_actions_widget_description" = "このウィジェットを使用すると、新しいトランザクションをすばやく追加できます。";
+"quick_actions_widget_new_title" = "新規";
+
+"widget_upgrade_locked_title" = "ロックされています";
+"widget_upgrade_necessary_title" = "フル バージョン";
+"widget_upgrade_necessary_title_long" = "フル バージョンが必要です";
+"widget_upgrade_necessary_description" = "このウィジェットを使用するには、完全なバージョンへのアップグレードが必要です。";
+"widget_upgrade_necessary_highlighted_text" = "フルバージョン";
+
+
+/* MARK: - Add Item Form View */
+/* Alert Views */
+/* Info */
+"alert_no_budget_book_selected_title" = "帳簿が選択されていません";
+"alert_upgrade_necessary_title" = "フルバージョン";
+"alert_upgrade_necessary_description" = "この機能を使用するには、フルバージョンにアップグレードする必要があります。これはアプリ内で有効化できます。";
+
+/* Dismiss */
+"alert_confirm_dismiss_title" = "変更を破棄してもよろしいですか?";
+
+/* Delete */
+"alert_confirm_delete_budgetbook_title" = "この帳簿を削除してもよろしいですか? 関連する口座、カテゴリ、トランザクション、予算もすべて削除されます。";
+"alert_confirm_delete_budgetbook_button" = "帳簿を削除";
+"alert_confirm_delete_budgetbook_multiple_title" = "選択したすべての帳簿を削除してもよろしいですか? 関連する口座、カテゴリ、トランザクション、予算もすべて削除されます。";
+"alert_confirm_delete_budgetbook_multiple_button" = "帳簿を削除";
+
+"alert_confirm_delete_account_title" = "この口座を削除してもよろしいですか? 関連するトランザクションもすべて削除されます。";
+"alert_confirm_delete_account_button" = "口座を削除";
+"alert_confirm_delete_account_multiple_title" = "選択した口座をすべて削除してもよろしいですか? 関連するトランザクションもすべて削除されます。";
+"alert_confirm_delete_account_multiple_button" = "口座を削除";
+
+"alert_confirm_delete_categorygroup_title" = "このフォルダーを削除してもよろしいですか? (必要に応じて) 関連するカテゴリ、トランザクション、予算もすべて削除されます。";
+"alert_confirm_delete_categorygroup_button" = "フォルダーを削除";
+"alert_confirm_delete_categorygroup_multiple_title" = "選択したフォルダーをすべて削除してもよろしいですか? (必要に応じて) 関連するカテゴリ、トランザクション、予算もすべて削除されます。";
+"alert_confirm_delete_categorygroup_multiple_button" = "フォルダーを削除";
+
+"alert_confirm_delete_category_title" = "このカテゴリを削除してもよろしいですか? (必要に応じて) 関連する予算もすべて削除されます。";
+"alert_confirm_delete_category_button" = "カテゴリを削除";
+"alert_confirm_delete_category_multiple_title" = "選択したカテゴリをすべて削除してもよろしいですか? 関連するトランザクションと予算もすべて削除されます。";
+"alert_confirm_delete_category_multiple_button" = "カテゴリを削除";
+
+"alert_confirm_delete_payee_title" = "この受取人を削除してもよろしいですか?";
+"alert_confirm_delete_payee_button" = "受取人の削除";
+"alert_confirm_delete_payee_multiple_title" = "選択したすべての受取人を削除してもよろしいですか?";
+"alert_confirm_delete_payee_multiple_button" = "受取人の削除";
+
+"alert_confirm_delete_tag_title" = "このタグを削除してもよろしいですか?";
+"alert_confirm_delete_tag_button" = "タグを削除";
+"alert_confirm_delete_tag_multiple_title" = "選択したタグをすべて削除してもよろしいですか?";
+"alert_confirm_delete_tag_multiple_button" = "タグを削除";
+
+"alert_confirm_delete_reminder_title" = "このリマインダーを削除してもよろしいですか?";
+"alert_confirm_delete_reminder_button" = "リマインダーを削除";
+"alert_confirm_delete_reminder_multiple_title" = "選択したリマインダーをすべて削除してもよろしいですか?";
+"alert_confirm_delete_reminder_multiple_button" = "リマインダーを削除";
+
+"alert_confirm_delete_transaction_title" = "このトランザクションを削除してもよろしいですか?";
+"alert_confirm_delete_assigned_transaction_title" = "割り当てられたトランザクションもすべて削除しますか?";
+"alert_confirm_delete_transaction_button" = "トランザクションを削除";
+"alert_confirm_delete_transaction_multiple_title" = "選択したトランザクションをすべて削除してもよろしいですか?";
+"alert_confirm_delete_transaction_multiple_button" = "トランザクションを削除";
+
+"alert_confirm_delete_imageitem_title" = "この写真を削除してもよろしいですか?";
+"alert_confirm_delete_imageitem_button" = "写真を削除";
+"alert_confirm_delete_imageitem_multiple_title" = "選択した写真をすべて削除してもよろしいですか?";
+"alert_confirm_delete_imageitem_multiple_button" = "写真を削除";
+
+"alert_confirm_delete_documentitem_title" = "このドキュメントを削除してもよろしいですか?";
+"alert_confirm_delete_documentitem_button" = "ドキュメントを削除";
+"alert_confirm_delete_documentitem_multiple_title" = "選択したドキュメントをすべて削除してもよろしいですか?";
+"alert_confirm_delete_documentitem_multiple_button" = "ドキュメントを削除";
+
+"alert_confirm_delete_budget_title" = "この予算を削除してもよろしいですか?";
+"alert_confirm_delete_budget_button" = "予算を削除";
+"alert_confirm_delete_budget_multiple_title" = "選択した予算をすべて削除してもよろしいですか?";
+"alert_confirm_delete_budget_multiple_button" = "予算を削除";
+
+"alert_confirm_delete_backupitem_title" = "このバックアップを削除してもよろしいですか?";
+"alert_confirm_delete_backupitem_button" = "バックアップを削除";
+
+"alert_confirm_delete_contra_entry_title" = "このトランザクションは振替です。振替先のエントリも削除しますか?";
+
+/* Updates */
+"alert_confirm_update_contra_entry_title" = "このトランザクションは振替です。振替先のエントリも更新しますか?";
+"alert_confirm_update_transaction_multiple_title" = "このトランザクションはグループに属しています。具体的に何を保存したいのですか?";
+"alert_confirm_update_transaction_single_button" = "これのみを保存します";
+"alert_confirm_update_transaction_all_button" = "これと今後のものを保存します";
+
+/* End Repetition */
+"alert_confirm_end_repetition_for_transaction_title" = "このトランザクションの繰り返しを停止してもよろしいですか?";
+"alert_confirm_end_repetition_for_transaction_button" = "繰り返しを終了";
+"alert_confirm_end_repetition_for_transaction_multiple_title" = "選択したすべてのトランザクションの繰り返しを停止してもよろしいですか?";
+"alert_confirm_end_repetition_for_transaction_multiple_button" = "繰り返しを終了";
+
+/* Currency Selection */
+"alert_change_currency_or_exchange_rate_title" = "具体的に何を変更したいのですか?";
+"alert_change_currency_button" = "通貨";
+"alert_change_exchange_rate_button" = "為替レート";
+
+
+/* MARK: - Currency Selection View */
+/* Titles */
+"currency_selection_title" = "通貨";
+
+/* Info */
+"currency_selection_info_title" = "説明";
+"currency_selection_info_description" = "既存および将来のトランザクションのデフォルト通貨を選択します。";
+
+/* Sections */
+"default_currency_section_title" = "デフォルトの通貨";
+"suggested_currency_section_title" = "提案";
+
+/* Messages */
+"no_currency_found_title" = "通貨が見つかりません";
+"currency_selection_search_placeholder_message" = "通貨名またはその略語を検索します";
+
+/* Buttons */
+"change_default_currency_button" = "デフォルトの通貨を変更する";
+
+/* Alert Views */
+"alert_confirm_change_default_currency_title" = "デフォルトの通貨を変更してもよろしいですか? これにより、既存のすべてのトランザクションが新しい通貨 (%@) に変換されます。";
+"alert_confirm_change_default_account_currency_title" = "通貨を変更してもよろしいですか? これにより、この口座の既存のトランザクションがすべて新しい通貨 (%@) に変換されます。";
+
+
+/* MARK: - Currency Conversion View */
+/* Titles */
+"currency_conversion_title" = "変換";
+"currency_conversion_last_synchronization_title" = "更新日: %@";
+"currency_conversion_synchronization_failed_title" = "同期に失敗しました";
+"currency_conversion_synchronization_failed_no_internet_title" = "インターネット接続がありません";
+
+/* Sections */
+"source_currency_section_title" = "From";
+"target_currency_section_title" = "宛先";
+
+
+/* MARK: - Time Zone Selection View */
+/* Titles */
+"time_zone_selection_title" = "タイムゾーン";
+
+/* Messages */
+"no_timezones_found_title" = "タイムゾーンが見つかりません";
+"time_zone_selection_search_placeholder_message" = "国または都市のタイムゾーンを検索";
+
+
+/* MARK: - Manage Item View */
+/* Titles */
+"manage_budgetbooks_title" = "予算書";
+"manage_accounts_title" = "口座";
+"manage_categories_title" = "カテゴリ";
+"manage_category_groups_title" = "フォルダー";
+"manage_payees_title" = "受取人";
+"manage_tags_title" = "タグ";
+"manage_reminders_title" = "リマインダー";
+
+/* Info */
+"manage_reminders_info_title" = "説明";
+"manage_reminders_info_description" = "カスタム リマインダーを作成するか、今後のトランザクションに追加してアプリに通知させます。";
+
+/* Sections */
+"shared_by_you_budgetbooks_section_title" = "あなたが共有しました";
+"shared_with_you_budgetbooks_section_title" = "あなたと共有しました";
+"not_shared_budgetbooks_section_title" = "共有されていません";
+"most_used_items_section_title" = "最も使用されている";
+"archived_items_section_title" = "アーカイブ済み";
+"own_reminders_section_title" = "自分のリマインダー";
+
+/* Messages */
+"no_budget_books_found_title" = "帳簿が見つかりませんでした";
+"no_budget_books_found_message" = "新しい帳簿を追加するには、\"+\"ボタンをクリックしてください。";
+"no_budget_books_found_button_title" = "新しい帳簿";
+"no_budget_books_found_cloud_sync_message" = "既存のデータが iCloud からロードされています。しばらくお待ちください...\n\nまたは、\"+\" ボタンをクリックして新しい帳簿を追加します。";
+"no_budget_books_found_cloud_sync_message_short" = "既存のデータを iCloud からロード中です。しばらくお待ちください...";
+"budget_books_search_placeholder_message" = "帳簿名を検索";
+
+"no_accounts_title" = "口座がありません";
+"no_accounts_found_title" = "口座が見つかりませんでした";
+"no_accounts_found_message" = "新しい口座を追加するには、\"+\"ボタンをクリックしてください。";
+"no_accounts_found_button_title" = "新しい口座";
+"accounts_search_placeholder_message" = "口座名または口座の種類で検索";
+
+"no_categories_found_title" = "カテゴリが見つかりませんでした";
+"no_categories_found_message" = "新しいカテゴリを追加するには、\"+\" ボタンをクリックします。";
+"no_categories_found_button_title" = "新しいカテゴリ";
+"categories_search_placeholder_message" = "カテゴリまたはフォルダー名で検索";
+
+"no_category_groups_found_title" = "フォルダーが見つかりません";
+"no_category_groups_found_message" = "新しいフォルダーを追加するには、\"+\"ボタンをクリックしてください。";
+"no_category_groups_found_button_title" = "新しいフォルダー";
+"category_groups_search_placeholder_message" = "フォルダーの名前で検索";
+
+"no_payees_found_title" = "受取人が見つかりませんでした";
+"no_payees_found_message" = "新しい受取人を追加するには、\"+\"ボタンをクリックしてください。";
+"no_payees_found_button_title" = "新しい受取人";
+"payees_search_placeholder_message" = "受取人の名前で検索";
+
+"no_tags_found_title" = "タグが見つかりませんでした";
+"no_tags_found_message" = "新しいタグを追加するには、\"+\"ボタンをクリックしてください。";
+"no_tags_found_button_title" = "新しいタグ";
+"tags_search_placeholder_message" = "タグの名前で検索";
+
+"no_reminders_found_title" = "リマインダーが見つかりませんでした";
+"no_reminders_found_message" = "新しいリマインダーを追加するには、\"+\"ボタンをクリックしてください。";
+"no_reminders_found_button_title" = "新しいリマインダー";
+"reminders_search_placeholder_message" = "リマインダーのタイトルで検索";
+
+/* Value */
+"balance" = "バランス";
+
+
+/* MARK: - Add Item Form View */
+/* Titles */
+"form_title_edit" = "編集";
+
+/* Sections */
+"form_name_section_title" = "名前";
+"form_title_section_title" = "タイトル";
+"form_color_section_title" = "色";
+"form_icon_section_title" = "アイコン";
+"form_assignment_section_title" = "割り当て";
+"form_miscellaneous_section_title" = "その他";
+
+/* Miscellaneous */
+"number_of_selected_items" = "%d 個が選択されました";
+
+
+/* MARK: - Add Budget Book Form View */
+/* Titles */
+"form_title_new_budgetbook" = "新しい予算書";
+
+/* Items */
+"form_budgetbook_currency_title" = "通貨";
+
+/* Buttons */
+"form_button_delete_budgetbook" = "帳簿を削除";
+
+
+/* MARK: - Add Account Form View */
+/* Titles */
+"form_title_new_account" = "新しい口座";
+
+/* Sections */
+"form_billing_section_title" = "自動請求";
+"form_transactions_section_title" = "トランザクション";
+"form_account_balance_section_title" = "口座残高";
+
+/* Footer */
+"form_billing_footer_title" = "毎月の特定の日にこのクレジットカードの残高を自動的に調整するには、この機能を有効にします (必要に応じて)。";
+"form_transactions_footer_title" = "この口座の新しいトランザクションを自動的に「保留中」としてマークするには、この機能を有効にします。";
+"form_account_balance_footer_title" = "口座残高を手動で調整するには、初期/合計残高を変更します。";
+
+/* Items */
+"form_enable_automatic_billing_title" = "有効";
+"form_billing_day_title" = "請求日";
+"form_mark_transactions_as_pending_title" = "保留中としてマーク";
+"form_account_type_title" = "口座の種類";
+"form_initial_balance_title" = "初期残高";
+"form_total_balance_title" = "合計残高";
+"form_use_as_default_account_title" = "デフォルトの口座";
+"form_account_currency_title" = "通貨";
+
+/* Buttons */
+"form_button_archive_account" = "口座をアーカイブ";
+"form_button_unarchive_account" = "口座のアーカイブを解除";
+"form_button_delete_account" = "口座を削除";
+
+
+/* MARK: - Add Category Group Form View */
+/* Titles */
+"form_title_new_categorygroup" = "新しいフォルダー";
+
+/* Buttons */
+"form_button_delete_categorygroup" = "フォルダーを削除";
+
+
+/* MARK: - Add Category Form View */
+/* Titles */
+"form_title_new_category" = "新しいカテゴリ";
+
+/* Items */
+"form_category_group_title" = "フォルダー";
+"form_category_group_none_type_value" = "なし";
+
+/* Buttons */
+"form_button_delete_category" = "カテゴリを削除";
+
+
+/* MARK: - Add Payee Form View */
+/* Titles */
+"form_title_new_payee" = "新しい受取人";
+
+/* Footer */
+"form_assignment_default_entries_footer_title" = "トランザクションにデフォルトで使用する口座、カテゴリ、または場所をこの受取人に割り当てます。";
+
+/* Items */
+"form_location_title" = "場所";
+"form_location_none_type_value" = "なし";
+
+/* Buttons */
+"form_button_delete_payee" = "受取人の削除";
+
+
+/* MARK: - Add Tag Form View */
+/* Titles */
+"form_title_new_tag" = "新しいタグ";
+
+/* Buttons */
+"form_button_delete_tag" = "タグを削除";
+
+
+/* MARK: - Add Reminder Form View */
+/* Titles */
+"form_title_new_reminder" = "新しいリマインダー";
+
+/* Items */
+"form_is_enabled_title" = "有効";
+
+/* Buttons */
+"form_button_preview_reminder" = "プレビューを表示";
+"form_button_delete_reminder" = "リマインダーを削除";
+
+/* Notifications */
+"reminder_notification_title" = "リマインダー";
+
+
+/* MARK: - Add Transaction Form View */
+/* Titles */
+"form_title_new_income" = "新しい収入";
+"form_title_new_expense" = "新しい支出";
+"form_title_new_transfer" = "新しい振替";
+
+/* Sections */
+"form_date_section_title" = "期限";
+"form_reminder_section_title" = "リマインダー";
+"form_location_section_title" = "場所";
+"form_notes_section_title" = "メモ";
+"form_currency_section_title" = "通貨";
+"form_payment_status_section_title" = "支払い";
+"form_evaluation_section_title" = "評価済み";
+"form_attachments_section_title" = "添付ファイル";
+"form_tags_section_title" = "タグ";
+
+/* Items */
+"form_account_title" = "口座";
+"form_from_account_title" = "差出人";
+"form_to_account_title" = "宛先";
+"form_account_none_type_value" = "なし";
+"form_category_title" = "カテゴリ";
+"form_categories_title" = "カテゴリ";
+"form_category_none_type_value" = "なし";
+"form_payee_title" = "受取人";
+"form_payee_none_type_value" = "なし";
+"form_tags_title" = "タグ";
+"form_tag_none_type_value" = "なし";
+"form_date_title" = "日付";
+"form_date_format_title" = "日付形式";
+"form_time_title" = "時間";
+"form_repetition_frequency_title" = "繰り返し";
+"form_date_repetition_has_end_date_title" = "終了";
+"form_date_repetition_end_date_title" = "終了日";
+"form_reminder_title" = "アクティブ";
+"form_reminder_none_type_value" = "なし";
+"form_reminder_none_type_value_long" = "リマインダーなし";
+"form_reminder_on_due_value" = "期限内";
+"form_location_none_type_value_long" = "場所がありません";
+"form_original_amount_title" = "元の金額";
+"form_exchange_rate_title" = "為替レート";
+"form_is_selected_title" = "選択済み";
+"form_is_pending_title" = "保留中";
+"form_payed_by_title" = "割り当て済み";
+"form_payed_by_none_type_value" = "誰も";
+"form_include_in_statistics_title" = "統計";
+"form_include_in_budgets_title" = "予算";
+
+/* Footer */
+"form_payment_status_footer_title" = "金額が計算に含まれないように、支払いを「保留中」としてマークします。";
+"form_evaluation_footer_title" = "このトランザクションを統計および/または予算から除外し、口座残高のみで考慮されるようにします。";
+"form_reminded_transactions_is_invalid_footer_title" = "注: このトランザクションにリマインダーを追加するには、将来の日付または繰り返し間隔を選択する必要があります。";
+
+/* Buttons */
+"form_button_delete_transaction" = "トランザクションを削除";
+"form_button_end_repetition_for_transaction" = "繰り返しを終了";
+"form_button_clear_title" = "削除";
+"form_button_today_title" = "今日";
+
+/* Miscellaneous */
+"receipt_total" = "合計";
+"receipt_amount" = "金額";
+"receipt_to_pay" = "支払い先";
+
+/* Notifications */
+"transaction_notification_body" = "金額: %@\n日付: %@";
+"transaction_notification_body_notes" = "メモ: %@";
+
+
+/* MARK: - Add Budget Form View */
+/* Titles */
+"form_title_new_budget" = "新しい予算";
+
+/* Sections */
+"form_interval_section_title" = "間隔";
+
+/* Footer */
+"form_budget_amount_calculation_footer_title" = "間隔によって予算が繰り返される頻度が決定され、表示される利用可能額は選択した期間に合わせて自動的に調整されます。";
+
+/* Items */
+"form_is_cumulative_title" = "累積";
+
+/* Buttons */
+"form_button_delete_budget" = "予算を削除";
+
+
+/* MARK: - Assign CSV Fields Form View */
+/* Titles */
+"form_title_csv_assign_fields" = "フィールドの割り当て";
+
+/* Info */
+"csv_assign_fields_info_title" = "説明";
+"csv_assign_fields_info_description" = "インポートする CSV ファイルの列を対応するフィールドに割り当ててください。";
+
+/* Sections */
+"form_general_section_title" = "全般";
+
+/* Footer */
+"form_invalid_footer_title" = "エラー:";
+"form_invalid_amount_footer_title" = "\"%@\" の値は有効な金額ではありません。";
+"form_invalid_currency_footer_title" = "\"%@\" の値は有効な通貨ではありません。";
+"form_invalid_exchange_rate_footer_title" = "\"%@\" の値は有効な数値ではありません。";
+"form_invalid_date_format_footer_title" = "選択した日付や形式が無効です。";
+"form_type_footer_title" = "情報: 金額値の符号に基づいてトランザクションタイプを計算するには、\"%@\" を選択してください。";
+"form_date_format_footer_title" = "例: %@";
+
+/* Items */
+"form_type_title" = "タイプ";
+"form_amount_title" = "金額";
+"form_source_currency_title" = "ソース通貨";
+"form_target_currency_title" = "対象通貨";
+"form_budget_book_title" = "予算書";
+"form_notes_title" = "メモ";
+"form_skip_zero_amounts_title" = "\"0\" 金額をスキップ";
+"form_skip_duplicates_title" = "重複をスキップ";
+"form_csv_assign_field_none_type_value" = "未割り当て";
+
+
+/* MARK: - Color Selection View */
+/* Titles */
+"color_selection_title" = "色";
+
+/* Messages */
+"no_colors_found_title" = "色が見つかりません";
+"color_selection_search_placeholder_message" = "色またはグループ名を検索します";
+
+
+/* MARK: - Icon Selection View */
+/* Titles */
+"icon_selection_title" = "アイコン";
+
+/* Messages */
+"no_icons_found_title" = "アイコンが見つかりませんでした";
+"icon_selection_search_placeholder_message" = "アイコン ラベルまたはグループ名を検索します";
+
+
+/* MARK: - Location Selection View */
+/* Titles */
+"location_selection_title" = "場所";
+"location_selection_searchbar_placeholder" = "検索";
+"location_selection_search_history_title" = "最近";
+
+/* Buttons */
+"location_selection_select_button_title" = "選択";
+
+/* Alert Views */
+"location_selection_no_internet_error_title" = "エラー";
+"location_selection_no_internet_error_message" = "インターネット接続がないようです";
+
+
+/* MARK: - Other Alert Views */
+"alert_selected_period_changed_title" = "%@ 選択済み";
+"alert_selected_period_changed_message" = "%@ が開始されたため、現在の期間は自動的に調整されました。\n\n期間を切り替えて過去のトランザクションを表示するには、画面の左上隅にある \"%@\" ボタンをクリックするだけです、希望の期間を選択します。";
+"alert_selected_period_changed_new_month" = "新しい月";
+"alert_selected_period_changed_new_year" = "新年";
+
+"alert_no_mail_initialized_title" = "電子メール アカウントがありません";
+"alert_no_mail_initialized_message" = "デバイスに電子メール アカウントが設定されていないようです。ただし、この機能を使用するにはこれが必須です。";
+
+"alert_no_camera_title" = "使用可能なカメラがありません";
+"alert_no_camera_message" = "カメラをお持ちではないようです。ただし、この機能を使用することは必須です。";
+
+"alert_permissions_title" = "もうすぐです!";
+"alert_permissions_activate_button" = "今すぐ有効化";
+"alert_permissions_cancel_button" = "また後で";
+
+"alert_camera_permissions_message" = "写真を撮るには、設定で\"カメラ\"へのアクセスを有効にするだけです。";
+"alert_photolibrary_permissions_message" = "写真を追加するには、設定で\"写真\"へのアクセスを有効にするだけです。";
+"alert_notifications_permissions_message" = "プッシュ通知を受け取るには、設定で\"通知\"を有効にするだけです。";
+
+
+/* MARK: - Tips */
+"period_selection_tip_title" = "期間の変更";
+"period_selection_tip_message" = "表示される期間を変更するには、ここをクリックしてください。これは、すべてのビュー (概要、トランザクション、予算) に影響します。";
+"interactive_charts_tip_title" = "インタラクティブなグラフ";
+"interactive_charts_tip_message" = "左または右にスワイプしてアクティブなチャートを変更するか、チャートを長押しして特定の日付の値を表示します。";
+"switch_budget_books_tip_title" = "帳簿を切り替える";
+"switch_budget_books_tip_message" = "概要タブを長押しすると、予算書をすばやく切り替えることができます。";
+
+
+/* MARK: - Watch App */
+/* Titles */
+"cloud_sync_status_section_title" = "iCloud 同期ステータス";
+"cloud_sync_status_footer_title" = "情報: iPhone からデータを同期するには、iCloud にログインする必要があります。";
+
+
+/* MARK: - Localized URLs */
+"imprintUrl" = "https://budget-flow.app/json/en/imprint.json";
+"termsOfUseUrl" = "https://www.apple.com/legal/internet-services/itunes/dev/stdeula";
+"privacyUrl" = "https://www.iubenda.com/api/privacy-policy/17322265/no-markup";
+"privacyUrlWeb" = "https://budget-flow.app/privacy-policy";
+"imprintUrlWeb" = "https://budget-flow.app/imprint";
+"familySharingUrl" = "https://www.apple.com/family-sharing";
+
+
+/* MARK: - Default Data */
+"default_account_name" = "口座";
+
+"default_category_group_name_income" = "収入";
+"default_category_name_salary" = "給与";
+
+"default_category_group_name_free_time" = "自由時間";
+"default_category_name_shopping" = "ショッピング";
+"default_category_name_vacation" = "休暇";
+
+"default_category_group_name_mobility" = "モビリティ";
+"default_category_name_car" = "車";
+
+"default_category_group_name_groceries" = "食料品";
+"default_category_name_supermarket" = "スーパーマーケット";
+"default_category_name_restaurant" = "レストラン";
+"default_category_name_fast_food" = "ファーストフード";
+
+"default_category_group_name_living" = "リビング";
+"default_category_name_rent" = "家賃";
+
+"default_category_group_name_miscellaneous" = "その他";
+
+"default_reminder_title" = "支出を記録する";
+
+
+/* MARK: - Color Sections */
+"color_section_classic_title" = "クラシック";
+"color_section_sunset_title" = "日没";
+"color_section_afterglow_title" = "残光";
+"color_section_ocean_title" = "海";
+"color_section_nightsky_title" = "夜空";
+"color_section_apple_title" = "Apple社";
+"color_section_pastel_title" = "パステル";
+
+
+/* MARK: - Color Keywords */
+"color_keyword_custom" = "カスタム";
+"color_keyword_red" = "赤";
+"color_keyword_green" = "緑";
+"color_keyword_blue" = "青";
+"color_keyword_yellow" = "黄色";
+"color_keyword_orange" = "オレンジ";
+"color_keyword_purple" = "紫";
+"color_keyword_pink" = "ピンク";
+"color_keyword_brown" = "ブラウン";
+"color_keyword_mint" = "ミント";
+"color_keyword_シアン" = "シアン";
+"color_keyword_violet" = "バイオレット";
+"color_keyword_gray" = "グレー";
+
+
+/* MARK: - Icon Sections */
+"icon_section_suggestions_title" = "提案";
+"icon_section_general_title" = "全般";
+"icon_section_mobility_title" = "モビリティ";
+"icon_section_household_title" = "世帯";
+"icon_section_freetime_title" = "自由時間";
+"icon_section_nature_title" = "自然";
+"icon_section_food_and_drinks_title" = "食べ物と飲み物";
+"icon_section_shopping_title" = "ショッピング";
+"icon_section_health_title" = "健康";
+"icon_section_office_title" = "オフィス";
+"icon_section_arrows_title" = "矢印";
+"icon_section_objects_title" = "オブジェクト";
+"icon_section_people_title" = "ピープル";
+"icon_section_buildings_title" = "建物";
+"icon_section_payment_methods_title" = "支払い方法";
+
+
+/* MARK: - Icon Keywords */
+"icon_keyword_emoji" = "絵文字";
+"icon_keyword_tag" = "タグ";
+"icon_keyword_heart" = "ハート";
+"icon_keyword_star" = "星";
+"icon_keyword_folder" = "フォルダー";
+"icon_keyword_bookmark" = "ブックマーク";
+"icon_keyword_building" = "ビル";
+"icon_keyword_house" = "家";
+"icon_keyword_lightbulb" = "電球";
+"icon_keyword_fan" = "ファン";
+"icon_keyword_lamp" = "ランプ";
+"icon_keyword_alarm_system" = "警報";
+"icon_keyword_webcam" = "ウェブカメラ";
+"icon_keyword_camera" = "カメラ";
+"icon_keyword_door" = "ドア";
+"icon_keyword_garage" = "ガレージ";
+"icon_keyword_window" = "窓";
+"icon_keyword_blinds" = "ブラインド";
+"icon_keyword_roller" = "ローラー";
+"icon_keyword_curtains" = "カーテン";
+"icon_keyword_air_purifier" = "空気清浄機";
+"icon_keyword_dehumidifier" = "除湿器";
+"icon_keyword_humidifier" = "加湿器";
+"icon_keyword_heater" = "ストーブ";
+"icon_keyword_air_conditioner" = "エアコン";
+"icon_keyword_sprinkler" = "スプリンクラー";
+"icon_keyword_trash" = "ゴミ箱";
+"icon_keyword_spigot" = "蛇口";
+"icon_keyword_shower" = "シャワー";
+"icon_keyword_bathtub" = "風呂";
+"icon_keyword_pipe" = "水道管";
+"icon_keyword_hifi_reveiver" = "ハイファイ システム";
+"icon_keyword_video_projector" = "プロジェクター";
+"icon_keyword_beamer" = "ビーマー";
+"icon_keyword_wifi_router" = "Wi−Fiルーター";
+"icon_keyword_internet" = "インターネット";
+"icon_keyword_party" = "パーティー";
+"icon_keyword_balloon" = "風船";
+"icon_keyword_pan" = "フライパン";
+"icon_keyword_cooking" = "料理";
+"icon_keyword_kitchen" = "キッチン";
+"icon_keyword_popcorn" = "ポップコーン";
+"icon_keyword_cinema" = "映画";
+"icon_keyword_movie" = "映画";
+"icon_keyword_food" = "食べ物";
+"icon_keyword_bed" = "ベッド";
+"icon_keyword_bedroom" = "寝室";
+"icon_keyword_hotel" = "ホテル";
+"icon_keyword_sofa" = "ソファ";
+"icon_keyword_couch" = "ソファ";
+"icon_keyword_livingroom" = "リビングルーム";
+"icon_keyword_chair" = "椅子";
+"icon_keyword_armchair" = "アームチェア";
+"icon_keyword_cabinet" = "クローゼット";
+"icon_keyword_fireplace" = "暖炉";
+"icon_keyword_washer" = "洗濯機";
+"icon_keyword_dryer" = "乾燥機";
+"icon_keyword_dishwasher" = "食洗機";
+"icon_keyword_oven" = "オーブン";
+"icon_keyword_stove" = "トースター";
+"icon_keyword_microwave" = "電子レンジ";
+"icon_keyword_refrigerator" = "冷蔵庫";
+"icon_keyword_sink" = "シンク";
+"icon_keyword_toilet" = "トイレ";
+"icon_keyword_bathroom" = "風呂場";
+"icon_keyword_tv_remote" = "リモコン";
+"icon_keyword_tv" = "テレビ";
+"icon_keyword_person" = "人間";
+"icon_keyword_human" = "人間";
+"icon_keyword_airplane" = "飛行機";
+"icon_keyword_vacation" = "休暇";
+"icon_keyword_car" = "車";
+"icon_keyword_electric_car" = "電気自動車";
+"icon_keyword_charging_station" = "充電ステーション";
+"icon_keyword_car_pool" = "駐車場";
+"icon_keyword_bus" = "バス";
+"icon_keyword_tram" = "電車";
+"icon_keyword_railroad" = "鉄道";
+"icon_keyword_cablecar" = "路面電車";
+"icon_keyword_ferry" = "フェリー";
+"icon_keyword_ship" = "船";
+"icon_keyword_truck" = "トラック";
+"icon_keyword_relocation" = "引っ越し";
+"icon_keyword_bicycle" = "自転車";
+"icon_keyword_sport" = "スポーツ";
+"icon_keyword_scooter" = "スクーター";
+"icon_keyword_sailboat" = "ヨット";
+"icon_keyword_fuel" = "ガソリン";
+"icon_keyword_refuel" = "給油";
+"icon_keyword_gas_station" = "ガソリンスタンド";
+"icon_keyword_walking" = "ウォーキング";
+"icon_keyword_running" = "実行中";
+"icon_keyword_rugby" = "ラグビー";
+"icon_keyword_badminton" = "バドミントン";
+"icon_keyword_tennis" = "テニス";
+"icon_keyword_dancing" = "ダンス";
+"icon_keyword_skiing" = "スキー";
+"icon_keyword_swimming" = "水泳";
+"icon_keyword_skating" = "スケート";
+"icon_keyword_strengthtraining" = "筋トレ";
+"icon_keyword_gym" = "ジム";
+"icon_keyword_yoga" = "ヨガ";
+"icon_keyword_bowling" = "ボウリング";
+"icon_keyword_sportscourt" = "スポーツコート";
+"icon_keyword_stadium" = "スタジアム";
+"icon_keyword_soccer" = "サッカー";
+"icon_keyword_golf" = "ゴルフ";
+"icon_keyword_baseball" = "野球";
+"icon_keyword_basketball" = "バスケットボール";
+"icon_keyword_volleyball" = "バレーボール";
+"icon_keyword_trophy" = "トロフィー";
+"icon_keyword_medal" = "メダル";
+"icon_keyword_flag" = "旗";
+"icon_keyword_race" = "レース";
+"icon_keyword_gamecontroller" = "コントローラー";
+"icon_keyword_videogames" = "ビデオゲーム";
+"icon_keyword_gaming" = "ゲーム";
+"icon_keyword_playstation" = "PlayStation";
+"icon_keyword_xbox" = "Xbox";
+"icon_keyword_nintento_switch" = "Nintendo Switch";
+"icon_keyword_book" = "本";
+"icon_keyword_books" = "書籍";
+"icon_keyword_magazine" = "雑誌";
+"icon_keyword_reading" = "読書";
+"icon_keyword_painting" = "絵画";
+"icon_keyword_drawing" = "絵描き";
+"icon_keyword_theater" = "劇場";
+"icon_keyword_singing" = "マイク";
+"icon_keyword_karaoke" = "カラオケ";
+"icon_keyword_music" = "音楽";
+"icon_keyword_spotify" = "Spotify";
+"icon_keyword_apple_music" = "Apple Music";
+"icon_keyword_piano" = "ピアノ";
+"icon_keyword_guitar" = "ギター";
+"icon_keyword_rockband" = "ロックバンド";
+"icon_keyword_festival" = "フェスティバル";
+"icon_keyword_tent" = "テント";
+"icon_keyword_dice" = "サイコロ";
+"icon_keyword_boardgames" = "ボードゲーム";
+"icon_keyword_gambling" = "ギャンブル";
+"icon_keyword_camera" = "カメラ";
+"icon_keyword_photography" = "写真";
+"icon_keyword_photo" = "写真";
+"icon_keyword_world" = "世界";
+"icon_keyword_globe" = "地球儀";
+"icon_keyword_sun" = "太陽";
+"icon_keyword_summer" = "夏";
+"icon_keyword_moon" = "月";
+"icon_keyword_stars" = "スター";
+"icon_keyword_cloud" = "雲";
+"icon_keyword_icloud" = "iCloud";
+"icon_keyword_rain" = "雨";
+"icon_keyword_flame" = "炎";
+"icon_keyword_fire" = "火";
+"icon_keyword_snow" = "雪";
+"icon_keyword_winter" = "冬";
+"icon_keyword_bolt" = "稲妻";
+"icon_keyword_plug" = "プラグ";
+"icon_keyword_electric" = "電気";
+"icon_keyword_electrics" = "電気";
+"icon_keyword_electricity" = "電気";
+"icon_keyword_tornado" = "竜巻";
+"icon_keyword_sea" = "海";
+"icon_keyword_hare" = "ウサギ";
+"icon_keyword_rabbit" = "ウサギ";
+"icon_keyword_animal" = "動物";
+"icon_keyword_tortoise" = "カメ";
+"icon_keyword_lizard" = "トカゲ";
+"icon_keyword_bird" = "鳥";
+"icon_keyword_ant" = "アリ";
+"icon_keyword_ladybug" = "バグ";
+"icon_keyword_fish" = "魚";
+"icon_keyword_pet" = "ペット";
+"icon_keyword_cat" = "猫";
+"icon_keyword_dog" = "犬";
+"icon_keyword_leaf" = "葉";
+"icon_keyword_plant" = "植物";
+"icon_keyword_flower" = "花";
+"icon_keyword_eating" = "食べる";
+"icon_keyword_restaurant" = "レストラン";
+"icon_keyword_dring" = "飲酒";
+"icon_keyword_cafe" = "カフェ";
+"icon_keyword_coffee" = "コーヒー";
+"icon_keyword_fastfood" = "ファーストフード";
+"icon_keyword_picnic" = "ピクニック";
+"icon_keyword_wine" = "ワイン";
+"icon_keyword_birthday" = "誕生日";
+"icon_keyword_cake" = "ケーキ";
+"icon_keyword_carrot" = "ニンジン";
+"icon_keyword_vegetables" = "野菜";
+"icon_keyword_bag" = "バッグ";
+"icon_keyword_cone" = "バッグ";
+"icon_keyword_shopping" = "ショッピング";
+"icon_keyword_supermarket" = "スーパーマーケット";
+"icon_keyword_groceries" = "食料品";
+"icon_keyword_creditcard" = "クレジットカード";
+"icon_keyword_giftcard" = "ギフトカード";
+"icon_keyword_gift" = "ギフト";
+"icon_keyword_clothes" = "服";
+"icon_keyword_clothing" = "衣服";
+"icon_keyword_globe" = "地球儀";
+"icon_keyword_online" = "オンライン";
+"icon_keyword_internet" = "インターネット";
+"icon_keyword_amazon" = "アマゾン";
+"icon_keyword_package" = "パッケージ";
+"icon_keyword_apple" = "リンゴ";
+"icon_keyword_banknote" = "紙幣";
+"icon_keyword_refund" = "払い戻し";
+"icon_keyword_dollar" = "ドル";
+"icon_keyword_cents" = "セント";
+"icon_keyword_yen" = "円";
+"icon_keyword_pound" = "ポンド";
+"icon_keyword_franc" = "フランコニア";
+"icon_keyword_lira" = "リラ";
+"icon_keyword_ruble" = "ルーブル";
+"icon_keyword_euro" = "ユーロ";
+"icon_keyword_rupee" = "ルピー";
+"icon_keyword_peso" = "ペソ";
+"icon_keyword_bitcoin" = "ビットコイン";
+"icon_keyword_real" = "ブラジルレアル";
+"icon_keyword_case" = "スーツケース";
+"icon_keyword_lungs" = "肺";
+"icon_keyword_allergens" = "アレルギー";
+"icon_keyword_thermometer" = "温度計";
+"icon_keyword_bandage" = "絆創膏";
+"icon_keyword_syringe" = "注射器";
+"icon_keyword_medicine" = "薬";
+"icon_keyword_drug" = "薬物";
+"icon_keyword_facemask" = "マスク";
+"icon_keyword_pills" = "錠剤";
+"icon_keyword_cross" = "医療";
+"icon_keyword_hospital" = "病院";
+"icon_keyword_ivfluid" = "点滴";
+"icon_keyword_eye" = "目";
+"icon_keyword_brain" = "脳";
+"icon_keyword_ear" = "耳";
+"icon_keyword_mouth" = "口";
+"icon_keyword_ecg" = "心電図";
+"icon_keyword_shield" = "盾";
+"icon_keyword_insurance" = "保険";
+"icon_keyword_video_conference" = "ウェブ会議";
+"icon_keyword_facetime" = "FaceTime";
+"icon_keyword_phone" = "電話";
+"icon_keyword_mobilephone" = "携帯";
+"icon_keyword_iphone" = "iPhone";
+"icon_keyword_tablet" = "タブレット";
+"icon_keyword_ipad" = "iPad";
+"icon_keyword_macintosh" = "Macintosh";
+"icon_keyword_macbook" = "MacBook";
+"icon_keyword_imac" = "iMac";
+"icon_keyword_smartphone" = "スマートフォン";
+"icon_keyword_calling" = "通話中";
+"icon_keyword_message" = "メッセージ";
+"icon_keyword_envelope" = "封筒";
+"icon_keyword_mail" = "メール";
+"icon_keyword_email" = "電子メール";
+"icon_keyword_chart" = "グラフ";
+"icon_keyword_stocks" = "株式";
+"icon_keyword_investment" = "投資";
+"icon_keyword_signature" = "署名";
+"icon_keyword_contract" = "契約";
+"icon_keyword_computer" = "コンピューター";
+"icon_keyword_pc" = "PC";
+"icon_keyword_display" = "モニター";
+"icon_keyword_mouse" = "マウス";
+"icon_keyword_keyboard" = "キーボード";
+"icon_keyword_printer" = "プリンター";
+"icon_keyword_scanner" = "スキャナー";
+"icon_keyword_pin" = "ピン";
+"icon_keyword_paperclip" = "ペーパークリップ";
+"icon_keyword_clipboard" = "クリップボード";
+"icon_keyword_list" = "リスト";
+"icon_keyword_server" = "サーバー";
+"icon_keyword_simcard" = "SIMカード";
+"icon_keyword_bank" = "銀行";
+"icon_keyword_apple_watch" = "Apple Watch";
+"icon_keyword_clock" = "時計";
+"icon_keyword_alarm" = "アラーム";
+"icon_keyword_box" = "ボックス";
+"icon_keyword_wand" = "魔法の杖";
+"icon_keyword_hourglass" = "砂時計";
+"icon_keyword_newspaper" = "新聞";
+"icon_keyword_wrench" = "レンチ";
+"icon_keyword_screwdriver" = "ドライバー";
+"icon_keyword_hammer" = "ハンマー";
+"icon_keyword_craftsman" = "職人";
+"icon_keyword_tools" = "ツール";
+"icon_keyword_plumber" = "配管工";
+"icon_keyword_construction_market" = "建設市場";
+"icon_keyword_scissors" = "はさみ";
+"icon_keyword_hairdresser" = "美容師";
+"icon_keyword_key" = "キー";
+"icon_keyword_school" = "学校";
+"icon_keyword_university" = "大学";
+"icon_keyword_study" = "勉強";
+"icon_keyword_tuition_fees" = "授業料";
+"icon_keyword_flashlight" = "懐中電灯";
+"icon_keyword_bell" = "ベル";
+"icon_keyword_subscription" = "サブスクリプション";
+"icon_keyword_loupe" = "虫眼鏡";
+"icon_keyword_binoculars" = "双眼鏡";
+"icon_keyword_rosette" = "ロゼット";
+"icon_keyword_crown" = "王冠";
+"icon_keyword_umbrella" = "傘";
+"icon_keyword_beach" = "ビーチ";
+"icon_keyword_megaphone" = "メガホン";
+"icon_keyword_advertisement" = "広告";
+"icon_keyword_puzzle" = "パズル";
+"icon_keyword_lab" = "ラボ";
+"icon_keyword_calendar" = "カレンダー";
+"icon_keyword_rent" = "家賃";
+"icon_keyword_flat" = "アパート";
+"icon_keyword_work" = "仕事";
+"icon_keyword_salary" = "給与";
+"icon_keyword_corona" = "コロナ";
+"icon_keyword_rainbow" = "虹";
+"icon_keyword_glasses" = "メガネ";
+"icon_keyword_sunglasses" = "サングラス";
+"icon_keyword_discount" = "割引";
+"icon_keyword_percent" = "パーセント";
+"icon_keyword_wallet" = "財布";
+"icon_keyword_convertible" = "コンバーチブル";
+"icon_keyword_drone" = "ドローン";
+"icon_keyword_motorcycle" = "オートバイ";
+"icon_keyword_tire" = "タイヤ";
+"icon_keyword_oilcan" = "オイル缶";
+"icon_keyword_keys" = "鍵";
+"icon_keyword_fire_extinguisher" = "消火器";
+"icon_keyword_hockey" = "ホッケー";
+"icon_keyword_ice_hockey" = "アイスホッケー";
+"icon_keyword_ice_skating" = "アイススケート";
+"icon_keyword_rowing" = "ボート";
+"icon_keyword_inhaler" = "吸入器";
+"icon_keyword_wheelchair" = "車椅子";
+"icon_keyword_vacuum" = "掃除機";
+"icon_keyword_doctor" = "医師";
+"icon_keyword_dentist" = "歯科医";
+"icon_keyword_parking" = "駐車場";
+
+
+/* MARK: - App Intents */
+/* Entities */
+"budget_book_entity_name" = "帳簿";
+"account_entity_name" = "口座";
+"category_group_entity_name" = "フォルダー";
+"category_entity_name" = "カテゴリ";
+"payee_entity_name" = "受取人";
+
+/* Categories */
+"add_category_name" = "追加";
+"open_category_name" = "開く";
+"show_category_name" = "表示";
+"search_category_name" = "検索";
+
+/* Search */
+"search_budget_book_title" = "予算書の検索";
+"search_budget_book_description" = "特定の帳簿を名前で検索します。";
+"search_budget_book_parameter_summary" = "${name} で予算書を検索";
+"search_account_title" = "口座を検索";
+"search_account_description" = "特定の口座を名前で検索します。";
+"search_account_parameter_summary" = "${budgetBook} 内の ${name} の口座を検索します";
+"search_category_group_title" = "検索フォルダー";
+"search_category_group_description" = "特定のフォルダーを名前で検索します。";
+"search_category_group_parameter_summary" = "${budgetBook} 内の ${name} のフォルダーを検索します";
+"search_category_title" = "検索カテゴリ";
+"search_category_description" = "特定のカテゴリを名前で検索します。";
+"search_category_parameter_summary" = "${budgetBook} の ${categoryGroup} 内の ${name} を含むカテゴリを検索します";
+"search_payee_title" = "受取人の検索";
+"search_payee_description" = "特定の受取人を名前で検索します。";
+"search_payee_parameter_summary" = "${budgetBook} 内の ${name} の受取人を検索します";
+
+"name_parameter_title" = "名前";
+"name_parameter_dialog" = "名前は何ですか?";
+
+"budget_book_parameter_title" = "帳簿";
+"budget_book_parameter_description" = "関連する帳簿";
+"budget_book_parameter_dialog" = "関連する帳簿は何ですか?";
+"category_group_parameter_title" = "フォルダー";
+"category_group_parameter_description" = "関連付けられたフォルダー。";
+"category_group_parameter_dialog" = "関連付けられているフォルダーは何ですか?";
+
+/* Open */
+"open_add_new_income_view_title" = "新しい収入を追加";
+"open_add_new_income_view_description" = "アプリ内で新しい収入の追加ビューを開きます。";
+"open_add_new_expense_view_title" = "新しい支出を追加";
+"open_add_new_expense_view_description" = "アプリ内で新しい支出の追加ビューを開きます。";
+"open_add_new_transfer_view_title" = "新しい振替を追加";
+"open_add_new_transfer_view_description" = "アプリ内で新しいビューの追加を開きます。";
+"open_add_new_quirting_view_title" = "新しい定期的なトランザクションを追加";
+"open_add_new_quirting_view_description" = "アプリ内で新しい定期トランザクションの追加ビューを開きます。";
+"open_upcoming_transactions_view_title" = "計画されたトランザクション";
+"open_upcoming_transactions_view_description" = "アプリ内で計画されたトランザクション ビューを開きます。";
+
+/* Show */
+"show_chart_title" = "チャートを表示";
+"show_chart_description" = "指定した期間の口座残高、収入、または支出のグラフを表示します。";
+"show_chart_parameter_summary" = "${periodType} の ${type} チャートを表示";
+
+"chart_type_parameter_title" = "タイプ";
+"chart_type_dialog" = "どのタイプのグラフが必要ですか?";
+"chart_type_account_balances_title" = "口座残高";
+"chart_type_balance_title" = "残高";
+"chart_type_total_income_title" = "総収入";
+"chart_type_total_expenses_title" = "総支出";
+"chart_type_fixed_expenses_title" = "固定費";
+"chart_type_variable_expenses_title" = "変動費";
+
+"chart_period_type_parameter_title" = "期間";
+"chart_period_type_dialog" = "どの期間を見たいですか?";
+"chart_type_current_month_title" = "今月";
+"chart_type_current_year_title" = "今年";
+
+
+/* MARK: - Dummy Data */
+"default_budget_book_name" = "私の帳簿";
+"family_budget_book_name" = "家計簿";
+"shared_budget_book_name" = "共有家計簿";
+"default_credit_card_name" = "クレジットカード";
+"default_location_address" = "フュルステンベルク";

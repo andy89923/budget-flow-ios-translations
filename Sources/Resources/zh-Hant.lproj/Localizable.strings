@@ -1724,9 +1724,9 @@
 "icon_keyword_charging_station" = "充電站";
 "icon_keyword_car_pool" = "共乘";
 "icon_keyword_bus" = "公車";
-"icon_keyword_tram" = "路面電車";
+"icon_keyword_tram" = "火車";
 "icon_keyword_railroad" = "鐵路";
-"icon_keyword_cablecar" = "纜車";
+"icon_keyword_cablecar" = "電車";
 "icon_keyword_ferry" = "渡輪";
 "icon_keyword_ship" = "船";
 "icon_keyword_truck" = "卡車";
@@ -1767,7 +1767,7 @@
 "icon_keyword_gaming" = "遊戲";
 "icon_keyword_playstation" = "PlayStation";
 "icon_keyword_xbox" = "Xbox";
-"icon_keyword_nintento_switch" = "任天堂 Switch";
+"icon_keyword_nintento_switch" = "掌機";
 "icon_keyword_book" = "書籍";
 "icon_keyword_books" = "書籍";
 "icon_keyword_magazine" = "雜誌";
